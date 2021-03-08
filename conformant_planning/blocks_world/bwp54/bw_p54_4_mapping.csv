@@ -1,0 +1,1783 @@
+N_tot,N_s,N_a,N_c,N_e,N_t
+469,36,50,49,50,248
+
+Time Horizon,1
+Var,Class,ID,Parents,Children
+0,Action_Factor,put-on-block$b5$b3,,99 384
+1,Action_Factor,put-on-block$b5$b4,,97 384
+2,Action_Factor,put-on-block$b5$b2,,101 385
+3,Action_Factor,put-on-block$b5$b1,,103 386
+4,Action_Factor,put-on-block$b4$b5,,105 387
+5,Action_Factor,put-on-block$b4$b3,,107 388
+6,Action_Factor,put-on-block$b4$b2,,109 389
+7,Action_Factor,put-on-block$b4$b1,,111 390
+8,Action_Factor,put-on-block$b3$b5,,113 391
+9,Action_Factor,put-on-block$b3$b4,,115 392
+10,Action_Factor,put-on-block$b3$b2,,117 393
+11,Action_Factor,put-on-block$b3$b1,,119 394
+12,Action_Factor,put-on-block$b2$b5,,121 395
+13,Action_Factor,put-on-block$b2$b4,,123 396
+14,Action_Factor,put-on-block$b2$b3,,125 397
+15,Action_Factor,put-on-block$b2$b1,,127 398
+16,Action_Factor,put-on-block$b1$b5,,129 399
+17,Action_Factor,put-on-block$b1$b4,,131 400
+18,Action_Factor,put-on-block$b1$b3,,133 401
+19,Action_Factor,put-on-block$b1$b2,,135 402
+20,Action_Factor,put-down$b5,,86 403
+21,Action_Factor,put-down$b4,,87 404
+22,Action_Factor,put-down$b3,,88 405
+23,Action_Factor,put-down$b2,,89 406
+24,Action_Factor,put-down$b1,,90 407
+25,Action_Factor,pick-up-from-table$b5,,91 408
+26,Action_Factor,pick-up-from-table$b4,,92 409
+27,Action_Factor,pick-up-from-table$b3,,93 410
+28,Action_Factor,pick-up-from-table$b2,,94 411
+29,Action_Factor,pick-up-from-table$b1,,95 412
+30,Action_Factor,pick-up$b5$b4,,96 413
+31,Action_Factor,pick-up$b5$b3,,98 414
+32,Action_Factor,pick-up$b5$b2,,100 415
+33,Action_Factor,pick-up$b5$b1,,102 416
+34,Action_Factor,pick-up$b4$b5,,104 417
+35,Action_Factor,pick-up$b4$b3,,106 418
+36,Action_Factor,pick-up$b4$b2,,108 419
+37,Action_Factor,pick-up$b4$b1,,110 420
+38,Action_Factor,pick-up$b3$b5,,112 421
+39,Action_Factor,pick-up$b3$b4,,114 422
+40,Action_Factor,pick-up$b3$b2,,116 423
+41,Action_Factor,pick-up$b3$b1,,118 424
+42,Action_Factor,pick-up$b2$b5,,120 425
+43,Action_Factor,pick-up$b2$b4,,122 426
+44,Action_Factor,pick-up$b2$b3,,124 427
+45,Action_Factor,pick-up$b2$b1,,126 428
+46,Action_Factor,pick-up$b1$b5,,128 429
+47,Action_Factor,pick-up$b1$b4,,130 430
+48,Action_Factor,pick-up$b1$b3,,132 431
+49,Action_Factor,pick-up$b1$b2,,134 432
+50,State_Factor,on-table$b5,,433 91
+51,State_Factor,on-table$b4,,434 92
+52,State_Factor,on-table$b3,,435 93
+53,State_Factor,on-table$b2,,436 94
+54,State_Factor,on-table$b1,,437 95
+55,State_Factor,on$b5$b4,,438 96
+56,State_Factor,on$b5$b3,,439 98
+57,State_Factor,on$b5$b2,,440 100
+58,State_Factor,on$b5$b1,,441 102
+59,State_Factor,on$b4$b5,,442 104
+60,State_Factor,on$b4$b3,,443 106
+61,State_Factor,on$b4$b2,,444 108
+62,State_Factor,on$b4$b1,,445 110
+63,State_Factor,on$b3$b5,,446 112
+64,State_Factor,on$b3$b4,,447 114
+65,State_Factor,on$b3$b2,,448 116
+66,State_Factor,on$b3$b1,,449 118
+67,State_Factor,on$b2$b5,,450 120
+68,State_Factor,on$b2$b4,,451 122
+69,State_Factor,on$b2$b3,,452 124
+70,State_Factor,on$b2$b1,,453 126
+71,State_Factor,on$b1$b5,,454 128
+72,State_Factor,on$b1$b4,,455 130
+73,State_Factor,on$b1$b3,,456 132
+74,State_Factor,on$b1$b2,,457 134
+75,State_Factor,holding$b5,,458 101 99 97 103 86
+76,State_Factor,holding$b4,,459 107 111 109 105 87
+77,State_Factor,holding$b3,,460 113 115 119 117 88
+78,State_Factor,holding$b2,,461 121 127 125 123 89
+79,State_Factor,holding$b1,,462 135 129 133 131 90
+80,State_Factor,emptyhand,,463 134 104 116 112 114 110 108 106 93 92 126 95 94 120 122 91 132 130 100 98 102 96 124 118 128
+81,State_Factor,clear$b5,,464 91 113 105 100 98 102 96 121 129
+82,State_Factor,clear$b4,,465 104 110 108 106 92 115 97 123 131
+83,State_Factor,clear$b3,,466 116 112 114 93 107 99 125 133 118
+84,State_Factor,clear$b2,,467 126 94 120 122 135 101 109 117 124
+85,State_Factor,clear$b1,,468 134 95 111 103 119 132 130 127 128
+86,Conj_Effect_Factor,,20 75,222 171 268 180
+87,Conj_Effect_Factor,,21 76,230 172 272 184
+88,Conj_Effect_Factor,,22 77,238 172 276 188
+89,Conj_Effect_Factor,,23 78,246 173 280 192
+90,Conj_Effect_Factor,,24 79,254 173 284 196
+91,Prob_Effect_Factor,,25 80 81 50,201 137 312
+92,Prob_Effect_Factor,,26 80 82 51,274 140 314
+93,Prob_Effect_Factor,,27 80 83 52,279 140 316
+94,Prob_Effect_Factor,,28 80 84 53,207 138 318
+95,Prob_Effect_Factor,,29 80 85 54,209 139 320
+96,Prob_Effect_Factor,,30 80 81 55,231 270 219 165 322 181
+97,Prob_Effect_Factor,,1 75 82,224 149 227 269 323 183
+98,Prob_Effect_Factor,,31 80 81 56,239 271 220 166 324 182
+99,Prob_Effect_Factor,,0 75 83,224 150 235 200 325 154
+100,Prob_Effect_Factor,,32 80 81 57,249 201 220 166 326 182
+101,Prob_Effect_Factor,,2 75 84,225 151 243 200 327 154
+102,Prob_Effect_Factor,,33 80 81 58,257 271 219 165 328 181
+103,Prob_Effect_Factor,,3 75 85,223 148 252 269 329 183
+104,Prob_Effect_Factor,,34 80 82 59,175 203 229 144 330 155
+105,Prob_Effect_Factor,,4 76 81,232 149 221 273 331 185
+106,Prob_Effect_Factor,,35 80 82 60,177 275 228 141 332 187
+107,Prob_Effect_Factor,,5 76 83,233 153 236 202 333 186
+108,Prob_Effect_Factor,,36 80 82 61,249 275 228 141 334 187
+109,Prob_Effect_Factor,,6 76 84,232 150 243 273 335 185
+110,Prob_Effect_Factor,,37 80 82 62,179 203 229 142 336 155
+111,Prob_Effect_Factor,,7 76 85,233 152 253 202 337 186
+112,Prob_Effect_Factor,,38 80 83 63,175 205 237 143 338 156
+113,Prob_Effect_Factor,,8 77 81,177 152 221 204 339 191
+114,Prob_Effect_Factor,,39 80 83 64,176 279 236 142 340 191
+115,Prob_Effect_Factor,,9 77 82,241 151 227 204 341 190
+116,Prob_Effect_Factor,,40 80 83 65,178 205 237 143 342 156
+117,Prob_Effect_Factor,,10 77 84,240 147 242 277 343 189
+118,Prob_Effect_Factor,,41 80 83 66,255 278 234 164 344 189
+119,Prob_Effect_Factor,,11 77 85,241 148 252 277 345 190
+120,Prob_Effect_Factor,,42 80 84 67,225 283 245 138 346 157
+121,Prob_Effect_Factor,,12 78 81,248 147 218 206 347 195
+122,Prob_Effect_Factor,,43 80 84 68,176 283 244 137 348 195
+123,Prob_Effect_Factor,,13 78 82,247 145 226 281 349 193
+124,Prob_Effect_Factor,,44 80 84 69,239 282 242 164 350 193
+125,Prob_Effect_Factor,,14 78 83,247 145 235 281 351 194
+126,Prob_Effect_Factor,,45 80 84 70,179 207 245 139 352 157
+127,Prob_Effect_Factor,,15 78 85,248 146 250 206 353 194
+128,Prob_Effect_Factor,,46 80 85 71,223 286 250 163 354 197
+129,Prob_Effect_Factor,,16 79 81,256 146 218 208 355 198
+130,Prob_Effect_Factor,,47 80 85 72,231 287 251 136 356 199
+131,Prob_Effect_Factor,,17 79 82,255 174 226 285 357 197
+132,Prob_Effect_Factor,,48 80 85 73,240 287 251 136 358 199
+133,Prob_Effect_Factor,,18 79 83,256 174 234 285 359 198
+134,Prob_Effect_Factor,,49 80 85 74,178 209 253 144 360 158
+135,Prob_Effect_Factor,,19 79 84,257 153 244 208 361 158
+136,Temp_Factor,,132 130,159
+137,Temp_Factor,,122 91,159
+138,Temp_Factor,,94 120,160
+139,Temp_Factor,,126 95,160
+140,Temp_Factor,,93 92,161
+141,Temp_Factor,,108 106,161
+142,Temp_Factor,,114 110,162
+143,Temp_Factor,,116 112,162
+144,Temp_Factor,,134 104,163
+145,Temp_Factor,,125 123,167
+146,Temp_Factor,,129 127,167
+147,Temp_Factor,,117 121,168
+148,Temp_Factor,,103 119,168
+149,Temp_Factor,,97 105,169
+150,Temp_Factor,,109 99,169
+151,Temp_Factor,,101 115,170
+152,Temp_Factor,,113 111,170
+153,Temp_Factor,,135 107,171
+154,Temp_Factor,,101 99,180
+155,Temp_Factor,,104 110,184
+156,Temp_Factor,,116 112,188
+157,Temp_Factor,,126 120,192
+158,Temp_Factor,,134 135,196
+159,Temp_Factor,,137 136,210
+160,Temp_Factor,,139 138,210
+161,Temp_Factor,,141 140,211
+162,Temp_Factor,,143 142,211
+163,Temp_Factor,,128 144,212
+164,Temp_Factor,,124 118,212
+165,Temp_Factor,,102 96,213
+166,Temp_Factor,,100 98,213
+167,Temp_Factor,,146 145,214
+168,Temp_Factor,,148 147,214
+169,Temp_Factor,,150 149,215
+170,Temp_Factor,,152 151,215
+171,Temp_Factor,,86 153,216
+172,Temp_Factor,,88 87,216
+173,Temp_Factor,,90 89,217
+174,Temp_Factor,,133 131,217
+175,Temp_Factor,,104 112,222
+176,Temp_Factor,,114 122,230
+177,Temp_Factor,,106 113,238
+178,Temp_Factor,,134 116,246
+179,Temp_Factor,,110 126,254
+180,Temp_Factor,,86 154,258
+181,Temp_Factor,,102 96,258
+182,Temp_Factor,,100 98,259
+183,Temp_Factor,,97 103,259
+184,Temp_Factor,,87 155,260
+185,Temp_Factor,,109 105,260
+186,Temp_Factor,,107 111,261
+187,Temp_Factor,,108 106,261
+188,Temp_Factor,,88 156,262
+189,Temp_Factor,,117 118,262
+190,Temp_Factor,,115 119,263
+191,Temp_Factor,,114 113,263
+192,Temp_Factor,,89 157,264
+193,Temp_Factor,,123 124,264
+194,Temp_Factor,,127 125,265
+195,Temp_Factor,,122 121,265
+196,Temp_Factor,,90 158,266
+197,Temp_Factor,,131 128,266
+198,Temp_Factor,,129 133,267
+199,Temp_Factor,,132 130,267
+200,Temp_Factor,,101 99,268
+201,Temp_Factor,,91 100,270
+202,Temp_Factor,,107 111,272
+203,Temp_Factor,,104 110,274
+204,Temp_Factor,,113 115,276
+205,Temp_Factor,,116 112,278
+206,Temp_Factor,,121 127,280
+207,Temp_Factor,,126 94,282
+208,Temp_Factor,,135 129,284
+209,Temp_Factor,,134 95,286
+210,Temp_Factor,,160 159,288
+211,Temp_Factor,,162 161,288
+212,Temp_Factor,,164 163,289
+213,Temp_Factor,,166 165,289
+214,Temp_Factor,,168 167,290
+215,Temp_Factor,,170 169,290
+216,Temp_Factor,,172 171,291
+217,Temp_Factor,,174 173,291
+218,Temp_Factor,,121 129,292
+219,Temp_Factor,,102 96,292
+220,Temp_Factor,,100 98,293
+221,Temp_Factor,,113 105,293
+222,Temp_Factor,,86 175,294
+223,Temp_Factor,,103 128,294
+224,Temp_Factor,,99 97,295
+225,Temp_Factor,,120 101,295
+226,Temp_Factor,,123 131,296
+227,Temp_Factor,,115 97,296
+228,Temp_Factor,,108 106,297
+229,Temp_Factor,,104 110,297
+230,Temp_Factor,,87 176,298
+231,Temp_Factor,,130 96,298
+232,Temp_Factor,,109 105,299
+233,Temp_Factor,,107 111,299
+234,Temp_Factor,,133 118,300
+235,Temp_Factor,,99 125,300
+236,Temp_Factor,,114 107,301
+237,Temp_Factor,,116 112,301
+238,Temp_Factor,,88 177,302
+239,Temp_Factor,,98 124,302
+240,Temp_Factor,,117 132,303
+241,Temp_Factor,,115 119,303
+242,Temp_Factor,,117 124,304
+243,Temp_Factor,,101 109,304
+244,Temp_Factor,,122 135,305
+245,Temp_Factor,,126 120,305
+246,Temp_Factor,,89 178,306
+247,Temp_Factor,,125 123,306
+248,Temp_Factor,,121 127,307
+249,Temp_Factor,,108 100,307
+250,Temp_Factor,,127 128,308
+251,Temp_Factor,,132 130,308
+252,Temp_Factor,,103 119,309
+253,Temp_Factor,,134 111,309
+254,Temp_Factor,,90 179,310
+255,Temp_Factor,,131 118,310
+256,Temp_Factor,,129 133,311
+257,Temp_Factor,,135 102,311
+258,Temp_Factor,,181 180,313
+259,Temp_Factor,,183 182,313
+260,Temp_Factor,,185 184,315
+261,Temp_Factor,,187 186,315
+262,Temp_Factor,,189 188,317
+263,Temp_Factor,,191 190,317
+264,Temp_Factor,,193 192,319
+265,Temp_Factor,,195 194,319
+266,Temp_Factor,,197 196,321
+267,Temp_Factor,,199 198,321
+268,Temp_Factor,,86 200,362
+269,Temp_Factor,,97 103,362
+270,Temp_Factor,,96 201,363
+271,Temp_Factor,,98 102,363
+272,Temp_Factor,,87 202,364
+273,Temp_Factor,,109 105,364
+274,Temp_Factor,,92 203,365
+275,Temp_Factor,,108 106,365
+276,Temp_Factor,,88 204,366
+277,Temp_Factor,,119 117,366
+278,Temp_Factor,,118 205,367
+279,Temp_Factor,,114 93,367
+280,Temp_Factor,,89 206,368
+281,Temp_Factor,,125 123,368
+282,Temp_Factor,,124 207,369
+283,Temp_Factor,,120 122,369
+284,Temp_Factor,,90 208,370
+285,Temp_Factor,,133 131,370
+286,Temp_Factor,,128 209,371
+287,Temp_Factor,,132 130,371
+288,Temp_Factor,,211 210,372
+289,Temp_Factor,,213 212,372
+290,Temp_Factor,,215 214,373
+291,Temp_Factor,,217 216,373
+292,Temp_Factor,,219 218,374
+293,Temp_Factor,,221 220,374
+294,Temp_Factor,,223 222,375
+295,Temp_Factor,,225 224,375
+296,Temp_Factor,,227 226,376
+297,Temp_Factor,,229 228,376
+298,Temp_Factor,,231 230,377
+299,Temp_Factor,,233 232,377
+300,Temp_Factor,,235 234,378
+301,Temp_Factor,,237 236,378
+302,Temp_Factor,,239 238,379
+303,Temp_Factor,,241 240,379
+304,Temp_Factor,,243 242,380
+305,Temp_Factor,,245 244,380
+306,Temp_Factor,,247 246,381
+307,Temp_Factor,,249 248,381
+308,Temp_Factor,,251 250,382
+309,Temp_Factor,,253 252,382
+310,Temp_Factor,,255 254,383
+311,Temp_Factor,,257 256,383
+312,Temp_Factor,,91,433
+313,Temp_Factor,,259 258,433
+314,Temp_Factor,,92,434
+315,Temp_Factor,,261 260,434
+316,Temp_Factor,,93,435
+317,Temp_Factor,,263 262,435
+318,Temp_Factor,,94,436
+319,Temp_Factor,,265 264,436
+320,Temp_Factor,,95,437
+321,Temp_Factor,,267 266,437
+322,Temp_Factor,,96,438
+323,Temp_Factor,,97,438
+324,Temp_Factor,,98,439
+325,Temp_Factor,,99,439
+326,Temp_Factor,,100,440
+327,Temp_Factor,,101,440
+328,Temp_Factor,,102,441
+329,Temp_Factor,,103,441
+330,Temp_Factor,,104,442
+331,Temp_Factor,,105,442
+332,Temp_Factor,,106,443
+333,Temp_Factor,,107,443
+334,Temp_Factor,,108,444
+335,Temp_Factor,,109,444
+336,Temp_Factor,,110,445
+337,Temp_Factor,,111,445
+338,Temp_Factor,,112,446
+339,Temp_Factor,,113,446
+340,Temp_Factor,,114,447
+341,Temp_Factor,,115,447
+342,Temp_Factor,,116,448
+343,Temp_Factor,,117,448
+344,Temp_Factor,,118,449
+345,Temp_Factor,,119,449
+346,Temp_Factor,,120,450
+347,Temp_Factor,,121,450
+348,Temp_Factor,,122,451
+349,Temp_Factor,,123,451
+350,Temp_Factor,,124,452
+351,Temp_Factor,,125,452
+352,Temp_Factor,,126,453
+353,Temp_Factor,,127,453
+354,Temp_Factor,,128,454
+355,Temp_Factor,,129,454
+356,Temp_Factor,,130,455
+357,Temp_Factor,,131,455
+358,Temp_Factor,,132,456
+359,Temp_Factor,,133,456
+360,Temp_Factor,,134,457
+361,Temp_Factor,,135,457
+362,Temp_Factor,,269 268,458
+363,Temp_Factor,,271 270,458
+364,Temp_Factor,,273 272,459
+365,Temp_Factor,,275 274,459
+366,Temp_Factor,,277 276,460
+367,Temp_Factor,,279 278,460
+368,Temp_Factor,,281 280,461
+369,Temp_Factor,,283 282,461
+370,Temp_Factor,,285 284,462
+371,Temp_Factor,,287 286,462
+372,Temp_Factor,,289 288,463
+373,Temp_Factor,,291 290,463
+374,Temp_Factor,,293 292,464
+375,Temp_Factor,,295 294,464
+376,Temp_Factor,,297 296,465
+377,Temp_Factor,,299 298,465
+378,Temp_Factor,,301 300,466
+379,Temp_Factor,,303 302,466
+380,Temp_Factor,,305 304,467
+381,Temp_Factor,,307 306,467
+382,Temp_Factor,,309 308,468
+383,Temp_Factor,,311 310,468
+384,Constraint_Factor,,1 0,385
+385,Constraint_Factor,,384 2,386
+386,Constraint_Factor,,385 3,387
+387,Constraint_Factor,,386 4,388
+388,Constraint_Factor,,387 5,389
+389,Constraint_Factor,,388 6,390
+390,Constraint_Factor,,389 7,391
+391,Constraint_Factor,,390 8,392
+392,Constraint_Factor,,391 9,393
+393,Constraint_Factor,,392 10,394
+394,Constraint_Factor,,393 11,395
+395,Constraint_Factor,,394 12,396
+396,Constraint_Factor,,395 13,397
+397,Constraint_Factor,,396 14,398
+398,Constraint_Factor,,397 15,399
+399,Constraint_Factor,,398 16,400
+400,Constraint_Factor,,399 17,401
+401,Constraint_Factor,,400 18,402
+402,Constraint_Factor,,401 19,403
+403,Constraint_Factor,,402 20,404
+404,Constraint_Factor,,403 21,405
+405,Constraint_Factor,,404 22,406
+406,Constraint_Factor,,405 23,407
+407,Constraint_Factor,,406 24,408
+408,Constraint_Factor,,407 25,409
+409,Constraint_Factor,,408 26,410
+410,Constraint_Factor,,409 27,411
+411,Constraint_Factor,,410 28,412
+412,Constraint_Factor,,411 29,413
+413,Constraint_Factor,,412 30,414
+414,Constraint_Factor,,413 31,415
+415,Constraint_Factor,,414 32,416
+416,Constraint_Factor,,415 33,417
+417,Constraint_Factor,,416 34,418
+418,Constraint_Factor,,417 35,419
+419,Constraint_Factor,,418 36,420
+420,Constraint_Factor,,419 37,421
+421,Constraint_Factor,,420 38,422
+422,Constraint_Factor,,421 39,423
+423,Constraint_Factor,,422 40,424
+424,Constraint_Factor,,423 41,425
+425,Constraint_Factor,,424 42,426
+426,Constraint_Factor,,425 43,427
+427,Constraint_Factor,,426 44,428
+428,Constraint_Factor,,427 45,429
+429,Constraint_Factor,,428 46,430
+430,Constraint_Factor,,429 47,431
+431,Constraint_Factor,,430 48,432
+432,Constraint_Factor,,49 431,
+433,State_Factor,on-table$b5,313 312 50,866 524
+434,State_Factor,on-table$b4,315 314 51,867 525
+435,State_Factor,on-table$b3,317 316 52,868 526
+436,State_Factor,on-table$b2,319 318 53,869 527
+437,State_Factor,on-table$b1,321 320 54,870 528
+438,State_Factor,on$b5$b4,323 322 55,871 529
+439,State_Factor,on$b5$b3,325 324 56,872 531
+440,State_Factor,on$b5$b2,327 326 57,873 533
+441,State_Factor,on$b5$b1,329 328 58,874 535
+442,State_Factor,on$b4$b5,331 330 59,875 537
+443,State_Factor,on$b4$b3,333 332 60,876 539
+444,State_Factor,on$b4$b2,335 334 61,877 541
+445,State_Factor,on$b4$b1,337 336 62,878 543
+446,State_Factor,on$b3$b5,339 338 63,879 545
+447,State_Factor,on$b3$b4,341 340 64,880 547
+448,State_Factor,on$b3$b2,343 342 65,881 549
+449,State_Factor,on$b3$b1,345 344 66,882 551
+450,State_Factor,on$b2$b5,347 346 67,883 553
+451,State_Factor,on$b2$b4,349 348 68,884 555
+452,State_Factor,on$b2$b3,351 350 69,885 557
+453,State_Factor,on$b2$b1,353 352 70,886 559
+454,State_Factor,on$b1$b5,355 354 71,887 561
+455,State_Factor,on$b1$b4,357 356 72,888 563
+456,State_Factor,on$b1$b3,359 358 73,889 565
+457,State_Factor,on$b1$b2,361 360 74,890 567
+458,State_Factor,holding$b5,363 362 75,891 534 532 530 536 519
+459,State_Factor,holding$b4,365 364 76,892 540 544 542 538 520
+460,State_Factor,holding$b3,367 366 77,893 546 548 552 550 521
+461,State_Factor,holding$b2,369 368 78,894 554 560 558 556 522
+462,State_Factor,holding$b1,371 370 79,895 568 562 566 564 523
+463,State_Factor,emptyhand,373 372 80,896 567 537 549 545 547 543 541 539 526 525 559 528 527 553 555 524 565 563 533 531 535 529 557 551 561
+464,State_Factor,clear$b5,375 374 81,897 524 546 538 533 531 535 529 554 562
+465,State_Factor,clear$b4,377 376 82,898 537 543 541 539 525 548 530 556 564
+466,State_Factor,clear$b3,379 378 83,899 549 545 547 526 540 532 558 566 551
+467,State_Factor,clear$b2,381 380 84,900 559 527 553 555 568 534 542 550 557
+468,State_Factor,clear$b1,383 382 85,901 567 528 544 536 552 565 563 560 561
+
+Time Horizon,2
+Var,Class,ID,Parents,Children
+469,Action_Factor,put-on-block$b5$b3,,532 817
+470,Action_Factor,put-on-block$b5$b4,,530 817
+471,Action_Factor,put-on-block$b5$b2,,534 818
+472,Action_Factor,put-on-block$b5$b1,,536 819
+473,Action_Factor,put-on-block$b4$b5,,538 820
+474,Action_Factor,put-on-block$b4$b3,,540 821
+475,Action_Factor,put-on-block$b4$b2,,542 822
+476,Action_Factor,put-on-block$b4$b1,,544 823
+477,Action_Factor,put-on-block$b3$b5,,546 824
+478,Action_Factor,put-on-block$b3$b4,,548 825
+479,Action_Factor,put-on-block$b3$b2,,550 826
+480,Action_Factor,put-on-block$b3$b1,,552 827
+481,Action_Factor,put-on-block$b2$b5,,554 828
+482,Action_Factor,put-on-block$b2$b4,,556 829
+483,Action_Factor,put-on-block$b2$b3,,558 830
+484,Action_Factor,put-on-block$b2$b1,,560 831
+485,Action_Factor,put-on-block$b1$b5,,562 832
+486,Action_Factor,put-on-block$b1$b4,,564 833
+487,Action_Factor,put-on-block$b1$b3,,566 834
+488,Action_Factor,put-on-block$b1$b2,,568 835
+489,Action_Factor,put-down$b5,,519 836
+490,Action_Factor,put-down$b4,,520 837
+491,Action_Factor,put-down$b3,,521 838
+492,Action_Factor,put-down$b2,,522 839
+493,Action_Factor,put-down$b1,,523 840
+494,Action_Factor,pick-up-from-table$b5,,524 841
+495,Action_Factor,pick-up-from-table$b4,,525 842
+496,Action_Factor,pick-up-from-table$b3,,526 843
+497,Action_Factor,pick-up-from-table$b2,,527 844
+498,Action_Factor,pick-up-from-table$b1,,528 845
+499,Action_Factor,pick-up$b5$b4,,529 846
+500,Action_Factor,pick-up$b5$b3,,531 847
+501,Action_Factor,pick-up$b5$b2,,533 848
+502,Action_Factor,pick-up$b5$b1,,535 849
+503,Action_Factor,pick-up$b4$b5,,537 850
+504,Action_Factor,pick-up$b4$b3,,539 851
+505,Action_Factor,pick-up$b4$b2,,541 852
+506,Action_Factor,pick-up$b4$b1,,543 853
+507,Action_Factor,pick-up$b3$b5,,545 854
+508,Action_Factor,pick-up$b3$b4,,547 855
+509,Action_Factor,pick-up$b3$b2,,549 856
+510,Action_Factor,pick-up$b3$b1,,551 857
+511,Action_Factor,pick-up$b2$b5,,553 858
+512,Action_Factor,pick-up$b2$b4,,555 859
+513,Action_Factor,pick-up$b2$b3,,557 860
+514,Action_Factor,pick-up$b2$b1,,559 861
+515,Action_Factor,pick-up$b1$b5,,561 862
+516,Action_Factor,pick-up$b1$b4,,563 863
+517,Action_Factor,pick-up$b1$b3,,565 864
+518,Action_Factor,pick-up$b1$b2,,567 865
+519,Conj_Effect_Factor,,489 458,655 604 701 613
+520,Conj_Effect_Factor,,490 459,663 605 705 617
+521,Conj_Effect_Factor,,491 460,671 605 709 621
+522,Conj_Effect_Factor,,492 461,679 606 713 625
+523,Conj_Effect_Factor,,493 462,687 606 717 629
+524,Prob_Effect_Factor,,494 463 464 433,634 570 745
+525,Prob_Effect_Factor,,495 463 465 434,707 573 747
+526,Prob_Effect_Factor,,496 463 466 435,712 573 749
+527,Prob_Effect_Factor,,497 463 467 436,640 571 751
+528,Prob_Effect_Factor,,498 463 468 437,642 572 753
+529,Prob_Effect_Factor,,499 463 464 438,664 703 652 598 755 614
+530,Prob_Effect_Factor,,470 458 465,657 582 660 702 756 616
+531,Prob_Effect_Factor,,500 463 464 439,672 704 653 599 757 615
+532,Prob_Effect_Factor,,469 458 466,657 583 668 633 758 587
+533,Prob_Effect_Factor,,501 463 464 440,682 634 653 599 759 615
+534,Prob_Effect_Factor,,471 458 467,658 584 676 633 760 587
+535,Prob_Effect_Factor,,502 463 464 441,690 704 652 598 761 614
+536,Prob_Effect_Factor,,472 458 468,656 581 685 702 762 616
+537,Prob_Effect_Factor,,503 463 465 442,608 636 662 577 763 588
+538,Prob_Effect_Factor,,473 459 464,665 582 654 706 764 618
+539,Prob_Effect_Factor,,504 463 465 443,610 708 661 574 765 620
+540,Prob_Effect_Factor,,474 459 466,666 586 669 635 766 619
+541,Prob_Effect_Factor,,505 463 465 444,682 708 661 574 767 620
+542,Prob_Effect_Factor,,475 459 467,665 583 676 706 768 618
+543,Prob_Effect_Factor,,506 463 465 445,612 636 662 575 769 588
+544,Prob_Effect_Factor,,476 459 468,666 585 686 635 770 619
+545,Prob_Effect_Factor,,507 463 466 446,608 638 670 576 771 589
+546,Prob_Effect_Factor,,477 460 464,610 585 654 637 772 624
+547,Prob_Effect_Factor,,508 463 466 447,609 712 669 575 773 624
+548,Prob_Effect_Factor,,478 460 465,674 584 660 637 774 623
+549,Prob_Effect_Factor,,509 463 466 448,611 638 670 576 775 589
+550,Prob_Effect_Factor,,479 460 467,673 580 675 710 776 622
+551,Prob_Effect_Factor,,510 463 466 449,688 711 667 597 777 622
+552,Prob_Effect_Factor,,480 460 468,674 581 685 710 778 623
+553,Prob_Effect_Factor,,511 463 467 450,658 716 678 571 779 590
+554,Prob_Effect_Factor,,481 461 464,681 580 651 639 780 628
+555,Prob_Effect_Factor,,512 463 467 451,609 716 677 570 781 628
+556,Prob_Effect_Factor,,482 461 465,680 578 659 714 782 626
+557,Prob_Effect_Factor,,513 463 467 452,672 715 675 597 783 626
+558,Prob_Effect_Factor,,483 461 466,680 578 668 714 784 627
+559,Prob_Effect_Factor,,514 463 467 453,612 640 678 572 785 590
+560,Prob_Effect_Factor,,484 461 468,681 579 683 639 786 627
+561,Prob_Effect_Factor,,515 463 468 454,656 719 683 596 787 630
+562,Prob_Effect_Factor,,485 462 464,689 579 651 641 788 631
+563,Prob_Effect_Factor,,516 463 468 455,664 720 684 569 789 632
+564,Prob_Effect_Factor,,486 462 465,688 607 659 718 790 630
+565,Prob_Effect_Factor,,517 463 468 456,673 720 684 569 791 632
+566,Prob_Effect_Factor,,487 462 466,689 607 667 718 792 631
+567,Prob_Effect_Factor,,518 463 468 457,611 642 686 577 793 591
+568,Prob_Effect_Factor,,488 462 467,690 586 677 641 794 591
+569,Temp_Factor,,565 563,592
+570,Temp_Factor,,555 524,592
+571,Temp_Factor,,527 553,593
+572,Temp_Factor,,559 528,593
+573,Temp_Factor,,526 525,594
+574,Temp_Factor,,541 539,594
+575,Temp_Factor,,547 543,595
+576,Temp_Factor,,549 545,595
+577,Temp_Factor,,567 537,596
+578,Temp_Factor,,558 556,600
+579,Temp_Factor,,562 560,600
+580,Temp_Factor,,550 554,601
+581,Temp_Factor,,536 552,601
+582,Temp_Factor,,530 538,602
+583,Temp_Factor,,542 532,602
+584,Temp_Factor,,534 548,603
+585,Temp_Factor,,546 544,603
+586,Temp_Factor,,568 540,604
+587,Temp_Factor,,534 532,613
+588,Temp_Factor,,537 543,617
+589,Temp_Factor,,549 545,621
+590,Temp_Factor,,559 553,625
+591,Temp_Factor,,567 568,629
+592,Temp_Factor,,570 569,643
+593,Temp_Factor,,572 571,643
+594,Temp_Factor,,574 573,644
+595,Temp_Factor,,576 575,644
+596,Temp_Factor,,561 577,645
+597,Temp_Factor,,557 551,645
+598,Temp_Factor,,535 529,646
+599,Temp_Factor,,533 531,646
+600,Temp_Factor,,579 578,647
+601,Temp_Factor,,581 580,647
+602,Temp_Factor,,583 582,648
+603,Temp_Factor,,585 584,648
+604,Temp_Factor,,519 586,649
+605,Temp_Factor,,521 520,649
+606,Temp_Factor,,523 522,650
+607,Temp_Factor,,566 564,650
+608,Temp_Factor,,537 545,655
+609,Temp_Factor,,547 555,663
+610,Temp_Factor,,539 546,671
+611,Temp_Factor,,567 549,679
+612,Temp_Factor,,543 559,687
+613,Temp_Factor,,519 587,691
+614,Temp_Factor,,535 529,691
+615,Temp_Factor,,533 531,692
+616,Temp_Factor,,530 536,692
+617,Temp_Factor,,520 588,693
+618,Temp_Factor,,542 538,693
+619,Temp_Factor,,540 544,694
+620,Temp_Factor,,541 539,694
+621,Temp_Factor,,521 589,695
+622,Temp_Factor,,550 551,695
+623,Temp_Factor,,548 552,696
+624,Temp_Factor,,547 546,696
+625,Temp_Factor,,522 590,697
+626,Temp_Factor,,556 557,697
+627,Temp_Factor,,560 558,698
+628,Temp_Factor,,555 554,698
+629,Temp_Factor,,523 591,699
+630,Temp_Factor,,564 561,699
+631,Temp_Factor,,562 566,700
+632,Temp_Factor,,565 563,700
+633,Temp_Factor,,534 532,701
+634,Temp_Factor,,524 533,703
+635,Temp_Factor,,540 544,705
+636,Temp_Factor,,537 543,707
+637,Temp_Factor,,546 548,709
+638,Temp_Factor,,549 545,711
+639,Temp_Factor,,554 560,713
+640,Temp_Factor,,559 527,715
+641,Temp_Factor,,568 562,717
+642,Temp_Factor,,567 528,719
+643,Temp_Factor,,593 592,721
+644,Temp_Factor,,595 594,721
+645,Temp_Factor,,597 596,722
+646,Temp_Factor,,599 598,722
+647,Temp_Factor,,601 600,723
+648,Temp_Factor,,603 602,723
+649,Temp_Factor,,605 604,724
+650,Temp_Factor,,607 606,724
+651,Temp_Factor,,554 562,725
+652,Temp_Factor,,535 529,725
+653,Temp_Factor,,533 531,726
+654,Temp_Factor,,546 538,726
+655,Temp_Factor,,519 608,727
+656,Temp_Factor,,536 561,727
+657,Temp_Factor,,532 530,728
+658,Temp_Factor,,553 534,728
+659,Temp_Factor,,556 564,729
+660,Temp_Factor,,548 530,729
+661,Temp_Factor,,541 539,730
+662,Temp_Factor,,537 543,730
+663,Temp_Factor,,520 609,731
+664,Temp_Factor,,563 529,731
+665,Temp_Factor,,542 538,732
+666,Temp_Factor,,540 544,732
+667,Temp_Factor,,566 551,733
+668,Temp_Factor,,532 558,733
+669,Temp_Factor,,547 540,734
+670,Temp_Factor,,549 545,734
+671,Temp_Factor,,521 610,735
+672,Temp_Factor,,531 557,735
+673,Temp_Factor,,550 565,736
+674,Temp_Factor,,548 552,736
+675,Temp_Factor,,550 557,737
+676,Temp_Factor,,534 542,737
+677,Temp_Factor,,555 568,738
+678,Temp_Factor,,559 553,738
+679,Temp_Factor,,522 611,739
+680,Temp_Factor,,558 556,739
+681,Temp_Factor,,554 560,740
+682,Temp_Factor,,541 533,740
+683,Temp_Factor,,560 561,741
+684,Temp_Factor,,565 563,741
+685,Temp_Factor,,536 552,742
+686,Temp_Factor,,567 544,742
+687,Temp_Factor,,523 612,743
+688,Temp_Factor,,564 551,743
+689,Temp_Factor,,562 566,744
+690,Temp_Factor,,568 535,744
+691,Temp_Factor,,614 613,746
+692,Temp_Factor,,616 615,746
+693,Temp_Factor,,618 617,748
+694,Temp_Factor,,620 619,748
+695,Temp_Factor,,622 621,750
+696,Temp_Factor,,624 623,750
+697,Temp_Factor,,626 625,752
+698,Temp_Factor,,628 627,752
+699,Temp_Factor,,630 629,754
+700,Temp_Factor,,632 631,754
+701,Temp_Factor,,519 633,795
+702,Temp_Factor,,530 536,795
+703,Temp_Factor,,529 634,796
+704,Temp_Factor,,531 535,796
+705,Temp_Factor,,520 635,797
+706,Temp_Factor,,542 538,797
+707,Temp_Factor,,525 636,798
+708,Temp_Factor,,541 539,798
+709,Temp_Factor,,521 637,799
+710,Temp_Factor,,552 550,799
+711,Temp_Factor,,551 638,800
+712,Temp_Factor,,547 526,800
+713,Temp_Factor,,522 639,801
+714,Temp_Factor,,558 556,801
+715,Temp_Factor,,557 640,802
+716,Temp_Factor,,553 555,802
+717,Temp_Factor,,523 641,803
+718,Temp_Factor,,566 564,803
+719,Temp_Factor,,561 642,804
+720,Temp_Factor,,565 563,804
+721,Temp_Factor,,644 643,805
+722,Temp_Factor,,646 645,805
+723,Temp_Factor,,648 647,806
+724,Temp_Factor,,650 649,806
+725,Temp_Factor,,652 651,807
+726,Temp_Factor,,654 653,807
+727,Temp_Factor,,656 655,808
+728,Temp_Factor,,658 657,808
+729,Temp_Factor,,660 659,809
+730,Temp_Factor,,662 661,809
+731,Temp_Factor,,664 663,810
+732,Temp_Factor,,666 665,810
+733,Temp_Factor,,668 667,811
+734,Temp_Factor,,670 669,811
+735,Temp_Factor,,672 671,812
+736,Temp_Factor,,674 673,812
+737,Temp_Factor,,676 675,813
+738,Temp_Factor,,678 677,813
+739,Temp_Factor,,680 679,814
+740,Temp_Factor,,682 681,814
+741,Temp_Factor,,684 683,815
+742,Temp_Factor,,686 685,815
+743,Temp_Factor,,688 687,816
+744,Temp_Factor,,690 689,816
+745,Temp_Factor,,524,866
+746,Temp_Factor,,692 691,866
+747,Temp_Factor,,525,867
+748,Temp_Factor,,694 693,867
+749,Temp_Factor,,526,868
+750,Temp_Factor,,696 695,868
+751,Temp_Factor,,527,869
+752,Temp_Factor,,698 697,869
+753,Temp_Factor,,528,870
+754,Temp_Factor,,700 699,870
+755,Temp_Factor,,529,871
+756,Temp_Factor,,530,871
+757,Temp_Factor,,531,872
+758,Temp_Factor,,532,872
+759,Temp_Factor,,533,873
+760,Temp_Factor,,534,873
+761,Temp_Factor,,535,874
+762,Temp_Factor,,536,874
+763,Temp_Factor,,537,875
+764,Temp_Factor,,538,875
+765,Temp_Factor,,539,876
+766,Temp_Factor,,540,876
+767,Temp_Factor,,541,877
+768,Temp_Factor,,542,877
+769,Temp_Factor,,543,878
+770,Temp_Factor,,544,878
+771,Temp_Factor,,545,879
+772,Temp_Factor,,546,879
+773,Temp_Factor,,547,880
+774,Temp_Factor,,548,880
+775,Temp_Factor,,549,881
+776,Temp_Factor,,550,881
+777,Temp_Factor,,551,882
+778,Temp_Factor,,552,882
+779,Temp_Factor,,553,883
+780,Temp_Factor,,554,883
+781,Temp_Factor,,555,884
+782,Temp_Factor,,556,884
+783,Temp_Factor,,557,885
+784,Temp_Factor,,558,885
+785,Temp_Factor,,559,886
+786,Temp_Factor,,560,886
+787,Temp_Factor,,561,887
+788,Temp_Factor,,562,887
+789,Temp_Factor,,563,888
+790,Temp_Factor,,564,888
+791,Temp_Factor,,565,889
+792,Temp_Factor,,566,889
+793,Temp_Factor,,567,890
+794,Temp_Factor,,568,890
+795,Temp_Factor,,702 701,891
+796,Temp_Factor,,704 703,891
+797,Temp_Factor,,706 705,892
+798,Temp_Factor,,708 707,892
+799,Temp_Factor,,710 709,893
+800,Temp_Factor,,712 711,893
+801,Temp_Factor,,714 713,894
+802,Temp_Factor,,716 715,894
+803,Temp_Factor,,718 717,895
+804,Temp_Factor,,720 719,895
+805,Temp_Factor,,722 721,896
+806,Temp_Factor,,724 723,896
+807,Temp_Factor,,726 725,897
+808,Temp_Factor,,728 727,897
+809,Temp_Factor,,730 729,898
+810,Temp_Factor,,732 731,898
+811,Temp_Factor,,734 733,899
+812,Temp_Factor,,736 735,899
+813,Temp_Factor,,738 737,900
+814,Temp_Factor,,740 739,900
+815,Temp_Factor,,742 741,901
+816,Temp_Factor,,744 743,901
+817,Constraint_Factor,,470 469,818
+818,Constraint_Factor,,817 471,819
+819,Constraint_Factor,,818 472,820
+820,Constraint_Factor,,819 473,821
+821,Constraint_Factor,,820 474,822
+822,Constraint_Factor,,821 475,823
+823,Constraint_Factor,,822 476,824
+824,Constraint_Factor,,823 477,825
+825,Constraint_Factor,,824 478,826
+826,Constraint_Factor,,825 479,827
+827,Constraint_Factor,,826 480,828
+828,Constraint_Factor,,827 481,829
+829,Constraint_Factor,,828 482,830
+830,Constraint_Factor,,829 483,831
+831,Constraint_Factor,,830 484,832
+832,Constraint_Factor,,831 485,833
+833,Constraint_Factor,,832 486,834
+834,Constraint_Factor,,833 487,835
+835,Constraint_Factor,,834 488,836
+836,Constraint_Factor,,835 489,837
+837,Constraint_Factor,,836 490,838
+838,Constraint_Factor,,837 491,839
+839,Constraint_Factor,,838 492,840
+840,Constraint_Factor,,839 493,841
+841,Constraint_Factor,,840 494,842
+842,Constraint_Factor,,841 495,843
+843,Constraint_Factor,,842 496,844
+844,Constraint_Factor,,843 497,845
+845,Constraint_Factor,,844 498,846
+846,Constraint_Factor,,845 499,847
+847,Constraint_Factor,,846 500,848
+848,Constraint_Factor,,847 501,849
+849,Constraint_Factor,,848 502,850
+850,Constraint_Factor,,849 503,851
+851,Constraint_Factor,,850 504,852
+852,Constraint_Factor,,851 505,853
+853,Constraint_Factor,,852 506,854
+854,Constraint_Factor,,853 507,855
+855,Constraint_Factor,,854 508,856
+856,Constraint_Factor,,855 509,857
+857,Constraint_Factor,,856 510,858
+858,Constraint_Factor,,857 511,859
+859,Constraint_Factor,,858 512,860
+860,Constraint_Factor,,859 513,861
+861,Constraint_Factor,,860 514,862
+862,Constraint_Factor,,861 515,863
+863,Constraint_Factor,,862 516,864
+864,Constraint_Factor,,863 517,865
+865,Constraint_Factor,,518 864,
+866,State_Factor,on-table$b5,746 745 433,1299 957
+867,State_Factor,on-table$b4,748 747 434,1300 958
+868,State_Factor,on-table$b3,750 749 435,1301 959
+869,State_Factor,on-table$b2,752 751 436,1302 960
+870,State_Factor,on-table$b1,754 753 437,1303 961
+871,State_Factor,on$b5$b4,756 755 438,1304 962
+872,State_Factor,on$b5$b3,758 757 439,1305 964
+873,State_Factor,on$b5$b2,760 759 440,1306 966
+874,State_Factor,on$b5$b1,762 761 441,1307 968
+875,State_Factor,on$b4$b5,764 763 442,1308 970
+876,State_Factor,on$b4$b3,766 765 443,1309 972
+877,State_Factor,on$b4$b2,768 767 444,1310 974
+878,State_Factor,on$b4$b1,770 769 445,1311 976
+879,State_Factor,on$b3$b5,772 771 446,1312 978
+880,State_Factor,on$b3$b4,774 773 447,1313 980
+881,State_Factor,on$b3$b2,776 775 448,1314 982
+882,State_Factor,on$b3$b1,778 777 449,1315 984
+883,State_Factor,on$b2$b5,780 779 450,1316 986
+884,State_Factor,on$b2$b4,782 781 451,1317 988
+885,State_Factor,on$b2$b3,784 783 452,1318 990
+886,State_Factor,on$b2$b1,786 785 453,1319 992
+887,State_Factor,on$b1$b5,788 787 454,1320 994
+888,State_Factor,on$b1$b4,790 789 455,1321 996
+889,State_Factor,on$b1$b3,792 791 456,1322 998
+890,State_Factor,on$b1$b2,794 793 457,1323 1000
+891,State_Factor,holding$b5,796 795 458,1324 967 965 963 969 952
+892,State_Factor,holding$b4,798 797 459,1325 973 977 975 971 953
+893,State_Factor,holding$b3,800 799 460,1326 979 981 985 983 954
+894,State_Factor,holding$b2,802 801 461,1327 987 993 991 989 955
+895,State_Factor,holding$b1,804 803 462,1328 1001 995 999 997 956
+896,State_Factor,emptyhand,806 805 463,1329 1000 970 982 978 980 976 974 972 959 958 992 961 960 986 988 957 998 996 966 964 968 962 990 984 994
+897,State_Factor,clear$b5,808 807 464,1330 957 979 971 966 964 968 962 987 995
+898,State_Factor,clear$b4,810 809 465,1331 970 976 974 972 958 981 963 989 997
+899,State_Factor,clear$b3,812 811 466,1332 982 978 980 959 973 965 991 999 984
+900,State_Factor,clear$b2,814 813 467,1333 992 960 986 988 1001 967 975 983 990
+901,State_Factor,clear$b1,816 815 468,1334 1000 961 977 969 985 998 996 993 994
+
+Time Horizon,3
+Var,Class,ID,Parents,Children
+902,Action_Factor,put-on-block$b5$b3,,965 1250
+903,Action_Factor,put-on-block$b5$b4,,963 1250
+904,Action_Factor,put-on-block$b5$b2,,967 1251
+905,Action_Factor,put-on-block$b5$b1,,969 1252
+906,Action_Factor,put-on-block$b4$b5,,971 1253
+907,Action_Factor,put-on-block$b4$b3,,973 1254
+908,Action_Factor,put-on-block$b4$b2,,975 1255
+909,Action_Factor,put-on-block$b4$b1,,977 1256
+910,Action_Factor,put-on-block$b3$b5,,979 1257
+911,Action_Factor,put-on-block$b3$b4,,981 1258
+912,Action_Factor,put-on-block$b3$b2,,983 1259
+913,Action_Factor,put-on-block$b3$b1,,985 1260
+914,Action_Factor,put-on-block$b2$b5,,987 1261
+915,Action_Factor,put-on-block$b2$b4,,989 1262
+916,Action_Factor,put-on-block$b2$b3,,991 1263
+917,Action_Factor,put-on-block$b2$b1,,993 1264
+918,Action_Factor,put-on-block$b1$b5,,995 1265
+919,Action_Factor,put-on-block$b1$b4,,997 1266
+920,Action_Factor,put-on-block$b1$b3,,999 1267
+921,Action_Factor,put-on-block$b1$b2,,1001 1268
+922,Action_Factor,put-down$b5,,952 1269
+923,Action_Factor,put-down$b4,,953 1270
+924,Action_Factor,put-down$b3,,954 1271
+925,Action_Factor,put-down$b2,,955 1272
+926,Action_Factor,put-down$b1,,956 1273
+927,Action_Factor,pick-up-from-table$b5,,957 1274
+928,Action_Factor,pick-up-from-table$b4,,958 1275
+929,Action_Factor,pick-up-from-table$b3,,959 1276
+930,Action_Factor,pick-up-from-table$b2,,960 1277
+931,Action_Factor,pick-up-from-table$b1,,961 1278
+932,Action_Factor,pick-up$b5$b4,,962 1279
+933,Action_Factor,pick-up$b5$b3,,964 1280
+934,Action_Factor,pick-up$b5$b2,,966 1281
+935,Action_Factor,pick-up$b5$b1,,968 1282
+936,Action_Factor,pick-up$b4$b5,,970 1283
+937,Action_Factor,pick-up$b4$b3,,972 1284
+938,Action_Factor,pick-up$b4$b2,,974 1285
+939,Action_Factor,pick-up$b4$b1,,976 1286
+940,Action_Factor,pick-up$b3$b5,,978 1287
+941,Action_Factor,pick-up$b3$b4,,980 1288
+942,Action_Factor,pick-up$b3$b2,,982 1289
+943,Action_Factor,pick-up$b3$b1,,984 1290
+944,Action_Factor,pick-up$b2$b5,,986 1291
+945,Action_Factor,pick-up$b2$b4,,988 1292
+946,Action_Factor,pick-up$b2$b3,,990 1293
+947,Action_Factor,pick-up$b2$b1,,992 1294
+948,Action_Factor,pick-up$b1$b5,,994 1295
+949,Action_Factor,pick-up$b1$b4,,996 1296
+950,Action_Factor,pick-up$b1$b3,,998 1297
+951,Action_Factor,pick-up$b1$b2,,1000 1298
+952,Conj_Effect_Factor,,922 891,1088 1037 1134 1046
+953,Conj_Effect_Factor,,923 892,1096 1038 1138 1050
+954,Conj_Effect_Factor,,924 893,1104 1038 1142 1054
+955,Conj_Effect_Factor,,925 894,1112 1039 1146 1058
+956,Conj_Effect_Factor,,926 895,1120 1039 1150 1062
+957,Prob_Effect_Factor,,927 896 897 866,1067 1003 1178
+958,Prob_Effect_Factor,,928 896 898 867,1140 1006 1180
+959,Prob_Effect_Factor,,929 896 899 868,1145 1006 1182
+960,Prob_Effect_Factor,,930 896 900 869,1073 1004 1184
+961,Prob_Effect_Factor,,931 896 901 870,1075 1005 1186
+962,Prob_Effect_Factor,,932 896 897 871,1097 1136 1085 1031 1188 1047
+963,Prob_Effect_Factor,,903 891 898,1090 1015 1093 1135 1189 1049
+964,Prob_Effect_Factor,,933 896 897 872,1105 1137 1086 1032 1190 1048
+965,Prob_Effect_Factor,,902 891 899,1090 1016 1101 1066 1191 1020
+966,Prob_Effect_Factor,,934 896 897 873,1115 1067 1086 1032 1192 1048
+967,Prob_Effect_Factor,,904 891 900,1091 1017 1109 1066 1193 1020
+968,Prob_Effect_Factor,,935 896 897 874,1123 1137 1085 1031 1194 1047
+969,Prob_Effect_Factor,,905 891 901,1089 1014 1118 1135 1195 1049
+970,Prob_Effect_Factor,,936 896 898 875,1041 1069 1095 1010 1196 1021
+971,Prob_Effect_Factor,,906 892 897,1098 1015 1087 1139 1197 1051
+972,Prob_Effect_Factor,,937 896 898 876,1043 1141 1094 1007 1198 1053
+973,Prob_Effect_Factor,,907 892 899,1099 1019 1102 1068 1199 1052
+974,Prob_Effect_Factor,,938 896 898 877,1115 1141 1094 1007 1200 1053
+975,Prob_Effect_Factor,,908 892 900,1098 1016 1109 1139 1201 1051
+976,Prob_Effect_Factor,,939 896 898 878,1045 1069 1095 1008 1202 1021
+977,Prob_Effect_Factor,,909 892 901,1099 1018 1119 1068 1203 1052
+978,Prob_Effect_Factor,,940 896 899 879,1041 1071 1103 1009 1204 1022
+979,Prob_Effect_Factor,,910 893 897,1043 1018 1087 1070 1205 1057
+980,Prob_Effect_Factor,,941 896 899 880,1042 1145 1102 1008 1206 1057
+981,Prob_Effect_Factor,,911 893 898,1107 1017 1093 1070 1207 1056
+982,Prob_Effect_Factor,,942 896 899 881,1044 1071 1103 1009 1208 1022
+983,Prob_Effect_Factor,,912 893 900,1106 1013 1108 1143 1209 1055
+984,Prob_Effect_Factor,,943 896 899 882,1121 1144 1100 1030 1210 1055
+985,Prob_Effect_Factor,,913 893 901,1107 1014 1118 1143 1211 1056
+986,Prob_Effect_Factor,,944 896 900 883,1091 1149 1111 1004 1212 1023
+987,Prob_Effect_Factor,,914 894 897,1114 1013 1084 1072 1213 1061
+988,Prob_Effect_Factor,,945 896 900 884,1042 1149 1110 1003 1214 1061
+989,Prob_Effect_Factor,,915 894 898,1113 1011 1092 1147 1215 1059
+990,Prob_Effect_Factor,,946 896 900 885,1105 1148 1108 1030 1216 1059
+991,Prob_Effect_Factor,,916 894 899,1113 1011 1101 1147 1217 1060
+992,Prob_Effect_Factor,,947 896 900 886,1045 1073 1111 1005 1218 1023
+993,Prob_Effect_Factor,,917 894 901,1114 1012 1116 1072 1219 1060
+994,Prob_Effect_Factor,,948 896 901 887,1089 1152 1116 1029 1220 1063
+995,Prob_Effect_Factor,,918 895 897,1122 1012 1084 1074 1221 1064
+996,Prob_Effect_Factor,,949 896 901 888,1097 1153 1117 1002 1222 1065
+997,Prob_Effect_Factor,,919 895 898,1121 1040 1092 1151 1223 1063
+998,Prob_Effect_Factor,,950 896 901 889,1106 1153 1117 1002 1224 1065
+999,Prob_Effect_Factor,,920 895 899,1122 1040 1100 1151 1225 1064
+1000,Prob_Effect_Factor,,951 896 901 890,1044 1075 1119 1010 1226 1024
+1001,Prob_Effect_Factor,,921 895 900,1123 1019 1110 1074 1227 1024
+1002,Temp_Factor,,998 996,1025
+1003,Temp_Factor,,988 957,1025
+1004,Temp_Factor,,960 986,1026
+1005,Temp_Factor,,992 961,1026
+1006,Temp_Factor,,959 958,1027
+1007,Temp_Factor,,974 972,1027
+1008,Temp_Factor,,980 976,1028
+1009,Temp_Factor,,982 978,1028
+1010,Temp_Factor,,1000 970,1029
+1011,Temp_Factor,,991 989,1033
+1012,Temp_Factor,,995 993,1033
+1013,Temp_Factor,,983 987,1034
+1014,Temp_Factor,,969 985,1034
+1015,Temp_Factor,,963 971,1035
+1016,Temp_Factor,,975 965,1035
+1017,Temp_Factor,,967 981,1036
+1018,Temp_Factor,,979 977,1036
+1019,Temp_Factor,,1001 973,1037
+1020,Temp_Factor,,967 965,1046
+1021,Temp_Factor,,970 976,1050
+1022,Temp_Factor,,982 978,1054
+1023,Temp_Factor,,992 986,1058
+1024,Temp_Factor,,1000 1001,1062
+1025,Temp_Factor,,1003 1002,1076
+1026,Temp_Factor,,1005 1004,1076
+1027,Temp_Factor,,1007 1006,1077
+1028,Temp_Factor,,1009 1008,1077
+1029,Temp_Factor,,994 1010,1078
+1030,Temp_Factor,,990 984,1078
+1031,Temp_Factor,,968 962,1079
+1032,Temp_Factor,,966 964,1079
+1033,Temp_Factor,,1012 1011,1080
+1034,Temp_Factor,,1014 1013,1080
+1035,Temp_Factor,,1016 1015,1081
+1036,Temp_Factor,,1018 1017,1081
+1037,Temp_Factor,,952 1019,1082
+1038,Temp_Factor,,954 953,1082
+1039,Temp_Factor,,956 955,1083
+1040,Temp_Factor,,999 997,1083
+1041,Temp_Factor,,970 978,1088
+1042,Temp_Factor,,980 988,1096
+1043,Temp_Factor,,972 979,1104
+1044,Temp_Factor,,1000 982,1112
+1045,Temp_Factor,,976 992,1120
+1046,Temp_Factor,,952 1020,1124
+1047,Temp_Factor,,968 962,1124
+1048,Temp_Factor,,966 964,1125
+1049,Temp_Factor,,963 969,1125
+1050,Temp_Factor,,953 1021,1126
+1051,Temp_Factor,,975 971,1126
+1052,Temp_Factor,,973 977,1127
+1053,Temp_Factor,,974 972,1127
+1054,Temp_Factor,,954 1022,1128
+1055,Temp_Factor,,983 984,1128
+1056,Temp_Factor,,981 985,1129
+1057,Temp_Factor,,980 979,1129
+1058,Temp_Factor,,955 1023,1130
+1059,Temp_Factor,,989 990,1130
+1060,Temp_Factor,,993 991,1131
+1061,Temp_Factor,,988 987,1131
+1062,Temp_Factor,,956 1024,1132
+1063,Temp_Factor,,997 994,1132
+1064,Temp_Factor,,995 999,1133
+1065,Temp_Factor,,998 996,1133
+1066,Temp_Factor,,967 965,1134
+1067,Temp_Factor,,957 966,1136
+1068,Temp_Factor,,973 977,1138
+1069,Temp_Factor,,970 976,1140
+1070,Temp_Factor,,979 981,1142
+1071,Temp_Factor,,982 978,1144
+1072,Temp_Factor,,987 993,1146
+1073,Temp_Factor,,992 960,1148
+1074,Temp_Factor,,1001 995,1150
+1075,Temp_Factor,,1000 961,1152
+1076,Temp_Factor,,1026 1025,1154
+1077,Temp_Factor,,1028 1027,1154
+1078,Temp_Factor,,1030 1029,1155
+1079,Temp_Factor,,1032 1031,1155
+1080,Temp_Factor,,1034 1033,1156
+1081,Temp_Factor,,1036 1035,1156
+1082,Temp_Factor,,1038 1037,1157
+1083,Temp_Factor,,1040 1039,1157
+1084,Temp_Factor,,987 995,1158
+1085,Temp_Factor,,968 962,1158
+1086,Temp_Factor,,966 964,1159
+1087,Temp_Factor,,979 971,1159
+1088,Temp_Factor,,952 1041,1160
+1089,Temp_Factor,,969 994,1160
+1090,Temp_Factor,,965 963,1161
+1091,Temp_Factor,,986 967,1161
+1092,Temp_Factor,,989 997,1162
+1093,Temp_Factor,,981 963,1162
+1094,Temp_Factor,,974 972,1163
+1095,Temp_Factor,,970 976,1163
+1096,Temp_Factor,,953 1042,1164
+1097,Temp_Factor,,996 962,1164
+1098,Temp_Factor,,975 971,1165
+1099,Temp_Factor,,973 977,1165
+1100,Temp_Factor,,999 984,1166
+1101,Temp_Factor,,965 991,1166
+1102,Temp_Factor,,980 973,1167
+1103,Temp_Factor,,982 978,1167
+1104,Temp_Factor,,954 1043,1168
+1105,Temp_Factor,,964 990,1168
+1106,Temp_Factor,,983 998,1169
+1107,Temp_Factor,,981 985,1169
+1108,Temp_Factor,,983 990,1170
+1109,Temp_Factor,,967 975,1170
+1110,Temp_Factor,,988 1001,1171
+1111,Temp_Factor,,992 986,1171
+1112,Temp_Factor,,955 1044,1172
+1113,Temp_Factor,,991 989,1172
+1114,Temp_Factor,,987 993,1173
+1115,Temp_Factor,,974 966,1173
+1116,Temp_Factor,,993 994,1174
+1117,Temp_Factor,,998 996,1174
+1118,Temp_Factor,,969 985,1175
+1119,Temp_Factor,,1000 977,1175
+1120,Temp_Factor,,956 1045,1176
+1121,Temp_Factor,,997 984,1176
+1122,Temp_Factor,,995 999,1177
+1123,Temp_Factor,,1001 968,1177
+1124,Temp_Factor,,1047 1046,1179
+1125,Temp_Factor,,1049 1048,1179
+1126,Temp_Factor,,1051 1050,1181
+1127,Temp_Factor,,1053 1052,1181
+1128,Temp_Factor,,1055 1054,1183
+1129,Temp_Factor,,1057 1056,1183
+1130,Temp_Factor,,1059 1058,1185
+1131,Temp_Factor,,1061 1060,1185
+1132,Temp_Factor,,1063 1062,1187
+1133,Temp_Factor,,1065 1064,1187
+1134,Temp_Factor,,952 1066,1228
+1135,Temp_Factor,,963 969,1228
+1136,Temp_Factor,,962 1067,1229
+1137,Temp_Factor,,964 968,1229
+1138,Temp_Factor,,953 1068,1230
+1139,Temp_Factor,,975 971,1230
+1140,Temp_Factor,,958 1069,1231
+1141,Temp_Factor,,974 972,1231
+1142,Temp_Factor,,954 1070,1232
+1143,Temp_Factor,,985 983,1232
+1144,Temp_Factor,,984 1071,1233
+1145,Temp_Factor,,980 959,1233
+1146,Temp_Factor,,955 1072,1234
+1147,Temp_Factor,,991 989,1234
+1148,Temp_Factor,,990 1073,1235
+1149,Temp_Factor,,986 988,1235
+1150,Temp_Factor,,956 1074,1236
+1151,Temp_Factor,,999 997,1236
+1152,Temp_Factor,,994 1075,1237
+1153,Temp_Factor,,998 996,1237
+1154,Temp_Factor,,1077 1076,1238
+1155,Temp_Factor,,1079 1078,1238
+1156,Temp_Factor,,1081 1080,1239
+1157,Temp_Factor,,1083 1082,1239
+1158,Temp_Factor,,1085 1084,1240
+1159,Temp_Factor,,1087 1086,1240
+1160,Temp_Factor,,1089 1088,1241
+1161,Temp_Factor,,1091 1090,1241
+1162,Temp_Factor,,1093 1092,1242
+1163,Temp_Factor,,1095 1094,1242
+1164,Temp_Factor,,1097 1096,1243
+1165,Temp_Factor,,1099 1098,1243
+1166,Temp_Factor,,1101 1100,1244
+1167,Temp_Factor,,1103 1102,1244
+1168,Temp_Factor,,1105 1104,1245
+1169,Temp_Factor,,1107 1106,1245
+1170,Temp_Factor,,1109 1108,1246
+1171,Temp_Factor,,1111 1110,1246
+1172,Temp_Factor,,1113 1112,1247
+1173,Temp_Factor,,1115 1114,1247
+1174,Temp_Factor,,1117 1116,1248
+1175,Temp_Factor,,1119 1118,1248
+1176,Temp_Factor,,1121 1120,1249
+1177,Temp_Factor,,1123 1122,1249
+1178,Temp_Factor,,957,1299
+1179,Temp_Factor,,1125 1124,1299
+1180,Temp_Factor,,958,1300
+1181,Temp_Factor,,1127 1126,1300
+1182,Temp_Factor,,959,1301
+1183,Temp_Factor,,1129 1128,1301
+1184,Temp_Factor,,960,1302
+1185,Temp_Factor,,1131 1130,1302
+1186,Temp_Factor,,961,1303
+1187,Temp_Factor,,1133 1132,1303
+1188,Temp_Factor,,962,1304
+1189,Temp_Factor,,963,1304
+1190,Temp_Factor,,964,1305
+1191,Temp_Factor,,965,1305
+1192,Temp_Factor,,966,1306
+1193,Temp_Factor,,967,1306
+1194,Temp_Factor,,968,1307
+1195,Temp_Factor,,969,1307
+1196,Temp_Factor,,970,1308
+1197,Temp_Factor,,971,1308
+1198,Temp_Factor,,972,1309
+1199,Temp_Factor,,973,1309
+1200,Temp_Factor,,974,1310
+1201,Temp_Factor,,975,1310
+1202,Temp_Factor,,976,1311
+1203,Temp_Factor,,977,1311
+1204,Temp_Factor,,978,1312
+1205,Temp_Factor,,979,1312
+1206,Temp_Factor,,980,1313
+1207,Temp_Factor,,981,1313
+1208,Temp_Factor,,982,1314
+1209,Temp_Factor,,983,1314
+1210,Temp_Factor,,984,1315
+1211,Temp_Factor,,985,1315
+1212,Temp_Factor,,986,1316
+1213,Temp_Factor,,987,1316
+1214,Temp_Factor,,988,1317
+1215,Temp_Factor,,989,1317
+1216,Temp_Factor,,990,1318
+1217,Temp_Factor,,991,1318
+1218,Temp_Factor,,992,1319
+1219,Temp_Factor,,993,1319
+1220,Temp_Factor,,994,1320
+1221,Temp_Factor,,995,1320
+1222,Temp_Factor,,996,1321
+1223,Temp_Factor,,997,1321
+1224,Temp_Factor,,998,1322
+1225,Temp_Factor,,999,1322
+1226,Temp_Factor,,1000,1323
+1227,Temp_Factor,,1001,1323
+1228,Temp_Factor,,1135 1134,1324
+1229,Temp_Factor,,1137 1136,1324
+1230,Temp_Factor,,1139 1138,1325
+1231,Temp_Factor,,1141 1140,1325
+1232,Temp_Factor,,1143 1142,1326
+1233,Temp_Factor,,1145 1144,1326
+1234,Temp_Factor,,1147 1146,1327
+1235,Temp_Factor,,1149 1148,1327
+1236,Temp_Factor,,1151 1150,1328
+1237,Temp_Factor,,1153 1152,1328
+1238,Temp_Factor,,1155 1154,1329
+1239,Temp_Factor,,1157 1156,1329
+1240,Temp_Factor,,1159 1158,1330
+1241,Temp_Factor,,1161 1160,1330
+1242,Temp_Factor,,1163 1162,1331
+1243,Temp_Factor,,1165 1164,1331
+1244,Temp_Factor,,1167 1166,1332
+1245,Temp_Factor,,1169 1168,1332
+1246,Temp_Factor,,1171 1170,1333
+1247,Temp_Factor,,1173 1172,1333
+1248,Temp_Factor,,1175 1174,1334
+1249,Temp_Factor,,1177 1176,1334
+1250,Constraint_Factor,,903 902,1251
+1251,Constraint_Factor,,1250 904,1252
+1252,Constraint_Factor,,1251 905,1253
+1253,Constraint_Factor,,1252 906,1254
+1254,Constraint_Factor,,1253 907,1255
+1255,Constraint_Factor,,1254 908,1256
+1256,Constraint_Factor,,1255 909,1257
+1257,Constraint_Factor,,1256 910,1258
+1258,Constraint_Factor,,1257 911,1259
+1259,Constraint_Factor,,1258 912,1260
+1260,Constraint_Factor,,1259 913,1261
+1261,Constraint_Factor,,1260 914,1262
+1262,Constraint_Factor,,1261 915,1263
+1263,Constraint_Factor,,1262 916,1264
+1264,Constraint_Factor,,1263 917,1265
+1265,Constraint_Factor,,1264 918,1266
+1266,Constraint_Factor,,1265 919,1267
+1267,Constraint_Factor,,1266 920,1268
+1268,Constraint_Factor,,1267 921,1269
+1269,Constraint_Factor,,1268 922,1270
+1270,Constraint_Factor,,1269 923,1271
+1271,Constraint_Factor,,1270 924,1272
+1272,Constraint_Factor,,1271 925,1273
+1273,Constraint_Factor,,1272 926,1274
+1274,Constraint_Factor,,1273 927,1275
+1275,Constraint_Factor,,1274 928,1276
+1276,Constraint_Factor,,1275 929,1277
+1277,Constraint_Factor,,1276 930,1278
+1278,Constraint_Factor,,1277 931,1279
+1279,Constraint_Factor,,1278 932,1280
+1280,Constraint_Factor,,1279 933,1281
+1281,Constraint_Factor,,1280 934,1282
+1282,Constraint_Factor,,1281 935,1283
+1283,Constraint_Factor,,1282 936,1284
+1284,Constraint_Factor,,1283 937,1285
+1285,Constraint_Factor,,1284 938,1286
+1286,Constraint_Factor,,1285 939,1287
+1287,Constraint_Factor,,1286 940,1288
+1288,Constraint_Factor,,1287 941,1289
+1289,Constraint_Factor,,1288 942,1290
+1290,Constraint_Factor,,1289 943,1291
+1291,Constraint_Factor,,1290 944,1292
+1292,Constraint_Factor,,1291 945,1293
+1293,Constraint_Factor,,1292 946,1294
+1294,Constraint_Factor,,1293 947,1295
+1295,Constraint_Factor,,1294 948,1296
+1296,Constraint_Factor,,1295 949,1297
+1297,Constraint_Factor,,1296 950,1298
+1298,Constraint_Factor,,951 1297,
+1299,State_Factor,on-table$b5,1179 1178 866,1732 1390
+1300,State_Factor,on-table$b4,1181 1180 867,1733 1391
+1301,State_Factor,on-table$b3,1183 1182 868,1734 1392
+1302,State_Factor,on-table$b2,1185 1184 869,1735 1393
+1303,State_Factor,on-table$b1,1187 1186 870,1736 1394
+1304,State_Factor,on$b5$b4,1189 1188 871,1737 1395
+1305,State_Factor,on$b5$b3,1191 1190 872,1738 1397
+1306,State_Factor,on$b5$b2,1193 1192 873,1739 1399
+1307,State_Factor,on$b5$b1,1195 1194 874,1740 1401
+1308,State_Factor,on$b4$b5,1197 1196 875,1741 1403
+1309,State_Factor,on$b4$b3,1199 1198 876,1742 1405
+1310,State_Factor,on$b4$b2,1201 1200 877,1743 1407
+1311,State_Factor,on$b4$b1,1203 1202 878,1744 1409
+1312,State_Factor,on$b3$b5,1205 1204 879,1745 1411
+1313,State_Factor,on$b3$b4,1207 1206 880,1746 1413
+1314,State_Factor,on$b3$b2,1209 1208 881,1747 1415
+1315,State_Factor,on$b3$b1,1211 1210 882,1748 1417
+1316,State_Factor,on$b2$b5,1213 1212 883,1749 1419
+1317,State_Factor,on$b2$b4,1215 1214 884,1750 1421
+1318,State_Factor,on$b2$b3,1217 1216 885,1751 1423
+1319,State_Factor,on$b2$b1,1219 1218 886,1752 1425
+1320,State_Factor,on$b1$b5,1221 1220 887,1753 1427
+1321,State_Factor,on$b1$b4,1223 1222 888,1754 1429
+1322,State_Factor,on$b1$b3,1225 1224 889,1755 1431
+1323,State_Factor,on$b1$b2,1227 1226 890,1756 1433
+1324,State_Factor,holding$b5,1229 1228 891,1757 1400 1398 1396 1402 1385
+1325,State_Factor,holding$b4,1231 1230 892,1758 1406 1410 1408 1404 1386
+1326,State_Factor,holding$b3,1233 1232 893,1759 1412 1414 1418 1416 1387
+1327,State_Factor,holding$b2,1235 1234 894,1760 1420 1426 1424 1422 1388
+1328,State_Factor,holding$b1,1237 1236 895,1761 1434 1428 1432 1430 1389
+1329,State_Factor,emptyhand,1239 1238 896,1762 1433 1403 1415 1411 1413 1409 1407 1405 1392 1391 1425 1394 1393 1419 1421 1390 1431 1429 1399 1397 1401 1395 1423 1417 1427
+1330,State_Factor,clear$b5,1241 1240 897,1763 1390 1412 1404 1399 1397 1401 1395 1420 1428
+1331,State_Factor,clear$b4,1243 1242 898,1764 1403 1409 1407 1405 1391 1414 1396 1422 1430
+1332,State_Factor,clear$b3,1245 1244 899,1765 1415 1411 1413 1392 1406 1398 1424 1432 1417
+1333,State_Factor,clear$b2,1247 1246 900,1766 1425 1393 1419 1421 1434 1400 1408 1416 1423
+1334,State_Factor,clear$b1,1249 1248 901,1767 1433 1394 1410 1402 1418 1431 1429 1426 1427
+
+Time Horizon,4
+Var,Class,ID,Parents,Children
+1335,Action_Factor,put-on-block$b5$b3,,1398 1683
+1336,Action_Factor,put-on-block$b5$b4,,1396 1683
+1337,Action_Factor,put-on-block$b5$b2,,1400 1684
+1338,Action_Factor,put-on-block$b5$b1,,1402 1685
+1339,Action_Factor,put-on-block$b4$b5,,1404 1686
+1340,Action_Factor,put-on-block$b4$b3,,1406 1687
+1341,Action_Factor,put-on-block$b4$b2,,1408 1688
+1342,Action_Factor,put-on-block$b4$b1,,1410 1689
+1343,Action_Factor,put-on-block$b3$b5,,1412 1690
+1344,Action_Factor,put-on-block$b3$b4,,1414 1691
+1345,Action_Factor,put-on-block$b3$b2,,1416 1692
+1346,Action_Factor,put-on-block$b3$b1,,1418 1693
+1347,Action_Factor,put-on-block$b2$b5,,1420 1694
+1348,Action_Factor,put-on-block$b2$b4,,1422 1695
+1349,Action_Factor,put-on-block$b2$b3,,1424 1696
+1350,Action_Factor,put-on-block$b2$b1,,1426 1697
+1351,Action_Factor,put-on-block$b1$b5,,1428 1698
+1352,Action_Factor,put-on-block$b1$b4,,1430 1699
+1353,Action_Factor,put-on-block$b1$b3,,1432 1700
+1354,Action_Factor,put-on-block$b1$b2,,1434 1701
+1355,Action_Factor,put-down$b5,,1385 1702
+1356,Action_Factor,put-down$b4,,1386 1703
+1357,Action_Factor,put-down$b3,,1387 1704
+1358,Action_Factor,put-down$b2,,1388 1705
+1359,Action_Factor,put-down$b1,,1389 1706
+1360,Action_Factor,pick-up-from-table$b5,,1390 1707
+1361,Action_Factor,pick-up-from-table$b4,,1391 1708
+1362,Action_Factor,pick-up-from-table$b3,,1392 1709
+1363,Action_Factor,pick-up-from-table$b2,,1393 1710
+1364,Action_Factor,pick-up-from-table$b1,,1394 1711
+1365,Action_Factor,pick-up$b5$b4,,1395 1712
+1366,Action_Factor,pick-up$b5$b3,,1397 1713
+1367,Action_Factor,pick-up$b5$b2,,1399 1714
+1368,Action_Factor,pick-up$b5$b1,,1401 1715
+1369,Action_Factor,pick-up$b4$b5,,1403 1716
+1370,Action_Factor,pick-up$b4$b3,,1405 1717
+1371,Action_Factor,pick-up$b4$b2,,1407 1718
+1372,Action_Factor,pick-up$b4$b1,,1409 1719
+1373,Action_Factor,pick-up$b3$b5,,1411 1720
+1374,Action_Factor,pick-up$b3$b4,,1413 1721
+1375,Action_Factor,pick-up$b3$b2,,1415 1722
+1376,Action_Factor,pick-up$b3$b1,,1417 1723
+1377,Action_Factor,pick-up$b2$b5,,1419 1724
+1378,Action_Factor,pick-up$b2$b4,,1421 1725
+1379,Action_Factor,pick-up$b2$b3,,1423 1726
+1380,Action_Factor,pick-up$b2$b1,,1425 1727
+1381,Action_Factor,pick-up$b1$b5,,1427 1728
+1382,Action_Factor,pick-up$b1$b4,,1429 1729
+1383,Action_Factor,pick-up$b1$b3,,1431 1730
+1384,Action_Factor,pick-up$b1$b2,,1433 1731
+1385,Conj_Effect_Factor,,1355 1324,1521 1470 1567 1479
+1386,Conj_Effect_Factor,,1356 1325,1529 1471 1571 1483
+1387,Conj_Effect_Factor,,1357 1326,1537 1471 1575 1487
+1388,Conj_Effect_Factor,,1358 1327,1545 1472 1579 1491
+1389,Conj_Effect_Factor,,1359 1328,1553 1472 1583 1495
+1390,Prob_Effect_Factor,,1360 1329 1330 1299,1500 1436 1611
+1391,Prob_Effect_Factor,,1361 1329 1331 1300,1573 1439 1613
+1392,Prob_Effect_Factor,,1362 1329 1332 1301,1578 1439 1615
+1393,Prob_Effect_Factor,,1363 1329 1333 1302,1506 1437 1617
+1394,Prob_Effect_Factor,,1364 1329 1334 1303,1508 1438 1619
+1395,Prob_Effect_Factor,,1365 1329 1330 1304,1530 1569 1518 1464 1621 1480
+1396,Prob_Effect_Factor,,1336 1324 1331,1523 1448 1526 1568 1622 1482
+1397,Prob_Effect_Factor,,1366 1329 1330 1305,1538 1570 1519 1465 1623 1481
+1398,Prob_Effect_Factor,,1335 1324 1332,1523 1449 1534 1499 1624 1453
+1399,Prob_Effect_Factor,,1367 1329 1330 1306,1548 1500 1519 1465 1625 1481
+1400,Prob_Effect_Factor,,1337 1324 1333,1524 1450 1542 1499 1626 1453
+1401,Prob_Effect_Factor,,1368 1329 1330 1307,1556 1570 1518 1464 1627 1480
+1402,Prob_Effect_Factor,,1338 1324 1334,1522 1447 1551 1568 1628 1482
+1403,Prob_Effect_Factor,,1369 1329 1331 1308,1474 1502 1528 1443 1629 1454
+1404,Prob_Effect_Factor,,1339 1325 1330,1531 1448 1520 1572 1630 1484
+1405,Prob_Effect_Factor,,1370 1329 1331 1309,1476 1574 1527 1440 1631 1486
+1406,Prob_Effect_Factor,,1340 1325 1332,1532 1452 1535 1501 1632 1485
+1407,Prob_Effect_Factor,,1371 1329 1331 1310,1548 1574 1527 1440 1633 1486
+1408,Prob_Effect_Factor,,1341 1325 1333,1531 1449 1542 1572 1634 1484
+1409,Prob_Effect_Factor,,1372 1329 1331 1311,1478 1502 1528 1441 1635 1454
+1410,Prob_Effect_Factor,,1342 1325 1334,1532 1451 1552 1501 1636 1485
+1411,Prob_Effect_Factor,,1373 1329 1332 1312,1474 1504 1536 1442 1637 1455
+1412,Prob_Effect_Factor,,1343 1326 1330,1476 1451 1520 1503 1638 1490
+1413,Prob_Effect_Factor,,1374 1329 1332 1313,1475 1578 1535 1441 1639 1490
+1414,Prob_Effect_Factor,,1344 1326 1331,1540 1450 1526 1503 1640 1489
+1415,Prob_Effect_Factor,,1375 1329 1332 1314,1477 1504 1536 1442 1641 1455
+1416,Prob_Effect_Factor,,1345 1326 1333,1539 1446 1541 1576 1642 1488
+1417,Prob_Effect_Factor,,1376 1329 1332 1315,1554 1577 1533 1463 1643 1488
+1418,Prob_Effect_Factor,,1346 1326 1334,1540 1447 1551 1576 1644 1489
+1419,Prob_Effect_Factor,,1377 1329 1333 1316,1524 1582 1544 1437 1645 1456
+1420,Prob_Effect_Factor,,1347 1327 1330,1547 1446 1517 1505 1646 1494
+1421,Prob_Effect_Factor,,1378 1329 1333 1317,1475 1582 1543 1436 1647 1494
+1422,Prob_Effect_Factor,,1348 1327 1331,1546 1444 1525 1580 1648 1492
+1423,Prob_Effect_Factor,,1379 1329 1333 1318,1538 1581 1541 1463 1649 1492
+1424,Prob_Effect_Factor,,1349 1327 1332,1546 1444 1534 1580 1650 1493
+1425,Prob_Effect_Factor,,1380 1329 1333 1319,1478 1506 1544 1438 1651 1456
+1426,Prob_Effect_Factor,,1350 1327 1334,1547 1445 1549 1505 1652 1493
+1427,Prob_Effect_Factor,,1381 1329 1334 1320,1522 1585 1549 1462 1653 1496
+1428,Prob_Effect_Factor,,1351 1328 1330,1555 1445 1517 1507 1654 1497
+1429,Prob_Effect_Factor,,1382 1329 1334 1321,1530 1586 1550 1435 1655 1498
+1430,Prob_Effect_Factor,,1352 1328 1331,1554 1473 1525 1584 1656 1496
+1431,Prob_Effect_Factor,,1383 1329 1334 1322,1539 1586 1550 1435 1657 1498
+1432,Prob_Effect_Factor,,1353 1328 1332,1555 1473 1533 1584 1658 1497
+1433,Prob_Effect_Factor,,1384 1329 1334 1323,1477 1508 1552 1443 1659 1457
+1434,Prob_Effect_Factor,,1354 1328 1333,1556 1452 1543 1507 1660 1457
+1435,Temp_Factor,,1431 1429,1458
+1436,Temp_Factor,,1421 1390,1458
+1437,Temp_Factor,,1393 1419,1459
+1438,Temp_Factor,,1425 1394,1459
+1439,Temp_Factor,,1392 1391,1460
+1440,Temp_Factor,,1407 1405,1460
+1441,Temp_Factor,,1413 1409,1461
+1442,Temp_Factor,,1415 1411,1461
+1443,Temp_Factor,,1433 1403,1462
+1444,Temp_Factor,,1424 1422,1466
+1445,Temp_Factor,,1428 1426,1466
+1446,Temp_Factor,,1416 1420,1467
+1447,Temp_Factor,,1402 1418,1467
+1448,Temp_Factor,,1396 1404,1468
+1449,Temp_Factor,,1408 1398,1468
+1450,Temp_Factor,,1400 1414,1469
+1451,Temp_Factor,,1412 1410,1469
+1452,Temp_Factor,,1434 1406,1470
+1453,Temp_Factor,,1400 1398,1479
+1454,Temp_Factor,,1403 1409,1483
+1455,Temp_Factor,,1415 1411,1487
+1456,Temp_Factor,,1425 1419,1491
+1457,Temp_Factor,,1433 1434,1495
+1458,Temp_Factor,,1436 1435,1509
+1459,Temp_Factor,,1438 1437,1509
+1460,Temp_Factor,,1440 1439,1510
+1461,Temp_Factor,,1442 1441,1510
+1462,Temp_Factor,,1427 1443,1511
+1463,Temp_Factor,,1423 1417,1511
+1464,Temp_Factor,,1401 1395,1512
+1465,Temp_Factor,,1399 1397,1512
+1466,Temp_Factor,,1445 1444,1513
+1467,Temp_Factor,,1447 1446,1513
+1468,Temp_Factor,,1449 1448,1514
+1469,Temp_Factor,,1451 1450,1514
+1470,Temp_Factor,,1385 1452,1515
+1471,Temp_Factor,,1387 1386,1515
+1472,Temp_Factor,,1389 1388,1516
+1473,Temp_Factor,,1432 1430,1516
+1474,Temp_Factor,,1403 1411,1521
+1475,Temp_Factor,,1413 1421,1529
+1476,Temp_Factor,,1405 1412,1537
+1477,Temp_Factor,,1433 1415,1545
+1478,Temp_Factor,,1409 1425,1553
+1479,Temp_Factor,,1385 1453,1557
+1480,Temp_Factor,,1401 1395,1557
+1481,Temp_Factor,,1399 1397,1558
+1482,Temp_Factor,,1396 1402,1558
+1483,Temp_Factor,,1386 1454,1559
+1484,Temp_Factor,,1408 1404,1559
+1485,Temp_Factor,,1406 1410,1560
+1486,Temp_Factor,,1407 1405,1560
+1487,Temp_Factor,,1387 1455,1561
+1488,Temp_Factor,,1416 1417,1561
+1489,Temp_Factor,,1414 1418,1562
+1490,Temp_Factor,,1413 1412,1562
+1491,Temp_Factor,,1388 1456,1563
+1492,Temp_Factor,,1422 1423,1563
+1493,Temp_Factor,,1426 1424,1564
+1494,Temp_Factor,,1421 1420,1564
+1495,Temp_Factor,,1389 1457,1565
+1496,Temp_Factor,,1430 1427,1565
+1497,Temp_Factor,,1428 1432,1566
+1498,Temp_Factor,,1431 1429,1566
+1499,Temp_Factor,,1400 1398,1567
+1500,Temp_Factor,,1390 1399,1569
+1501,Temp_Factor,,1406 1410,1571
+1502,Temp_Factor,,1403 1409,1573
+1503,Temp_Factor,,1412 1414,1575
+1504,Temp_Factor,,1415 1411,1577
+1505,Temp_Factor,,1420 1426,1579
+1506,Temp_Factor,,1425 1393,1581
+1507,Temp_Factor,,1434 1428,1583
+1508,Temp_Factor,,1433 1394,1585
+1509,Temp_Factor,,1459 1458,1587
+1510,Temp_Factor,,1461 1460,1587
+1511,Temp_Factor,,1463 1462,1588
+1512,Temp_Factor,,1465 1464,1588
+1513,Temp_Factor,,1467 1466,1589
+1514,Temp_Factor,,1469 1468,1589
+1515,Temp_Factor,,1471 1470,1590
+1516,Temp_Factor,,1473 1472,1590
+1517,Temp_Factor,,1420 1428,1591
+1518,Temp_Factor,,1401 1395,1591
+1519,Temp_Factor,,1399 1397,1592
+1520,Temp_Factor,,1412 1404,1592
+1521,Temp_Factor,,1385 1474,1593
+1522,Temp_Factor,,1402 1427,1593
+1523,Temp_Factor,,1398 1396,1594
+1524,Temp_Factor,,1419 1400,1594
+1525,Temp_Factor,,1422 1430,1595
+1526,Temp_Factor,,1414 1396,1595
+1527,Temp_Factor,,1407 1405,1596
+1528,Temp_Factor,,1403 1409,1596
+1529,Temp_Factor,,1386 1475,1597
+1530,Temp_Factor,,1429 1395,1597
+1531,Temp_Factor,,1408 1404,1598
+1532,Temp_Factor,,1406 1410,1598
+1533,Temp_Factor,,1432 1417,1599
+1534,Temp_Factor,,1398 1424,1599
+1535,Temp_Factor,,1413 1406,1600
+1536,Temp_Factor,,1415 1411,1600
+1537,Temp_Factor,,1387 1476,1601
+1538,Temp_Factor,,1397 1423,1601
+1539,Temp_Factor,,1416 1431,1602
+1540,Temp_Factor,,1414 1418,1602
+1541,Temp_Factor,,1416 1423,1603
+1542,Temp_Factor,,1400 1408,1603
+1543,Temp_Factor,,1421 1434,1604
+1544,Temp_Factor,,1425 1419,1604
+1545,Temp_Factor,,1388 1477,1605
+1546,Temp_Factor,,1424 1422,1605
+1547,Temp_Factor,,1420 1426,1606
+1548,Temp_Factor,,1407 1399,1606
+1549,Temp_Factor,,1426 1427,1607
+1550,Temp_Factor,,1431 1429,1607
+1551,Temp_Factor,,1402 1418,1608
+1552,Temp_Factor,,1433 1410,1608
+1553,Temp_Factor,,1389 1478,1609
+1554,Temp_Factor,,1430 1417,1609
+1555,Temp_Factor,,1428 1432,1610
+1556,Temp_Factor,,1434 1401,1610
+1557,Temp_Factor,,1480 1479,1612
+1558,Temp_Factor,,1482 1481,1612
+1559,Temp_Factor,,1484 1483,1614
+1560,Temp_Factor,,1486 1485,1614
+1561,Temp_Factor,,1488 1487,1616
+1562,Temp_Factor,,1490 1489,1616
+1563,Temp_Factor,,1492 1491,1618
+1564,Temp_Factor,,1494 1493,1618
+1565,Temp_Factor,,1496 1495,1620
+1566,Temp_Factor,,1498 1497,1620
+1567,Temp_Factor,,1385 1499,1661
+1568,Temp_Factor,,1396 1402,1661
+1569,Temp_Factor,,1395 1500,1662
+1570,Temp_Factor,,1397 1401,1662
+1571,Temp_Factor,,1386 1501,1663
+1572,Temp_Factor,,1408 1404,1663
+1573,Temp_Factor,,1391 1502,1664
+1574,Temp_Factor,,1407 1405,1664
+1575,Temp_Factor,,1387 1503,1665
+1576,Temp_Factor,,1418 1416,1665
+1577,Temp_Factor,,1417 1504,1666
+1578,Temp_Factor,,1413 1392,1666
+1579,Temp_Factor,,1388 1505,1667
+1580,Temp_Factor,,1424 1422,1667
+1581,Temp_Factor,,1423 1506,1668
+1582,Temp_Factor,,1419 1421,1668
+1583,Temp_Factor,,1389 1507,1669
+1584,Temp_Factor,,1432 1430,1669
+1585,Temp_Factor,,1427 1508,1670
+1586,Temp_Factor,,1431 1429,1670
+1587,Temp_Factor,,1510 1509,1671
+1588,Temp_Factor,,1512 1511,1671
+1589,Temp_Factor,,1514 1513,1672
+1590,Temp_Factor,,1516 1515,1672
+1591,Temp_Factor,,1518 1517,1673
+1592,Temp_Factor,,1520 1519,1673
+1593,Temp_Factor,,1522 1521,1674
+1594,Temp_Factor,,1524 1523,1674
+1595,Temp_Factor,,1526 1525,1675
+1596,Temp_Factor,,1528 1527,1675
+1597,Temp_Factor,,1530 1529,1676
+1598,Temp_Factor,,1532 1531,1676
+1599,Temp_Factor,,1534 1533,1677
+1600,Temp_Factor,,1536 1535,1677
+1601,Temp_Factor,,1538 1537,1678
+1602,Temp_Factor,,1540 1539,1678
+1603,Temp_Factor,,1542 1541,1679
+1604,Temp_Factor,,1544 1543,1679
+1605,Temp_Factor,,1546 1545,1680
+1606,Temp_Factor,,1548 1547,1680
+1607,Temp_Factor,,1550 1549,1681
+1608,Temp_Factor,,1552 1551,1681
+1609,Temp_Factor,,1554 1553,1682
+1610,Temp_Factor,,1556 1555,1682
+1611,Temp_Factor,,1390,1732
+1612,Temp_Factor,,1558 1557,1732
+1613,Temp_Factor,,1391,1733
+1614,Temp_Factor,,1560 1559,1733
+1615,Temp_Factor,,1392,1734
+1616,Temp_Factor,,1562 1561,1734
+1617,Temp_Factor,,1393,1735
+1618,Temp_Factor,,1564 1563,1735
+1619,Temp_Factor,,1394,1736
+1620,Temp_Factor,,1566 1565,1736
+1621,Temp_Factor,,1395,1737
+1622,Temp_Factor,,1396,1737
+1623,Temp_Factor,,1397,1738
+1624,Temp_Factor,,1398,1738
+1625,Temp_Factor,,1399,1739
+1626,Temp_Factor,,1400,1739
+1627,Temp_Factor,,1401,1740
+1628,Temp_Factor,,1402,1740
+1629,Temp_Factor,,1403,1741
+1630,Temp_Factor,,1404,1741
+1631,Temp_Factor,,1405,1742
+1632,Temp_Factor,,1406,1742
+1633,Temp_Factor,,1407,1743
+1634,Temp_Factor,,1408,1743
+1635,Temp_Factor,,1409,1744
+1636,Temp_Factor,,1410,1744
+1637,Temp_Factor,,1411,1745
+1638,Temp_Factor,,1412,1745
+1639,Temp_Factor,,1413,1746
+1640,Temp_Factor,,1414,1746
+1641,Temp_Factor,,1415,1747
+1642,Temp_Factor,,1416,1747
+1643,Temp_Factor,,1417,1748
+1644,Temp_Factor,,1418,1748
+1645,Temp_Factor,,1419,1749
+1646,Temp_Factor,,1420,1749
+1647,Temp_Factor,,1421,1750
+1648,Temp_Factor,,1422,1750
+1649,Temp_Factor,,1423,1751
+1650,Temp_Factor,,1424,1751
+1651,Temp_Factor,,1425,1752
+1652,Temp_Factor,,1426,1752
+1653,Temp_Factor,,1427,1753
+1654,Temp_Factor,,1428,1753
+1655,Temp_Factor,,1429,1754
+1656,Temp_Factor,,1430,1754
+1657,Temp_Factor,,1431,1755
+1658,Temp_Factor,,1432,1755
+1659,Temp_Factor,,1433,1756
+1660,Temp_Factor,,1434,1756
+1661,Temp_Factor,,1568 1567,1757
+1662,Temp_Factor,,1570 1569,1757
+1663,Temp_Factor,,1572 1571,1758
+1664,Temp_Factor,,1574 1573,1758
+1665,Temp_Factor,,1576 1575,1759
+1666,Temp_Factor,,1578 1577,1759
+1667,Temp_Factor,,1580 1579,1760
+1668,Temp_Factor,,1582 1581,1760
+1669,Temp_Factor,,1584 1583,1761
+1670,Temp_Factor,,1586 1585,1761
+1671,Temp_Factor,,1588 1587,1762
+1672,Temp_Factor,,1590 1589,1762
+1673,Temp_Factor,,1592 1591,1763
+1674,Temp_Factor,,1594 1593,1763
+1675,Temp_Factor,,1596 1595,1764
+1676,Temp_Factor,,1598 1597,1764
+1677,Temp_Factor,,1600 1599,1765
+1678,Temp_Factor,,1602 1601,1765
+1679,Temp_Factor,,1604 1603,1766
+1680,Temp_Factor,,1606 1605,1766
+1681,Temp_Factor,,1608 1607,1767
+1682,Temp_Factor,,1610 1609,1767
+1683,Constraint_Factor,,1336 1335,1684
+1684,Constraint_Factor,,1683 1337,1685
+1685,Constraint_Factor,,1684 1338,1686
+1686,Constraint_Factor,,1685 1339,1687
+1687,Constraint_Factor,,1686 1340,1688
+1688,Constraint_Factor,,1687 1341,1689
+1689,Constraint_Factor,,1688 1342,1690
+1690,Constraint_Factor,,1689 1343,1691
+1691,Constraint_Factor,,1690 1344,1692
+1692,Constraint_Factor,,1691 1345,1693
+1693,Constraint_Factor,,1692 1346,1694
+1694,Constraint_Factor,,1693 1347,1695
+1695,Constraint_Factor,,1694 1348,1696
+1696,Constraint_Factor,,1695 1349,1697
+1697,Constraint_Factor,,1696 1350,1698
+1698,Constraint_Factor,,1697 1351,1699
+1699,Constraint_Factor,,1698 1352,1700
+1700,Constraint_Factor,,1699 1353,1701
+1701,Constraint_Factor,,1700 1354,1702
+1702,Constraint_Factor,,1701 1355,1703
+1703,Constraint_Factor,,1702 1356,1704
+1704,Constraint_Factor,,1703 1357,1705
+1705,Constraint_Factor,,1704 1358,1706
+1706,Constraint_Factor,,1705 1359,1707
+1707,Constraint_Factor,,1706 1360,1708
+1708,Constraint_Factor,,1707 1361,1709
+1709,Constraint_Factor,,1708 1362,1710
+1710,Constraint_Factor,,1709 1363,1711
+1711,Constraint_Factor,,1710 1364,1712
+1712,Constraint_Factor,,1711 1365,1713
+1713,Constraint_Factor,,1712 1366,1714
+1714,Constraint_Factor,,1713 1367,1715
+1715,Constraint_Factor,,1714 1368,1716
+1716,Constraint_Factor,,1715 1369,1717
+1717,Constraint_Factor,,1716 1370,1718
+1718,Constraint_Factor,,1717 1371,1719
+1719,Constraint_Factor,,1718 1372,1720
+1720,Constraint_Factor,,1719 1373,1721
+1721,Constraint_Factor,,1720 1374,1722
+1722,Constraint_Factor,,1721 1375,1723
+1723,Constraint_Factor,,1722 1376,1724
+1724,Constraint_Factor,,1723 1377,1725
+1725,Constraint_Factor,,1724 1378,1726
+1726,Constraint_Factor,,1725 1379,1727
+1727,Constraint_Factor,,1726 1380,1728
+1728,Constraint_Factor,,1727 1381,1729
+1729,Constraint_Factor,,1728 1382,1730
+1730,Constraint_Factor,,1729 1383,1731
+1731,Constraint_Factor,,1384 1730,
+1732,State_Factor,on-table$b5,1612 1611 1299,2165 1823
+1733,State_Factor,on-table$b4,1614 1613 1300,2166 1824
+1734,State_Factor,on-table$b3,1616 1615 1301,2167 1825
+1735,State_Factor,on-table$b2,1618 1617 1302,2168 1826
+1736,State_Factor,on-table$b1,1620 1619 1303,2169 1827
+1737,State_Factor,on$b5$b4,1622 1621 1304,2170 1828
+1738,State_Factor,on$b5$b3,1624 1623 1305,2171 1830
+1739,State_Factor,on$b5$b2,1626 1625 1306,2172 1832
+1740,State_Factor,on$b5$b1,1628 1627 1307,2173 1834
+1741,State_Factor,on$b4$b5,1630 1629 1308,2174 1836
+1742,State_Factor,on$b4$b3,1632 1631 1309,2175 1838
+1743,State_Factor,on$b4$b2,1634 1633 1310,2176 1840
+1744,State_Factor,on$b4$b1,1636 1635 1311,2177 1842
+1745,State_Factor,on$b3$b5,1638 1637 1312,2178 1844
+1746,State_Factor,on$b3$b4,1640 1639 1313,2179 1846
+1747,State_Factor,on$b3$b2,1642 1641 1314,2180 1848
+1748,State_Factor,on$b3$b1,1644 1643 1315,2181 1850
+1749,State_Factor,on$b2$b5,1646 1645 1316,2182 1852
+1750,State_Factor,on$b2$b4,1648 1647 1317,2183 1854
+1751,State_Factor,on$b2$b3,1650 1649 1318,2184 1856
+1752,State_Factor,on$b2$b1,1652 1651 1319,2185 1858
+1753,State_Factor,on$b1$b5,1654 1653 1320,2186 1860
+1754,State_Factor,on$b1$b4,1656 1655 1321,2187 1862
+1755,State_Factor,on$b1$b3,1658 1657 1322,2188 1864
+1756,State_Factor,on$b1$b2,1660 1659 1323,2189 1866
+1757,State_Factor,holding$b5,1662 1661 1324,2190 1833 1831 1829 1835 1818
+1758,State_Factor,holding$b4,1664 1663 1325,2191 1839 1843 1841 1837 1819
+1759,State_Factor,holding$b3,1666 1665 1326,2192 1845 1847 1851 1849 1820
+1760,State_Factor,holding$b2,1668 1667 1327,2193 1853 1859 1857 1855 1821
+1761,State_Factor,holding$b1,1670 1669 1328,2194 1867 1861 1865 1863 1822
+1762,State_Factor,emptyhand,1672 1671 1329,2195 1866 1836 1848 1844 1846 1842 1840 1838 1825 1824 1858 1827 1826 1852 1854 1823 1864 1862 1832 1830 1834 1828 1856 1850 1860
+1763,State_Factor,clear$b5,1674 1673 1330,2196 1823 1845 1837 1832 1830 1834 1828 1853 1861
+1764,State_Factor,clear$b4,1676 1675 1331,2197 1836 1842 1840 1838 1824 1847 1829 1855 1863
+1765,State_Factor,clear$b3,1678 1677 1332,2198 1848 1844 1846 1825 1839 1831 1857 1865 1850
+1766,State_Factor,clear$b2,1680 1679 1333,2199 1858 1826 1852 1854 1867 1833 1841 1849 1856
+1767,State_Factor,clear$b1,1682 1681 1334,2200 1866 1827 1843 1835 1851 1864 1862 1859 1860
+

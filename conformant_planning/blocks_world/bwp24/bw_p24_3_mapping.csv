@@ -1,0 +1,195 @@
+N_tot,N_s,N_a,N_c,N_e,N_t
+67,9,8,7,8,26
+
+Time Horizon,1
+Var,Class,ID,Parents,Children
+0,Action_Factor,put-on-block$b1$b2,,19 51
+1,Action_Factor,put-on-block$b2$b1,,22 51
+2,Action_Factor,put-down$b2,,21 52
+3,Action_Factor,put-down$b1,,24 53
+4,Action_Factor,pick-up-from-table$b2,,17 54
+5,Action_Factor,pick-up-from-table$b1,,18 55
+6,Action_Factor,pick-up$b2$b1,,20 56
+7,Action_Factor,pick-up$b1$b2,,23 57
+8,State_Factor,on-table$b2,,58 17
+9,State_Factor,on-table$b1,,59 18
+10,State_Factor,on$b2$b1,,60 20
+11,State_Factor,on$b1$b2,,61 23
+12,State_Factor,holding$b2,,62 22 21
+13,State_Factor,holding$b1,,63 19 24
+14,State_Factor,emptyhand,,64 23 20 18 17
+15,State_Factor,clear$b2,,65 20 17 19
+16,State_Factor,clear$b1,,66 23 18 22
+17,Prob_Effect_Factor,,4 14 15 8,42 27 33
+18,Prob_Effect_Factor,,5 14 16 9,44 27 35
+19,Prob_Effect_Factor,,0 13 15,32 30 47 43 40 26
+20,Prob_Effect_Factor,,6 14 15 10,32 42 47 28 37 25
+21,Conj_Effect_Factor,,2 12,48 29 41 34
+22,Prob_Effect_Factor,,1 12 16,31 30 49 41 38 25
+23,Prob_Effect_Factor,,7 14 16 11,31 44 49 28 39 26
+24,Conj_Effect_Factor,,3 13,50 29 43 36
+25,Temp_Factor,,20 22,34
+26,Temp_Factor,,23 19,36
+27,Temp_Factor,,18 17,45
+28,Temp_Factor,,23 20,45
+29,Temp_Factor,,24 21,46
+30,Temp_Factor,,19 22,46
+31,Temp_Factor,,23 22,48
+32,Temp_Factor,,20 19,50
+33,Temp_Factor,,17,58
+34,Temp_Factor,,21 25,58
+35,Temp_Factor,,18,59
+36,Temp_Factor,,24 26,59
+37,Temp_Factor,,20,60
+38,Temp_Factor,,22,60
+39,Temp_Factor,,23,61
+40,Temp_Factor,,19,61
+41,Temp_Factor,,22 21,62
+42,Temp_Factor,,20 17,62
+43,Temp_Factor,,19 24,63
+44,Temp_Factor,,23 18,63
+45,Temp_Factor,,28 27,64
+46,Temp_Factor,,30 29,64
+47,Temp_Factor,,20 19,65
+48,Temp_Factor,,21 31,65
+49,Temp_Factor,,23 22,66
+50,Temp_Factor,,24 32,66
+51,Constraint_Factor,,1 0,52
+52,Constraint_Factor,,51 2,53
+53,Constraint_Factor,,52 3,54
+54,Constraint_Factor,,53 4,55
+55,Constraint_Factor,,54 5,56
+56,Constraint_Factor,,55 6,57
+57,Constraint_Factor,,7 56,
+58,State_Factor,on-table$b2,34 33 8,116 75
+59,State_Factor,on-table$b1,36 35 9,117 76
+60,State_Factor,on$b2$b1,38 37 10,118 78
+61,State_Factor,on$b1$b2,40 39 11,119 81
+62,State_Factor,holding$b2,42 41 12,120 80 79
+63,State_Factor,holding$b1,44 43 13,121 77 82
+64,State_Factor,emptyhand,46 45 14,122 81 78 76 75
+65,State_Factor,clear$b2,48 47 15,123 78 75 77
+66,State_Factor,clear$b1,50 49 16,124 81 76 80
+
+Time Horizon,2
+Var,Class,ID,Parents,Children
+67,Action_Factor,put-on-block$b1$b2,,77 109
+68,Action_Factor,put-on-block$b2$b1,,80 109
+69,Action_Factor,put-down$b2,,79 110
+70,Action_Factor,put-down$b1,,82 111
+71,Action_Factor,pick-up-from-table$b2,,75 112
+72,Action_Factor,pick-up-from-table$b1,,76 113
+73,Action_Factor,pick-up$b2$b1,,78 114
+74,Action_Factor,pick-up$b1$b2,,81 115
+75,Prob_Effect_Factor,,71 64 65 58,100 85 91
+76,Prob_Effect_Factor,,72 64 66 59,102 85 93
+77,Prob_Effect_Factor,,67 63 65,90 88 105 101 98 84
+78,Prob_Effect_Factor,,73 64 65 60,90 100 105 86 95 83
+79,Conj_Effect_Factor,,69 62,106 87 99 92
+80,Prob_Effect_Factor,,68 62 66,89 88 107 99 96 83
+81,Prob_Effect_Factor,,74 64 66 61,89 102 107 86 97 84
+82,Conj_Effect_Factor,,70 63,108 87 101 94
+83,Temp_Factor,,78 80,92
+84,Temp_Factor,,81 77,94
+85,Temp_Factor,,76 75,103
+86,Temp_Factor,,81 78,103
+87,Temp_Factor,,82 79,104
+88,Temp_Factor,,77 80,104
+89,Temp_Factor,,81 80,106
+90,Temp_Factor,,78 77,108
+91,Temp_Factor,,75,116
+92,Temp_Factor,,79 83,116
+93,Temp_Factor,,76,117
+94,Temp_Factor,,82 84,117
+95,Temp_Factor,,78,118
+96,Temp_Factor,,80,118
+97,Temp_Factor,,81,119
+98,Temp_Factor,,77,119
+99,Temp_Factor,,80 79,120
+100,Temp_Factor,,78 75,120
+101,Temp_Factor,,77 82,121
+102,Temp_Factor,,81 76,121
+103,Temp_Factor,,86 85,122
+104,Temp_Factor,,88 87,122
+105,Temp_Factor,,78 77,123
+106,Temp_Factor,,79 89,123
+107,Temp_Factor,,81 80,124
+108,Temp_Factor,,82 90,124
+109,Constraint_Factor,,68 67,110
+110,Constraint_Factor,,109 69,111
+111,Constraint_Factor,,110 70,112
+112,Constraint_Factor,,111 71,113
+113,Constraint_Factor,,112 72,114
+114,Constraint_Factor,,113 73,115
+115,Constraint_Factor,,74 114,
+116,State_Factor,on-table$b2,92 91 58,174 133
+117,State_Factor,on-table$b1,94 93 59,175 134
+118,State_Factor,on$b2$b1,96 95 60,176 136
+119,State_Factor,on$b1$b2,98 97 61,177 139
+120,State_Factor,holding$b2,100 99 62,178 138 137
+121,State_Factor,holding$b1,102 101 63,179 135 140
+122,State_Factor,emptyhand,104 103 64,180 139 136 134 133
+123,State_Factor,clear$b2,106 105 65,181 136 133 135
+124,State_Factor,clear$b1,108 107 66,182 139 134 138
+
+Time Horizon,3
+Var,Class,ID,Parents,Children
+125,Action_Factor,put-on-block$b1$b2,,135 167
+126,Action_Factor,put-on-block$b2$b1,,138 167
+127,Action_Factor,put-down$b2,,137 168
+128,Action_Factor,put-down$b1,,140 169
+129,Action_Factor,pick-up-from-table$b2,,133 170
+130,Action_Factor,pick-up-from-table$b1,,134 171
+131,Action_Factor,pick-up$b2$b1,,136 172
+132,Action_Factor,pick-up$b1$b2,,139 173
+133,Prob_Effect_Factor,,129 122 123 116,158 143 149
+134,Prob_Effect_Factor,,130 122 124 117,160 143 151
+135,Prob_Effect_Factor,,125 121 123,148 146 163 159 156 142
+136,Prob_Effect_Factor,,131 122 123 118,148 158 163 144 153 141
+137,Conj_Effect_Factor,,127 120,164 145 157 150
+138,Prob_Effect_Factor,,126 120 124,147 146 165 157 154 141
+139,Prob_Effect_Factor,,132 122 124 119,147 160 165 144 155 142
+140,Conj_Effect_Factor,,128 121,166 145 159 152
+141,Temp_Factor,,136 138,150
+142,Temp_Factor,,139 135,152
+143,Temp_Factor,,134 133,161
+144,Temp_Factor,,139 136,161
+145,Temp_Factor,,140 137,162
+146,Temp_Factor,,135 138,162
+147,Temp_Factor,,139 138,164
+148,Temp_Factor,,136 135,166
+149,Temp_Factor,,133,174
+150,Temp_Factor,,137 141,174
+151,Temp_Factor,,134,175
+152,Temp_Factor,,140 142,175
+153,Temp_Factor,,136,176
+154,Temp_Factor,,138,176
+155,Temp_Factor,,139,177
+156,Temp_Factor,,135,177
+157,Temp_Factor,,138 137,178
+158,Temp_Factor,,136 133,178
+159,Temp_Factor,,135 140,179
+160,Temp_Factor,,139 134,179
+161,Temp_Factor,,144 143,180
+162,Temp_Factor,,146 145,180
+163,Temp_Factor,,136 135,181
+164,Temp_Factor,,137 147,181
+165,Temp_Factor,,139 138,182
+166,Temp_Factor,,140 148,182
+167,Constraint_Factor,,126 125,168
+168,Constraint_Factor,,167 127,169
+169,Constraint_Factor,,168 128,170
+170,Constraint_Factor,,169 129,171
+171,Constraint_Factor,,170 130,172
+172,Constraint_Factor,,171 131,173
+173,Constraint_Factor,,132 172,
+174,State_Factor,on-table$b2,150 149 116,232 191
+175,State_Factor,on-table$b1,152 151 117,233 192
+176,State_Factor,on$b2$b1,154 153 118,234 194
+177,State_Factor,on$b1$b2,156 155 119,235 197
+178,State_Factor,holding$b2,158 157 120,236 196 195
+179,State_Factor,holding$b1,160 159 121,237 193 198
+180,State_Factor,emptyhand,162 161 122,238 197 194 192 191
+181,State_Factor,clear$b2,164 163 123,239 194 191 193
+182,State_Factor,clear$b1,166 165 124,240 197 192 196
+

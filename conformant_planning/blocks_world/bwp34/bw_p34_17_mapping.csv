@@ -1,0 +1,2535 @@
+N_tot,N_s,N_a,N_c,N_e,N_t
+161,16,18,17,18,76
+
+Time Horizon,1
+Var,Class,ID,Parents,Children
+0,Action_Factor,put-on-block$b3$b1,,39 128
+1,Action_Factor,put-on-block$b3$b2,,37 128
+2,Action_Factor,put-on-block$b2$b3,,41 129
+3,Action_Factor,put-on-block$b2$b1,,42 130
+4,Action_Factor,put-on-block$b1$b3,,44 131
+5,Action_Factor,put-on-block$b1$b2,,45 132
+6,Action_Factor,put-down$b3,,46 133
+7,Action_Factor,put-down$b2,,48 134
+8,Action_Factor,put-down$b1,,50 135
+9,Action_Factor,pick-up-from-table$b3,,34 136
+10,Action_Factor,pick-up-from-table$b2,,35 137
+11,Action_Factor,pick-up-from-table$b1,,36 138
+12,Action_Factor,pick-up$b3$b2,,47 139
+13,Action_Factor,pick-up$b3$b1,,38 140
+14,Action_Factor,pick-up$b2$b3,,40 141
+15,Action_Factor,pick-up$b2$b1,,49 142
+16,Action_Factor,pick-up$b1$b3,,43 143
+17,Action_Factor,pick-up$b1$b2,,51 144
+18,State_Factor,on-table$b3,,145 34
+19,State_Factor,on-table$b2,,146 35
+20,State_Factor,on-table$b1,,147 36
+21,State_Factor,on$b3$b2,,148 47
+22,State_Factor,on$b3$b1,,149 38
+23,State_Factor,on$b2$b3,,150 40
+24,State_Factor,on$b2$b1,,151 49
+25,State_Factor,on$b1$b3,,152 43
+26,State_Factor,on$b1$b2,,153 51
+27,State_Factor,holding$b3,,154 39 37 46
+28,State_Factor,holding$b2,,155 41 42 48
+29,State_Factor,holding$b1,,156 45 44 50
+30,State_Factor,emptyhand,,157 35 34 40 43 49 38 47 36 51
+31,State_Factor,clear$b3,,158 34 38 47 41 44
+32,State_Factor,clear$b2,,159 35 40 49 45 37
+33,State_Factor,clear$b1,,160 43 36 39 42 51
+34,Prob_Effect_Factor,,9 30 31 18,75 52 96
+35,Prob_Effect_Factor,,10 30 32 19,77 52 98
+36,Prob_Effect_Factor,,11 30 33 20,79 58 100
+37,Prob_Effect_Factor,,1 27 32,87 63 88 74 103 69
+38,Prob_Effect_Factor,,13 30 31 22,67 75 85 59 104 54
+39,Prob_Effect_Factor,,0 27 33,87 53 93 74 105 69
+40,Prob_Effect_Factor,,14 30 32 23,65 77 89 60 106 55
+41,Prob_Effect_Factor,,2 28 31,66 53 84 76 107 71
+42,Prob_Effect_Factor,,3 28 33,91 64 92 76 109 71
+43,Prob_Effect_Factor,,16 30 33 25,65 79 93 60 110 56
+44,Prob_Effect_Factor,,4 29 31,95 63 84 78 111 73
+45,Prob_Effect_Factor,,5 29 32,95 64 88 78 113 56
+46,Conj_Effect_Factor,,6 27,86 61 114 68
+47,Prob_Effect_Factor,,12 30 31 21,66 115 85 58 102 54
+48,Conj_Effect_Factor,,7 28,90 62 116 70
+49,Prob_Effect_Factor,,15 30 32 24,67 117 89 59 108 55
+50,Conj_Effect_Factor,,8 29,94 62 118 72
+51,Prob_Effect_Factor,,17 30 33 26,91 119 92 57 112 73
+52,Temp_Factor,,35 34,57
+53,Temp_Factor,,41 39,61
+54,Temp_Factor,,38 47,68
+55,Temp_Factor,,40 49,70
+56,Temp_Factor,,43 45,72
+57,Temp_Factor,,51 52,80
+58,Temp_Factor,,47 36,80
+59,Temp_Factor,,49 38,81
+60,Temp_Factor,,40 43,81
+61,Temp_Factor,,46 53,82
+62,Temp_Factor,,50 48,82
+63,Temp_Factor,,44 37,83
+64,Temp_Factor,,42 45,83
+65,Temp_Factor,,40 43,86
+66,Temp_Factor,,47 41,90
+67,Temp_Factor,,49 38,94
+68,Temp_Factor,,46 54,97
+69,Temp_Factor,,39 37,97
+70,Temp_Factor,,48 55,99
+71,Temp_Factor,,41 42,99
+72,Temp_Factor,,50 56,101
+73,Temp_Factor,,44 51,101
+74,Temp_Factor,,39 37,114
+75,Temp_Factor,,34 38,115
+76,Temp_Factor,,41 42,116
+77,Temp_Factor,,35 40,117
+78,Temp_Factor,,45 44,118
+79,Temp_Factor,,43 36,119
+80,Temp_Factor,,58 57,120
+81,Temp_Factor,,60 59,120
+82,Temp_Factor,,62 61,121
+83,Temp_Factor,,64 63,121
+84,Temp_Factor,,41 44,122
+85,Temp_Factor,,38 47,122
+86,Temp_Factor,,46 65,123
+87,Temp_Factor,,39 37,123
+88,Temp_Factor,,45 37,124
+89,Temp_Factor,,40 49,124
+90,Temp_Factor,,48 66,125
+91,Temp_Factor,,42 51,125
+92,Temp_Factor,,42 51,126
+93,Temp_Factor,,43 39,126
+94,Temp_Factor,,50 67,127
+95,Temp_Factor,,45 44,127
+96,Temp_Factor,,34,145
+97,Temp_Factor,,69 68,145
+98,Temp_Factor,,35,146
+99,Temp_Factor,,71 70,146
+100,Temp_Factor,,36,147
+101,Temp_Factor,,73 72,147
+102,Temp_Factor,,47,148
+103,Temp_Factor,,37,148
+104,Temp_Factor,,38,149
+105,Temp_Factor,,39,149
+106,Temp_Factor,,40,150
+107,Temp_Factor,,41,150
+108,Temp_Factor,,49,151
+109,Temp_Factor,,42,151
+110,Temp_Factor,,43,152
+111,Temp_Factor,,44,152
+112,Temp_Factor,,51,153
+113,Temp_Factor,,45,153
+114,Temp_Factor,,46 74,154
+115,Temp_Factor,,47 75,154
+116,Temp_Factor,,48 76,155
+117,Temp_Factor,,49 77,155
+118,Temp_Factor,,50 78,156
+119,Temp_Factor,,51 79,156
+120,Temp_Factor,,81 80,157
+121,Temp_Factor,,83 82,157
+122,Temp_Factor,,85 84,158
+123,Temp_Factor,,87 86,158
+124,Temp_Factor,,89 88,159
+125,Temp_Factor,,91 90,159
+126,Temp_Factor,,93 92,160
+127,Temp_Factor,,95 94,160
+128,Constraint_Factor,,1 0,129
+129,Constraint_Factor,,128 2,130
+130,Constraint_Factor,,129 3,131
+131,Constraint_Factor,,130 4,132
+132,Constraint_Factor,,131 5,133
+133,Constraint_Factor,,132 6,134
+134,Constraint_Factor,,133 7,135
+135,Constraint_Factor,,134 8,136
+136,Constraint_Factor,,135 9,137
+137,Constraint_Factor,,136 10,138
+138,Constraint_Factor,,137 11,139
+139,Constraint_Factor,,138 12,140
+140,Constraint_Factor,,139 13,141
+141,Constraint_Factor,,140 14,142
+142,Constraint_Factor,,141 15,143
+143,Constraint_Factor,,142 16,144
+144,Constraint_Factor,,17 143,
+145,State_Factor,on-table$b3,97 96 18,290 179
+146,State_Factor,on-table$b2,99 98 19,291 180
+147,State_Factor,on-table$b1,101 100 20,292 181
+148,State_Factor,on$b3$b2,103 102 21,293 192
+149,State_Factor,on$b3$b1,105 104 22,294 183
+150,State_Factor,on$b2$b3,107 106 23,295 185
+151,State_Factor,on$b2$b1,109 108 24,296 194
+152,State_Factor,on$b1$b3,111 110 25,297 188
+153,State_Factor,on$b1$b2,113 112 26,298 196
+154,State_Factor,holding$b3,115 114 27,299 184 182 191
+155,State_Factor,holding$b2,117 116 28,300 186 187 193
+156,State_Factor,holding$b1,119 118 29,301 190 189 195
+157,State_Factor,emptyhand,121 120 30,302 180 179 185 188 194 183 192 181 196
+158,State_Factor,clear$b3,123 122 31,303 179 183 192 186 189
+159,State_Factor,clear$b2,125 124 32,304 180 185 194 190 182
+160,State_Factor,clear$b1,127 126 33,305 188 181 184 187 196
+
+Time Horizon,2
+Var,Class,ID,Parents,Children
+161,Action_Factor,put-on-block$b3$b1,,184 273
+162,Action_Factor,put-on-block$b3$b2,,182 273
+163,Action_Factor,put-on-block$b2$b3,,186 274
+164,Action_Factor,put-on-block$b2$b1,,187 275
+165,Action_Factor,put-on-block$b1$b3,,189 276
+166,Action_Factor,put-on-block$b1$b2,,190 277
+167,Action_Factor,put-down$b3,,191 278
+168,Action_Factor,put-down$b2,,193 279
+169,Action_Factor,put-down$b1,,195 280
+170,Action_Factor,pick-up-from-table$b3,,179 281
+171,Action_Factor,pick-up-from-table$b2,,180 282
+172,Action_Factor,pick-up-from-table$b1,,181 283
+173,Action_Factor,pick-up$b3$b2,,192 284
+174,Action_Factor,pick-up$b3$b1,,183 285
+175,Action_Factor,pick-up$b2$b3,,185 286
+176,Action_Factor,pick-up$b2$b1,,194 287
+177,Action_Factor,pick-up$b1$b3,,188 288
+178,Action_Factor,pick-up$b1$b2,,196 289
+179,Prob_Effect_Factor,,170 157 158 145,220 197 241
+180,Prob_Effect_Factor,,171 157 159 146,222 197 243
+181,Prob_Effect_Factor,,172 157 160 147,224 203 245
+182,Prob_Effect_Factor,,162 154 159,232 208 233 219 248 214
+183,Prob_Effect_Factor,,174 157 158 149,212 220 230 204 249 199
+184,Prob_Effect_Factor,,161 154 160,232 198 238 219 250 214
+185,Prob_Effect_Factor,,175 157 159 150,210 222 234 205 251 200
+186,Prob_Effect_Factor,,163 155 158,211 198 229 221 252 216
+187,Prob_Effect_Factor,,164 155 160,236 209 237 221 254 216
+188,Prob_Effect_Factor,,177 157 160 152,210 224 238 205 255 201
+189,Prob_Effect_Factor,,165 156 158,240 208 229 223 256 218
+190,Prob_Effect_Factor,,166 156 159,240 209 233 223 258 201
+191,Conj_Effect_Factor,,167 154,231 206 259 213
+192,Prob_Effect_Factor,,173 157 158 148,211 260 230 203 247 199
+193,Conj_Effect_Factor,,168 155,235 207 261 215
+194,Prob_Effect_Factor,,176 157 159 151,212 262 234 204 253 200
+195,Conj_Effect_Factor,,169 156,239 207 263 217
+196,Prob_Effect_Factor,,178 157 160 153,236 264 237 202 257 218
+197,Temp_Factor,,180 179,202
+198,Temp_Factor,,186 184,206
+199,Temp_Factor,,183 192,213
+200,Temp_Factor,,185 194,215
+201,Temp_Factor,,188 190,217
+202,Temp_Factor,,196 197,225
+203,Temp_Factor,,192 181,225
+204,Temp_Factor,,194 183,226
+205,Temp_Factor,,185 188,226
+206,Temp_Factor,,191 198,227
+207,Temp_Factor,,195 193,227
+208,Temp_Factor,,189 182,228
+209,Temp_Factor,,187 190,228
+210,Temp_Factor,,185 188,231
+211,Temp_Factor,,192 186,235
+212,Temp_Factor,,194 183,239
+213,Temp_Factor,,191 199,242
+214,Temp_Factor,,184 182,242
+215,Temp_Factor,,193 200,244
+216,Temp_Factor,,186 187,244
+217,Temp_Factor,,195 201,246
+218,Temp_Factor,,189 196,246
+219,Temp_Factor,,184 182,259
+220,Temp_Factor,,179 183,260
+221,Temp_Factor,,186 187,261
+222,Temp_Factor,,180 185,262
+223,Temp_Factor,,190 189,263
+224,Temp_Factor,,188 181,264
+225,Temp_Factor,,203 202,265
+226,Temp_Factor,,205 204,265
+227,Temp_Factor,,207 206,266
+228,Temp_Factor,,209 208,266
+229,Temp_Factor,,186 189,267
+230,Temp_Factor,,183 192,267
+231,Temp_Factor,,191 210,268
+232,Temp_Factor,,184 182,268
+233,Temp_Factor,,190 182,269
+234,Temp_Factor,,185 194,269
+235,Temp_Factor,,193 211,270
+236,Temp_Factor,,187 196,270
+237,Temp_Factor,,187 196,271
+238,Temp_Factor,,188 184,271
+239,Temp_Factor,,195 212,272
+240,Temp_Factor,,190 189,272
+241,Temp_Factor,,179,290
+242,Temp_Factor,,214 213,290
+243,Temp_Factor,,180,291
+244,Temp_Factor,,216 215,291
+245,Temp_Factor,,181,292
+246,Temp_Factor,,218 217,292
+247,Temp_Factor,,192,293
+248,Temp_Factor,,182,293
+249,Temp_Factor,,183,294
+250,Temp_Factor,,184,294
+251,Temp_Factor,,185,295
+252,Temp_Factor,,186,295
+253,Temp_Factor,,194,296
+254,Temp_Factor,,187,296
+255,Temp_Factor,,188,297
+256,Temp_Factor,,189,297
+257,Temp_Factor,,196,298
+258,Temp_Factor,,190,298
+259,Temp_Factor,,191 219,299
+260,Temp_Factor,,192 220,299
+261,Temp_Factor,,193 221,300
+262,Temp_Factor,,194 222,300
+263,Temp_Factor,,195 223,301
+264,Temp_Factor,,196 224,301
+265,Temp_Factor,,226 225,302
+266,Temp_Factor,,228 227,302
+267,Temp_Factor,,230 229,303
+268,Temp_Factor,,232 231,303
+269,Temp_Factor,,234 233,304
+270,Temp_Factor,,236 235,304
+271,Temp_Factor,,238 237,305
+272,Temp_Factor,,240 239,305
+273,Constraint_Factor,,162 161,274
+274,Constraint_Factor,,273 163,275
+275,Constraint_Factor,,274 164,276
+276,Constraint_Factor,,275 165,277
+277,Constraint_Factor,,276 166,278
+278,Constraint_Factor,,277 167,279
+279,Constraint_Factor,,278 168,280
+280,Constraint_Factor,,279 169,281
+281,Constraint_Factor,,280 170,282
+282,Constraint_Factor,,281 171,283
+283,Constraint_Factor,,282 172,284
+284,Constraint_Factor,,283 173,285
+285,Constraint_Factor,,284 174,286
+286,Constraint_Factor,,285 175,287
+287,Constraint_Factor,,286 176,288
+288,Constraint_Factor,,287 177,289
+289,Constraint_Factor,,178 288,
+290,State_Factor,on-table$b3,242 241 145,435 324
+291,State_Factor,on-table$b2,244 243 146,436 325
+292,State_Factor,on-table$b1,246 245 147,437 326
+293,State_Factor,on$b3$b2,248 247 148,438 337
+294,State_Factor,on$b3$b1,250 249 149,439 328
+295,State_Factor,on$b2$b3,252 251 150,440 330
+296,State_Factor,on$b2$b1,254 253 151,441 339
+297,State_Factor,on$b1$b3,256 255 152,442 333
+298,State_Factor,on$b1$b2,258 257 153,443 341
+299,State_Factor,holding$b3,260 259 154,444 329 327 336
+300,State_Factor,holding$b2,262 261 155,445 331 332 338
+301,State_Factor,holding$b1,264 263 156,446 335 334 340
+302,State_Factor,emptyhand,266 265 157,447 325 324 330 333 339 328 337 326 341
+303,State_Factor,clear$b3,268 267 158,448 324 328 337 331 334
+304,State_Factor,clear$b2,270 269 159,449 325 330 339 335 327
+305,State_Factor,clear$b1,272 271 160,450 333 326 329 332 341
+
+Time Horizon,3
+Var,Class,ID,Parents,Children
+306,Action_Factor,put-on-block$b3$b1,,329 418
+307,Action_Factor,put-on-block$b3$b2,,327 418
+308,Action_Factor,put-on-block$b2$b3,,331 419
+309,Action_Factor,put-on-block$b2$b1,,332 420
+310,Action_Factor,put-on-block$b1$b3,,334 421
+311,Action_Factor,put-on-block$b1$b2,,335 422
+312,Action_Factor,put-down$b3,,336 423
+313,Action_Factor,put-down$b2,,338 424
+314,Action_Factor,put-down$b1,,340 425
+315,Action_Factor,pick-up-from-table$b3,,324 426
+316,Action_Factor,pick-up-from-table$b2,,325 427
+317,Action_Factor,pick-up-from-table$b1,,326 428
+318,Action_Factor,pick-up$b3$b2,,337 429
+319,Action_Factor,pick-up$b3$b1,,328 430
+320,Action_Factor,pick-up$b2$b3,,330 431
+321,Action_Factor,pick-up$b2$b1,,339 432
+322,Action_Factor,pick-up$b1$b3,,333 433
+323,Action_Factor,pick-up$b1$b2,,341 434
+324,Prob_Effect_Factor,,315 302 303 290,365 342 386
+325,Prob_Effect_Factor,,316 302 304 291,367 342 388
+326,Prob_Effect_Factor,,317 302 305 292,369 348 390
+327,Prob_Effect_Factor,,307 299 304,377 353 378 364 393 359
+328,Prob_Effect_Factor,,319 302 303 294,357 365 375 349 394 344
+329,Prob_Effect_Factor,,306 299 305,377 343 383 364 395 359
+330,Prob_Effect_Factor,,320 302 304 295,355 367 379 350 396 345
+331,Prob_Effect_Factor,,308 300 303,356 343 374 366 397 361
+332,Prob_Effect_Factor,,309 300 305,381 354 382 366 399 361
+333,Prob_Effect_Factor,,322 302 305 297,355 369 383 350 400 346
+334,Prob_Effect_Factor,,310 301 303,385 353 374 368 401 363
+335,Prob_Effect_Factor,,311 301 304,385 354 378 368 403 346
+336,Conj_Effect_Factor,,312 299,376 351 404 358
+337,Prob_Effect_Factor,,318 302 303 293,356 405 375 348 392 344
+338,Conj_Effect_Factor,,313 300,380 352 406 360
+339,Prob_Effect_Factor,,321 302 304 296,357 407 379 349 398 345
+340,Conj_Effect_Factor,,314 301,384 352 408 362
+341,Prob_Effect_Factor,,323 302 305 298,381 409 382 347 402 363
+342,Temp_Factor,,325 324,347
+343,Temp_Factor,,331 329,351
+344,Temp_Factor,,328 337,358
+345,Temp_Factor,,330 339,360
+346,Temp_Factor,,333 335,362
+347,Temp_Factor,,341 342,370
+348,Temp_Factor,,337 326,370
+349,Temp_Factor,,339 328,371
+350,Temp_Factor,,330 333,371
+351,Temp_Factor,,336 343,372
+352,Temp_Factor,,340 338,372
+353,Temp_Factor,,334 327,373
+354,Temp_Factor,,332 335,373
+355,Temp_Factor,,330 333,376
+356,Temp_Factor,,337 331,380
+357,Temp_Factor,,339 328,384
+358,Temp_Factor,,336 344,387
+359,Temp_Factor,,329 327,387
+360,Temp_Factor,,338 345,389
+361,Temp_Factor,,331 332,389
+362,Temp_Factor,,340 346,391
+363,Temp_Factor,,334 341,391
+364,Temp_Factor,,329 327,404
+365,Temp_Factor,,324 328,405
+366,Temp_Factor,,331 332,406
+367,Temp_Factor,,325 330,407
+368,Temp_Factor,,335 334,408
+369,Temp_Factor,,333 326,409
+370,Temp_Factor,,348 347,410
+371,Temp_Factor,,350 349,410
+372,Temp_Factor,,352 351,411
+373,Temp_Factor,,354 353,411
+374,Temp_Factor,,331 334,412
+375,Temp_Factor,,328 337,412
+376,Temp_Factor,,336 355,413
+377,Temp_Factor,,329 327,413
+378,Temp_Factor,,335 327,414
+379,Temp_Factor,,330 339,414
+380,Temp_Factor,,338 356,415
+381,Temp_Factor,,332 341,415
+382,Temp_Factor,,332 341,416
+383,Temp_Factor,,333 329,416
+384,Temp_Factor,,340 357,417
+385,Temp_Factor,,335 334,417
+386,Temp_Factor,,324,435
+387,Temp_Factor,,359 358,435
+388,Temp_Factor,,325,436
+389,Temp_Factor,,361 360,436
+390,Temp_Factor,,326,437
+391,Temp_Factor,,363 362,437
+392,Temp_Factor,,337,438
+393,Temp_Factor,,327,438
+394,Temp_Factor,,328,439
+395,Temp_Factor,,329,439
+396,Temp_Factor,,330,440
+397,Temp_Factor,,331,440
+398,Temp_Factor,,339,441
+399,Temp_Factor,,332,441
+400,Temp_Factor,,333,442
+401,Temp_Factor,,334,442
+402,Temp_Factor,,341,443
+403,Temp_Factor,,335,443
+404,Temp_Factor,,336 364,444
+405,Temp_Factor,,337 365,444
+406,Temp_Factor,,338 366,445
+407,Temp_Factor,,339 367,445
+408,Temp_Factor,,340 368,446
+409,Temp_Factor,,341 369,446
+410,Temp_Factor,,371 370,447
+411,Temp_Factor,,373 372,447
+412,Temp_Factor,,375 374,448
+413,Temp_Factor,,377 376,448
+414,Temp_Factor,,379 378,449
+415,Temp_Factor,,381 380,449
+416,Temp_Factor,,383 382,450
+417,Temp_Factor,,385 384,450
+418,Constraint_Factor,,307 306,419
+419,Constraint_Factor,,418 308,420
+420,Constraint_Factor,,419 309,421
+421,Constraint_Factor,,420 310,422
+422,Constraint_Factor,,421 311,423
+423,Constraint_Factor,,422 312,424
+424,Constraint_Factor,,423 313,425
+425,Constraint_Factor,,424 314,426
+426,Constraint_Factor,,425 315,427
+427,Constraint_Factor,,426 316,428
+428,Constraint_Factor,,427 317,429
+429,Constraint_Factor,,428 318,430
+430,Constraint_Factor,,429 319,431
+431,Constraint_Factor,,430 320,432
+432,Constraint_Factor,,431 321,433
+433,Constraint_Factor,,432 322,434
+434,Constraint_Factor,,323 433,
+435,State_Factor,on-table$b3,387 386 290,580 469
+436,State_Factor,on-table$b2,389 388 291,581 470
+437,State_Factor,on-table$b1,391 390 292,582 471
+438,State_Factor,on$b3$b2,393 392 293,583 482
+439,State_Factor,on$b3$b1,395 394 294,584 473
+440,State_Factor,on$b2$b3,397 396 295,585 475
+441,State_Factor,on$b2$b1,399 398 296,586 484
+442,State_Factor,on$b1$b3,401 400 297,587 478
+443,State_Factor,on$b1$b2,403 402 298,588 486
+444,State_Factor,holding$b3,405 404 299,589 474 472 481
+445,State_Factor,holding$b2,407 406 300,590 476 477 483
+446,State_Factor,holding$b1,409 408 301,591 480 479 485
+447,State_Factor,emptyhand,411 410 302,592 470 469 475 478 484 473 482 471 486
+448,State_Factor,clear$b3,413 412 303,593 469 473 482 476 479
+449,State_Factor,clear$b2,415 414 304,594 470 475 484 480 472
+450,State_Factor,clear$b1,417 416 305,595 478 471 474 477 486
+
+Time Horizon,4
+Var,Class,ID,Parents,Children
+451,Action_Factor,put-on-block$b3$b1,,474 563
+452,Action_Factor,put-on-block$b3$b2,,472 563
+453,Action_Factor,put-on-block$b2$b3,,476 564
+454,Action_Factor,put-on-block$b2$b1,,477 565
+455,Action_Factor,put-on-block$b1$b3,,479 566
+456,Action_Factor,put-on-block$b1$b2,,480 567
+457,Action_Factor,put-down$b3,,481 568
+458,Action_Factor,put-down$b2,,483 569
+459,Action_Factor,put-down$b1,,485 570
+460,Action_Factor,pick-up-from-table$b3,,469 571
+461,Action_Factor,pick-up-from-table$b2,,470 572
+462,Action_Factor,pick-up-from-table$b1,,471 573
+463,Action_Factor,pick-up$b3$b2,,482 574
+464,Action_Factor,pick-up$b3$b1,,473 575
+465,Action_Factor,pick-up$b2$b3,,475 576
+466,Action_Factor,pick-up$b2$b1,,484 577
+467,Action_Factor,pick-up$b1$b3,,478 578
+468,Action_Factor,pick-up$b1$b2,,486 579
+469,Prob_Effect_Factor,,460 447 448 435,510 487 531
+470,Prob_Effect_Factor,,461 447 449 436,512 487 533
+471,Prob_Effect_Factor,,462 447 450 437,514 493 535
+472,Prob_Effect_Factor,,452 444 449,522 498 523 509 538 504
+473,Prob_Effect_Factor,,464 447 448 439,502 510 520 494 539 489
+474,Prob_Effect_Factor,,451 444 450,522 488 528 509 540 504
+475,Prob_Effect_Factor,,465 447 449 440,500 512 524 495 541 490
+476,Prob_Effect_Factor,,453 445 448,501 488 519 511 542 506
+477,Prob_Effect_Factor,,454 445 450,526 499 527 511 544 506
+478,Prob_Effect_Factor,,467 447 450 442,500 514 528 495 545 491
+479,Prob_Effect_Factor,,455 446 448,530 498 519 513 546 508
+480,Prob_Effect_Factor,,456 446 449,530 499 523 513 548 491
+481,Conj_Effect_Factor,,457 444,521 496 549 503
+482,Prob_Effect_Factor,,463 447 448 438,501 550 520 493 537 489
+483,Conj_Effect_Factor,,458 445,525 497 551 505
+484,Prob_Effect_Factor,,466 447 449 441,502 552 524 494 543 490
+485,Conj_Effect_Factor,,459 446,529 497 553 507
+486,Prob_Effect_Factor,,468 447 450 443,526 554 527 492 547 508
+487,Temp_Factor,,470 469,492
+488,Temp_Factor,,476 474,496
+489,Temp_Factor,,473 482,503
+490,Temp_Factor,,475 484,505
+491,Temp_Factor,,478 480,507
+492,Temp_Factor,,486 487,515
+493,Temp_Factor,,482 471,515
+494,Temp_Factor,,484 473,516
+495,Temp_Factor,,475 478,516
+496,Temp_Factor,,481 488,517
+497,Temp_Factor,,485 483,517
+498,Temp_Factor,,479 472,518
+499,Temp_Factor,,477 480,518
+500,Temp_Factor,,475 478,521
+501,Temp_Factor,,482 476,525
+502,Temp_Factor,,484 473,529
+503,Temp_Factor,,481 489,532
+504,Temp_Factor,,474 472,532
+505,Temp_Factor,,483 490,534
+506,Temp_Factor,,476 477,534
+507,Temp_Factor,,485 491,536
+508,Temp_Factor,,479 486,536
+509,Temp_Factor,,474 472,549
+510,Temp_Factor,,469 473,550
+511,Temp_Factor,,476 477,551
+512,Temp_Factor,,470 475,552
+513,Temp_Factor,,480 479,553
+514,Temp_Factor,,478 471,554
+515,Temp_Factor,,493 492,555
+516,Temp_Factor,,495 494,555
+517,Temp_Factor,,497 496,556
+518,Temp_Factor,,499 498,556
+519,Temp_Factor,,476 479,557
+520,Temp_Factor,,473 482,557
+521,Temp_Factor,,481 500,558
+522,Temp_Factor,,474 472,558
+523,Temp_Factor,,480 472,559
+524,Temp_Factor,,475 484,559
+525,Temp_Factor,,483 501,560
+526,Temp_Factor,,477 486,560
+527,Temp_Factor,,477 486,561
+528,Temp_Factor,,478 474,561
+529,Temp_Factor,,485 502,562
+530,Temp_Factor,,480 479,562
+531,Temp_Factor,,469,580
+532,Temp_Factor,,504 503,580
+533,Temp_Factor,,470,581
+534,Temp_Factor,,506 505,581
+535,Temp_Factor,,471,582
+536,Temp_Factor,,508 507,582
+537,Temp_Factor,,482,583
+538,Temp_Factor,,472,583
+539,Temp_Factor,,473,584
+540,Temp_Factor,,474,584
+541,Temp_Factor,,475,585
+542,Temp_Factor,,476,585
+543,Temp_Factor,,484,586
+544,Temp_Factor,,477,586
+545,Temp_Factor,,478,587
+546,Temp_Factor,,479,587
+547,Temp_Factor,,486,588
+548,Temp_Factor,,480,588
+549,Temp_Factor,,481 509,589
+550,Temp_Factor,,482 510,589
+551,Temp_Factor,,483 511,590
+552,Temp_Factor,,484 512,590
+553,Temp_Factor,,485 513,591
+554,Temp_Factor,,486 514,591
+555,Temp_Factor,,516 515,592
+556,Temp_Factor,,518 517,592
+557,Temp_Factor,,520 519,593
+558,Temp_Factor,,522 521,593
+559,Temp_Factor,,524 523,594
+560,Temp_Factor,,526 525,594
+561,Temp_Factor,,528 527,595
+562,Temp_Factor,,530 529,595
+563,Constraint_Factor,,452 451,564
+564,Constraint_Factor,,563 453,565
+565,Constraint_Factor,,564 454,566
+566,Constraint_Factor,,565 455,567
+567,Constraint_Factor,,566 456,568
+568,Constraint_Factor,,567 457,569
+569,Constraint_Factor,,568 458,570
+570,Constraint_Factor,,569 459,571
+571,Constraint_Factor,,570 460,572
+572,Constraint_Factor,,571 461,573
+573,Constraint_Factor,,572 462,574
+574,Constraint_Factor,,573 463,575
+575,Constraint_Factor,,574 464,576
+576,Constraint_Factor,,575 465,577
+577,Constraint_Factor,,576 466,578
+578,Constraint_Factor,,577 467,579
+579,Constraint_Factor,,468 578,
+580,State_Factor,on-table$b3,532 531 435,725 614
+581,State_Factor,on-table$b2,534 533 436,726 615
+582,State_Factor,on-table$b1,536 535 437,727 616
+583,State_Factor,on$b3$b2,538 537 438,728 627
+584,State_Factor,on$b3$b1,540 539 439,729 618
+585,State_Factor,on$b2$b3,542 541 440,730 620
+586,State_Factor,on$b2$b1,544 543 441,731 629
+587,State_Factor,on$b1$b3,546 545 442,732 623
+588,State_Factor,on$b1$b2,548 547 443,733 631
+589,State_Factor,holding$b3,550 549 444,734 619 617 626
+590,State_Factor,holding$b2,552 551 445,735 621 622 628
+591,State_Factor,holding$b1,554 553 446,736 625 624 630
+592,State_Factor,emptyhand,556 555 447,737 615 614 620 623 629 618 627 616 631
+593,State_Factor,clear$b3,558 557 448,738 614 618 627 621 624
+594,State_Factor,clear$b2,560 559 449,739 615 620 629 625 617
+595,State_Factor,clear$b1,562 561 450,740 623 616 619 622 631
+
+Time Horizon,5
+Var,Class,ID,Parents,Children
+596,Action_Factor,put-on-block$b3$b1,,619 708
+597,Action_Factor,put-on-block$b3$b2,,617 708
+598,Action_Factor,put-on-block$b2$b3,,621 709
+599,Action_Factor,put-on-block$b2$b1,,622 710
+600,Action_Factor,put-on-block$b1$b3,,624 711
+601,Action_Factor,put-on-block$b1$b2,,625 712
+602,Action_Factor,put-down$b3,,626 713
+603,Action_Factor,put-down$b2,,628 714
+604,Action_Factor,put-down$b1,,630 715
+605,Action_Factor,pick-up-from-table$b3,,614 716
+606,Action_Factor,pick-up-from-table$b2,,615 717
+607,Action_Factor,pick-up-from-table$b1,,616 718
+608,Action_Factor,pick-up$b3$b2,,627 719
+609,Action_Factor,pick-up$b3$b1,,618 720
+610,Action_Factor,pick-up$b2$b3,,620 721
+611,Action_Factor,pick-up$b2$b1,,629 722
+612,Action_Factor,pick-up$b1$b3,,623 723
+613,Action_Factor,pick-up$b1$b2,,631 724
+614,Prob_Effect_Factor,,605 592 593 580,655 632 676
+615,Prob_Effect_Factor,,606 592 594 581,657 632 678
+616,Prob_Effect_Factor,,607 592 595 582,659 638 680
+617,Prob_Effect_Factor,,597 589 594,667 643 668 654 683 649
+618,Prob_Effect_Factor,,609 592 593 584,647 655 665 639 684 634
+619,Prob_Effect_Factor,,596 589 595,667 633 673 654 685 649
+620,Prob_Effect_Factor,,610 592 594 585,645 657 669 640 686 635
+621,Prob_Effect_Factor,,598 590 593,646 633 664 656 687 651
+622,Prob_Effect_Factor,,599 590 595,671 644 672 656 689 651
+623,Prob_Effect_Factor,,612 592 595 587,645 659 673 640 690 636
+624,Prob_Effect_Factor,,600 591 593,675 643 664 658 691 653
+625,Prob_Effect_Factor,,601 591 594,675 644 668 658 693 636
+626,Conj_Effect_Factor,,602 589,666 641 694 648
+627,Prob_Effect_Factor,,608 592 593 583,646 695 665 638 682 634
+628,Conj_Effect_Factor,,603 590,670 642 696 650
+629,Prob_Effect_Factor,,611 592 594 586,647 697 669 639 688 635
+630,Conj_Effect_Factor,,604 591,674 642 698 652
+631,Prob_Effect_Factor,,613 592 595 588,671 699 672 637 692 653
+632,Temp_Factor,,615 614,637
+633,Temp_Factor,,621 619,641
+634,Temp_Factor,,618 627,648
+635,Temp_Factor,,620 629,650
+636,Temp_Factor,,623 625,652
+637,Temp_Factor,,631 632,660
+638,Temp_Factor,,627 616,660
+639,Temp_Factor,,629 618,661
+640,Temp_Factor,,620 623,661
+641,Temp_Factor,,626 633,662
+642,Temp_Factor,,630 628,662
+643,Temp_Factor,,624 617,663
+644,Temp_Factor,,622 625,663
+645,Temp_Factor,,620 623,666
+646,Temp_Factor,,627 621,670
+647,Temp_Factor,,629 618,674
+648,Temp_Factor,,626 634,677
+649,Temp_Factor,,619 617,677
+650,Temp_Factor,,628 635,679
+651,Temp_Factor,,621 622,679
+652,Temp_Factor,,630 636,681
+653,Temp_Factor,,624 631,681
+654,Temp_Factor,,619 617,694
+655,Temp_Factor,,614 618,695
+656,Temp_Factor,,621 622,696
+657,Temp_Factor,,615 620,697
+658,Temp_Factor,,625 624,698
+659,Temp_Factor,,623 616,699
+660,Temp_Factor,,638 637,700
+661,Temp_Factor,,640 639,700
+662,Temp_Factor,,642 641,701
+663,Temp_Factor,,644 643,701
+664,Temp_Factor,,621 624,702
+665,Temp_Factor,,618 627,702
+666,Temp_Factor,,626 645,703
+667,Temp_Factor,,619 617,703
+668,Temp_Factor,,625 617,704
+669,Temp_Factor,,620 629,704
+670,Temp_Factor,,628 646,705
+671,Temp_Factor,,622 631,705
+672,Temp_Factor,,622 631,706
+673,Temp_Factor,,623 619,706
+674,Temp_Factor,,630 647,707
+675,Temp_Factor,,625 624,707
+676,Temp_Factor,,614,725
+677,Temp_Factor,,649 648,725
+678,Temp_Factor,,615,726
+679,Temp_Factor,,651 650,726
+680,Temp_Factor,,616,727
+681,Temp_Factor,,653 652,727
+682,Temp_Factor,,627,728
+683,Temp_Factor,,617,728
+684,Temp_Factor,,618,729
+685,Temp_Factor,,619,729
+686,Temp_Factor,,620,730
+687,Temp_Factor,,621,730
+688,Temp_Factor,,629,731
+689,Temp_Factor,,622,731
+690,Temp_Factor,,623,732
+691,Temp_Factor,,624,732
+692,Temp_Factor,,631,733
+693,Temp_Factor,,625,733
+694,Temp_Factor,,626 654,734
+695,Temp_Factor,,627 655,734
+696,Temp_Factor,,628 656,735
+697,Temp_Factor,,629 657,735
+698,Temp_Factor,,630 658,736
+699,Temp_Factor,,631 659,736
+700,Temp_Factor,,661 660,737
+701,Temp_Factor,,663 662,737
+702,Temp_Factor,,665 664,738
+703,Temp_Factor,,667 666,738
+704,Temp_Factor,,669 668,739
+705,Temp_Factor,,671 670,739
+706,Temp_Factor,,673 672,740
+707,Temp_Factor,,675 674,740
+708,Constraint_Factor,,597 596,709
+709,Constraint_Factor,,708 598,710
+710,Constraint_Factor,,709 599,711
+711,Constraint_Factor,,710 600,712
+712,Constraint_Factor,,711 601,713
+713,Constraint_Factor,,712 602,714
+714,Constraint_Factor,,713 603,715
+715,Constraint_Factor,,714 604,716
+716,Constraint_Factor,,715 605,717
+717,Constraint_Factor,,716 606,718
+718,Constraint_Factor,,717 607,719
+719,Constraint_Factor,,718 608,720
+720,Constraint_Factor,,719 609,721
+721,Constraint_Factor,,720 610,722
+722,Constraint_Factor,,721 611,723
+723,Constraint_Factor,,722 612,724
+724,Constraint_Factor,,613 723,
+725,State_Factor,on-table$b3,677 676 580,870 759
+726,State_Factor,on-table$b2,679 678 581,871 760
+727,State_Factor,on-table$b1,681 680 582,872 761
+728,State_Factor,on$b3$b2,683 682 583,873 772
+729,State_Factor,on$b3$b1,685 684 584,874 763
+730,State_Factor,on$b2$b3,687 686 585,875 765
+731,State_Factor,on$b2$b1,689 688 586,876 774
+732,State_Factor,on$b1$b3,691 690 587,877 768
+733,State_Factor,on$b1$b2,693 692 588,878 776
+734,State_Factor,holding$b3,695 694 589,879 764 762 771
+735,State_Factor,holding$b2,697 696 590,880 766 767 773
+736,State_Factor,holding$b1,699 698 591,881 770 769 775
+737,State_Factor,emptyhand,701 700 592,882 760 759 765 768 774 763 772 761 776
+738,State_Factor,clear$b3,703 702 593,883 759 763 772 766 769
+739,State_Factor,clear$b2,705 704 594,884 760 765 774 770 762
+740,State_Factor,clear$b1,707 706 595,885 768 761 764 767 776
+
+Time Horizon,6
+Var,Class,ID,Parents,Children
+741,Action_Factor,put-on-block$b3$b1,,764 853
+742,Action_Factor,put-on-block$b3$b2,,762 853
+743,Action_Factor,put-on-block$b2$b3,,766 854
+744,Action_Factor,put-on-block$b2$b1,,767 855
+745,Action_Factor,put-on-block$b1$b3,,769 856
+746,Action_Factor,put-on-block$b1$b2,,770 857
+747,Action_Factor,put-down$b3,,771 858
+748,Action_Factor,put-down$b2,,773 859
+749,Action_Factor,put-down$b1,,775 860
+750,Action_Factor,pick-up-from-table$b3,,759 861
+751,Action_Factor,pick-up-from-table$b2,,760 862
+752,Action_Factor,pick-up-from-table$b1,,761 863
+753,Action_Factor,pick-up$b3$b2,,772 864
+754,Action_Factor,pick-up$b3$b1,,763 865
+755,Action_Factor,pick-up$b2$b3,,765 866
+756,Action_Factor,pick-up$b2$b1,,774 867
+757,Action_Factor,pick-up$b1$b3,,768 868
+758,Action_Factor,pick-up$b1$b2,,776 869
+759,Prob_Effect_Factor,,750 737 738 725,800 777 821
+760,Prob_Effect_Factor,,751 737 739 726,802 777 823
+761,Prob_Effect_Factor,,752 737 740 727,804 783 825
+762,Prob_Effect_Factor,,742 734 739,812 788 813 799 828 794
+763,Prob_Effect_Factor,,754 737 738 729,792 800 810 784 829 779
+764,Prob_Effect_Factor,,741 734 740,812 778 818 799 830 794
+765,Prob_Effect_Factor,,755 737 739 730,790 802 814 785 831 780
+766,Prob_Effect_Factor,,743 735 738,791 778 809 801 832 796
+767,Prob_Effect_Factor,,744 735 740,816 789 817 801 834 796
+768,Prob_Effect_Factor,,757 737 740 732,790 804 818 785 835 781
+769,Prob_Effect_Factor,,745 736 738,820 788 809 803 836 798
+770,Prob_Effect_Factor,,746 736 739,820 789 813 803 838 781
+771,Conj_Effect_Factor,,747 734,811 786 839 793
+772,Prob_Effect_Factor,,753 737 738 728,791 840 810 783 827 779
+773,Conj_Effect_Factor,,748 735,815 787 841 795
+774,Prob_Effect_Factor,,756 737 739 731,792 842 814 784 833 780
+775,Conj_Effect_Factor,,749 736,819 787 843 797
+776,Prob_Effect_Factor,,758 737 740 733,816 844 817 782 837 798
+777,Temp_Factor,,760 759,782
+778,Temp_Factor,,766 764,786
+779,Temp_Factor,,763 772,793
+780,Temp_Factor,,765 774,795
+781,Temp_Factor,,768 770,797
+782,Temp_Factor,,776 777,805
+783,Temp_Factor,,772 761,805
+784,Temp_Factor,,774 763,806
+785,Temp_Factor,,765 768,806
+786,Temp_Factor,,771 778,807
+787,Temp_Factor,,775 773,807
+788,Temp_Factor,,769 762,808
+789,Temp_Factor,,767 770,808
+790,Temp_Factor,,765 768,811
+791,Temp_Factor,,772 766,815
+792,Temp_Factor,,774 763,819
+793,Temp_Factor,,771 779,822
+794,Temp_Factor,,764 762,822
+795,Temp_Factor,,773 780,824
+796,Temp_Factor,,766 767,824
+797,Temp_Factor,,775 781,826
+798,Temp_Factor,,769 776,826
+799,Temp_Factor,,764 762,839
+800,Temp_Factor,,759 763,840
+801,Temp_Factor,,766 767,841
+802,Temp_Factor,,760 765,842
+803,Temp_Factor,,770 769,843
+804,Temp_Factor,,768 761,844
+805,Temp_Factor,,783 782,845
+806,Temp_Factor,,785 784,845
+807,Temp_Factor,,787 786,846
+808,Temp_Factor,,789 788,846
+809,Temp_Factor,,766 769,847
+810,Temp_Factor,,763 772,847
+811,Temp_Factor,,771 790,848
+812,Temp_Factor,,764 762,848
+813,Temp_Factor,,770 762,849
+814,Temp_Factor,,765 774,849
+815,Temp_Factor,,773 791,850
+816,Temp_Factor,,767 776,850
+817,Temp_Factor,,767 776,851
+818,Temp_Factor,,768 764,851
+819,Temp_Factor,,775 792,852
+820,Temp_Factor,,770 769,852
+821,Temp_Factor,,759,870
+822,Temp_Factor,,794 793,870
+823,Temp_Factor,,760,871
+824,Temp_Factor,,796 795,871
+825,Temp_Factor,,761,872
+826,Temp_Factor,,798 797,872
+827,Temp_Factor,,772,873
+828,Temp_Factor,,762,873
+829,Temp_Factor,,763,874
+830,Temp_Factor,,764,874
+831,Temp_Factor,,765,875
+832,Temp_Factor,,766,875
+833,Temp_Factor,,774,876
+834,Temp_Factor,,767,876
+835,Temp_Factor,,768,877
+836,Temp_Factor,,769,877
+837,Temp_Factor,,776,878
+838,Temp_Factor,,770,878
+839,Temp_Factor,,771 799,879
+840,Temp_Factor,,772 800,879
+841,Temp_Factor,,773 801,880
+842,Temp_Factor,,774 802,880
+843,Temp_Factor,,775 803,881
+844,Temp_Factor,,776 804,881
+845,Temp_Factor,,806 805,882
+846,Temp_Factor,,808 807,882
+847,Temp_Factor,,810 809,883
+848,Temp_Factor,,812 811,883
+849,Temp_Factor,,814 813,884
+850,Temp_Factor,,816 815,884
+851,Temp_Factor,,818 817,885
+852,Temp_Factor,,820 819,885
+853,Constraint_Factor,,742 741,854
+854,Constraint_Factor,,853 743,855
+855,Constraint_Factor,,854 744,856
+856,Constraint_Factor,,855 745,857
+857,Constraint_Factor,,856 746,858
+858,Constraint_Factor,,857 747,859
+859,Constraint_Factor,,858 748,860
+860,Constraint_Factor,,859 749,861
+861,Constraint_Factor,,860 750,862
+862,Constraint_Factor,,861 751,863
+863,Constraint_Factor,,862 752,864
+864,Constraint_Factor,,863 753,865
+865,Constraint_Factor,,864 754,866
+866,Constraint_Factor,,865 755,867
+867,Constraint_Factor,,866 756,868
+868,Constraint_Factor,,867 757,869
+869,Constraint_Factor,,758 868,
+870,State_Factor,on-table$b3,822 821 725,1015 904
+871,State_Factor,on-table$b2,824 823 726,1016 905
+872,State_Factor,on-table$b1,826 825 727,1017 906
+873,State_Factor,on$b3$b2,828 827 728,1018 917
+874,State_Factor,on$b3$b1,830 829 729,1019 908
+875,State_Factor,on$b2$b3,832 831 730,1020 910
+876,State_Factor,on$b2$b1,834 833 731,1021 919
+877,State_Factor,on$b1$b3,836 835 732,1022 913
+878,State_Factor,on$b1$b2,838 837 733,1023 921
+879,State_Factor,holding$b3,840 839 734,1024 909 907 916
+880,State_Factor,holding$b2,842 841 735,1025 911 912 918
+881,State_Factor,holding$b1,844 843 736,1026 915 914 920
+882,State_Factor,emptyhand,846 845 737,1027 905 904 910 913 919 908 917 906 921
+883,State_Factor,clear$b3,848 847 738,1028 904 908 917 911 914
+884,State_Factor,clear$b2,850 849 739,1029 905 910 919 915 907
+885,State_Factor,clear$b1,852 851 740,1030 913 906 909 912 921
+
+Time Horizon,7
+Var,Class,ID,Parents,Children
+886,Action_Factor,put-on-block$b3$b1,,909 998
+887,Action_Factor,put-on-block$b3$b2,,907 998
+888,Action_Factor,put-on-block$b2$b3,,911 999
+889,Action_Factor,put-on-block$b2$b1,,912 1000
+890,Action_Factor,put-on-block$b1$b3,,914 1001
+891,Action_Factor,put-on-block$b1$b2,,915 1002
+892,Action_Factor,put-down$b3,,916 1003
+893,Action_Factor,put-down$b2,,918 1004
+894,Action_Factor,put-down$b1,,920 1005
+895,Action_Factor,pick-up-from-table$b3,,904 1006
+896,Action_Factor,pick-up-from-table$b2,,905 1007
+897,Action_Factor,pick-up-from-table$b1,,906 1008
+898,Action_Factor,pick-up$b3$b2,,917 1009
+899,Action_Factor,pick-up$b3$b1,,908 1010
+900,Action_Factor,pick-up$b2$b3,,910 1011
+901,Action_Factor,pick-up$b2$b1,,919 1012
+902,Action_Factor,pick-up$b1$b3,,913 1013
+903,Action_Factor,pick-up$b1$b2,,921 1014
+904,Prob_Effect_Factor,,895 882 883 870,945 922 966
+905,Prob_Effect_Factor,,896 882 884 871,947 922 968
+906,Prob_Effect_Factor,,897 882 885 872,949 928 970
+907,Prob_Effect_Factor,,887 879 884,957 933 958 944 973 939
+908,Prob_Effect_Factor,,899 882 883 874,937 945 955 929 974 924
+909,Prob_Effect_Factor,,886 879 885,957 923 963 944 975 939
+910,Prob_Effect_Factor,,900 882 884 875,935 947 959 930 976 925
+911,Prob_Effect_Factor,,888 880 883,936 923 954 946 977 941
+912,Prob_Effect_Factor,,889 880 885,961 934 962 946 979 941
+913,Prob_Effect_Factor,,902 882 885 877,935 949 963 930 980 926
+914,Prob_Effect_Factor,,890 881 883,965 933 954 948 981 943
+915,Prob_Effect_Factor,,891 881 884,965 934 958 948 983 926
+916,Conj_Effect_Factor,,892 879,956 931 984 938
+917,Prob_Effect_Factor,,898 882 883 873,936 985 955 928 972 924
+918,Conj_Effect_Factor,,893 880,960 932 986 940
+919,Prob_Effect_Factor,,901 882 884 876,937 987 959 929 978 925
+920,Conj_Effect_Factor,,894 881,964 932 988 942
+921,Prob_Effect_Factor,,903 882 885 878,961 989 962 927 982 943
+922,Temp_Factor,,905 904,927
+923,Temp_Factor,,911 909,931
+924,Temp_Factor,,908 917,938
+925,Temp_Factor,,910 919,940
+926,Temp_Factor,,913 915,942
+927,Temp_Factor,,921 922,950
+928,Temp_Factor,,917 906,950
+929,Temp_Factor,,919 908,951
+930,Temp_Factor,,910 913,951
+931,Temp_Factor,,916 923,952
+932,Temp_Factor,,920 918,952
+933,Temp_Factor,,914 907,953
+934,Temp_Factor,,912 915,953
+935,Temp_Factor,,910 913,956
+936,Temp_Factor,,917 911,960
+937,Temp_Factor,,919 908,964
+938,Temp_Factor,,916 924,967
+939,Temp_Factor,,909 907,967
+940,Temp_Factor,,918 925,969
+941,Temp_Factor,,911 912,969
+942,Temp_Factor,,920 926,971
+943,Temp_Factor,,914 921,971
+944,Temp_Factor,,909 907,984
+945,Temp_Factor,,904 908,985
+946,Temp_Factor,,911 912,986
+947,Temp_Factor,,905 910,987
+948,Temp_Factor,,915 914,988
+949,Temp_Factor,,913 906,989
+950,Temp_Factor,,928 927,990
+951,Temp_Factor,,930 929,990
+952,Temp_Factor,,932 931,991
+953,Temp_Factor,,934 933,991
+954,Temp_Factor,,911 914,992
+955,Temp_Factor,,908 917,992
+956,Temp_Factor,,916 935,993
+957,Temp_Factor,,909 907,993
+958,Temp_Factor,,915 907,994
+959,Temp_Factor,,910 919,994
+960,Temp_Factor,,918 936,995
+961,Temp_Factor,,912 921,995
+962,Temp_Factor,,912 921,996
+963,Temp_Factor,,913 909,996
+964,Temp_Factor,,920 937,997
+965,Temp_Factor,,915 914,997
+966,Temp_Factor,,904,1015
+967,Temp_Factor,,939 938,1015
+968,Temp_Factor,,905,1016
+969,Temp_Factor,,941 940,1016
+970,Temp_Factor,,906,1017
+971,Temp_Factor,,943 942,1017
+972,Temp_Factor,,917,1018
+973,Temp_Factor,,907,1018
+974,Temp_Factor,,908,1019
+975,Temp_Factor,,909,1019
+976,Temp_Factor,,910,1020
+977,Temp_Factor,,911,1020
+978,Temp_Factor,,919,1021
+979,Temp_Factor,,912,1021
+980,Temp_Factor,,913,1022
+981,Temp_Factor,,914,1022
+982,Temp_Factor,,921,1023
+983,Temp_Factor,,915,1023
+984,Temp_Factor,,916 944,1024
+985,Temp_Factor,,917 945,1024
+986,Temp_Factor,,918 946,1025
+987,Temp_Factor,,919 947,1025
+988,Temp_Factor,,920 948,1026
+989,Temp_Factor,,921 949,1026
+990,Temp_Factor,,951 950,1027
+991,Temp_Factor,,953 952,1027
+992,Temp_Factor,,955 954,1028
+993,Temp_Factor,,957 956,1028
+994,Temp_Factor,,959 958,1029
+995,Temp_Factor,,961 960,1029
+996,Temp_Factor,,963 962,1030
+997,Temp_Factor,,965 964,1030
+998,Constraint_Factor,,887 886,999
+999,Constraint_Factor,,998 888,1000
+1000,Constraint_Factor,,999 889,1001
+1001,Constraint_Factor,,1000 890,1002
+1002,Constraint_Factor,,1001 891,1003
+1003,Constraint_Factor,,1002 892,1004
+1004,Constraint_Factor,,1003 893,1005
+1005,Constraint_Factor,,1004 894,1006
+1006,Constraint_Factor,,1005 895,1007
+1007,Constraint_Factor,,1006 896,1008
+1008,Constraint_Factor,,1007 897,1009
+1009,Constraint_Factor,,1008 898,1010
+1010,Constraint_Factor,,1009 899,1011
+1011,Constraint_Factor,,1010 900,1012
+1012,Constraint_Factor,,1011 901,1013
+1013,Constraint_Factor,,1012 902,1014
+1014,Constraint_Factor,,903 1013,
+1015,State_Factor,on-table$b3,967 966 870,1160 1049
+1016,State_Factor,on-table$b2,969 968 871,1161 1050
+1017,State_Factor,on-table$b1,971 970 872,1162 1051
+1018,State_Factor,on$b3$b2,973 972 873,1163 1062
+1019,State_Factor,on$b3$b1,975 974 874,1164 1053
+1020,State_Factor,on$b2$b3,977 976 875,1165 1055
+1021,State_Factor,on$b2$b1,979 978 876,1166 1064
+1022,State_Factor,on$b1$b3,981 980 877,1167 1058
+1023,State_Factor,on$b1$b2,983 982 878,1168 1066
+1024,State_Factor,holding$b3,985 984 879,1169 1054 1052 1061
+1025,State_Factor,holding$b2,987 986 880,1170 1056 1057 1063
+1026,State_Factor,holding$b1,989 988 881,1171 1060 1059 1065
+1027,State_Factor,emptyhand,991 990 882,1172 1050 1049 1055 1058 1064 1053 1062 1051 1066
+1028,State_Factor,clear$b3,993 992 883,1173 1049 1053 1062 1056 1059
+1029,State_Factor,clear$b2,995 994 884,1174 1050 1055 1064 1060 1052
+1030,State_Factor,clear$b1,997 996 885,1175 1058 1051 1054 1057 1066
+
+Time Horizon,8
+Var,Class,ID,Parents,Children
+1031,Action_Factor,put-on-block$b3$b1,,1054 1143
+1032,Action_Factor,put-on-block$b3$b2,,1052 1143
+1033,Action_Factor,put-on-block$b2$b3,,1056 1144
+1034,Action_Factor,put-on-block$b2$b1,,1057 1145
+1035,Action_Factor,put-on-block$b1$b3,,1059 1146
+1036,Action_Factor,put-on-block$b1$b2,,1060 1147
+1037,Action_Factor,put-down$b3,,1061 1148
+1038,Action_Factor,put-down$b2,,1063 1149
+1039,Action_Factor,put-down$b1,,1065 1150
+1040,Action_Factor,pick-up-from-table$b3,,1049 1151
+1041,Action_Factor,pick-up-from-table$b2,,1050 1152
+1042,Action_Factor,pick-up-from-table$b1,,1051 1153
+1043,Action_Factor,pick-up$b3$b2,,1062 1154
+1044,Action_Factor,pick-up$b3$b1,,1053 1155
+1045,Action_Factor,pick-up$b2$b3,,1055 1156
+1046,Action_Factor,pick-up$b2$b1,,1064 1157
+1047,Action_Factor,pick-up$b1$b3,,1058 1158
+1048,Action_Factor,pick-up$b1$b2,,1066 1159
+1049,Prob_Effect_Factor,,1040 1027 1028 1015,1090 1067 1111
+1050,Prob_Effect_Factor,,1041 1027 1029 1016,1092 1067 1113
+1051,Prob_Effect_Factor,,1042 1027 1030 1017,1094 1073 1115
+1052,Prob_Effect_Factor,,1032 1024 1029,1102 1078 1103 1089 1118 1084
+1053,Prob_Effect_Factor,,1044 1027 1028 1019,1082 1090 1100 1074 1119 1069
+1054,Prob_Effect_Factor,,1031 1024 1030,1102 1068 1108 1089 1120 1084
+1055,Prob_Effect_Factor,,1045 1027 1029 1020,1080 1092 1104 1075 1121 1070
+1056,Prob_Effect_Factor,,1033 1025 1028,1081 1068 1099 1091 1122 1086
+1057,Prob_Effect_Factor,,1034 1025 1030,1106 1079 1107 1091 1124 1086
+1058,Prob_Effect_Factor,,1047 1027 1030 1022,1080 1094 1108 1075 1125 1071
+1059,Prob_Effect_Factor,,1035 1026 1028,1110 1078 1099 1093 1126 1088
+1060,Prob_Effect_Factor,,1036 1026 1029,1110 1079 1103 1093 1128 1071
+1061,Conj_Effect_Factor,,1037 1024,1101 1076 1129 1083
+1062,Prob_Effect_Factor,,1043 1027 1028 1018,1081 1130 1100 1073 1117 1069
+1063,Conj_Effect_Factor,,1038 1025,1105 1077 1131 1085
+1064,Prob_Effect_Factor,,1046 1027 1029 1021,1082 1132 1104 1074 1123 1070
+1065,Conj_Effect_Factor,,1039 1026,1109 1077 1133 1087
+1066,Prob_Effect_Factor,,1048 1027 1030 1023,1106 1134 1107 1072 1127 1088
+1067,Temp_Factor,,1050 1049,1072
+1068,Temp_Factor,,1056 1054,1076
+1069,Temp_Factor,,1053 1062,1083
+1070,Temp_Factor,,1055 1064,1085
+1071,Temp_Factor,,1058 1060,1087
+1072,Temp_Factor,,1066 1067,1095
+1073,Temp_Factor,,1062 1051,1095
+1074,Temp_Factor,,1064 1053,1096
+1075,Temp_Factor,,1055 1058,1096
+1076,Temp_Factor,,1061 1068,1097
+1077,Temp_Factor,,1065 1063,1097
+1078,Temp_Factor,,1059 1052,1098
+1079,Temp_Factor,,1057 1060,1098
+1080,Temp_Factor,,1055 1058,1101
+1081,Temp_Factor,,1062 1056,1105
+1082,Temp_Factor,,1064 1053,1109
+1083,Temp_Factor,,1061 1069,1112
+1084,Temp_Factor,,1054 1052,1112
+1085,Temp_Factor,,1063 1070,1114
+1086,Temp_Factor,,1056 1057,1114
+1087,Temp_Factor,,1065 1071,1116
+1088,Temp_Factor,,1059 1066,1116
+1089,Temp_Factor,,1054 1052,1129
+1090,Temp_Factor,,1049 1053,1130
+1091,Temp_Factor,,1056 1057,1131
+1092,Temp_Factor,,1050 1055,1132
+1093,Temp_Factor,,1060 1059,1133
+1094,Temp_Factor,,1058 1051,1134
+1095,Temp_Factor,,1073 1072,1135
+1096,Temp_Factor,,1075 1074,1135
+1097,Temp_Factor,,1077 1076,1136
+1098,Temp_Factor,,1079 1078,1136
+1099,Temp_Factor,,1056 1059,1137
+1100,Temp_Factor,,1053 1062,1137
+1101,Temp_Factor,,1061 1080,1138
+1102,Temp_Factor,,1054 1052,1138
+1103,Temp_Factor,,1060 1052,1139
+1104,Temp_Factor,,1055 1064,1139
+1105,Temp_Factor,,1063 1081,1140
+1106,Temp_Factor,,1057 1066,1140
+1107,Temp_Factor,,1057 1066,1141
+1108,Temp_Factor,,1058 1054,1141
+1109,Temp_Factor,,1065 1082,1142
+1110,Temp_Factor,,1060 1059,1142
+1111,Temp_Factor,,1049,1160
+1112,Temp_Factor,,1084 1083,1160
+1113,Temp_Factor,,1050,1161
+1114,Temp_Factor,,1086 1085,1161
+1115,Temp_Factor,,1051,1162
+1116,Temp_Factor,,1088 1087,1162
+1117,Temp_Factor,,1062,1163
+1118,Temp_Factor,,1052,1163
+1119,Temp_Factor,,1053,1164
+1120,Temp_Factor,,1054,1164
+1121,Temp_Factor,,1055,1165
+1122,Temp_Factor,,1056,1165
+1123,Temp_Factor,,1064,1166
+1124,Temp_Factor,,1057,1166
+1125,Temp_Factor,,1058,1167
+1126,Temp_Factor,,1059,1167
+1127,Temp_Factor,,1066,1168
+1128,Temp_Factor,,1060,1168
+1129,Temp_Factor,,1061 1089,1169
+1130,Temp_Factor,,1062 1090,1169
+1131,Temp_Factor,,1063 1091,1170
+1132,Temp_Factor,,1064 1092,1170
+1133,Temp_Factor,,1065 1093,1171
+1134,Temp_Factor,,1066 1094,1171
+1135,Temp_Factor,,1096 1095,1172
+1136,Temp_Factor,,1098 1097,1172
+1137,Temp_Factor,,1100 1099,1173
+1138,Temp_Factor,,1102 1101,1173
+1139,Temp_Factor,,1104 1103,1174
+1140,Temp_Factor,,1106 1105,1174
+1141,Temp_Factor,,1108 1107,1175
+1142,Temp_Factor,,1110 1109,1175
+1143,Constraint_Factor,,1032 1031,1144
+1144,Constraint_Factor,,1143 1033,1145
+1145,Constraint_Factor,,1144 1034,1146
+1146,Constraint_Factor,,1145 1035,1147
+1147,Constraint_Factor,,1146 1036,1148
+1148,Constraint_Factor,,1147 1037,1149
+1149,Constraint_Factor,,1148 1038,1150
+1150,Constraint_Factor,,1149 1039,1151
+1151,Constraint_Factor,,1150 1040,1152
+1152,Constraint_Factor,,1151 1041,1153
+1153,Constraint_Factor,,1152 1042,1154
+1154,Constraint_Factor,,1153 1043,1155
+1155,Constraint_Factor,,1154 1044,1156
+1156,Constraint_Factor,,1155 1045,1157
+1157,Constraint_Factor,,1156 1046,1158
+1158,Constraint_Factor,,1157 1047,1159
+1159,Constraint_Factor,,1048 1158,
+1160,State_Factor,on-table$b3,1112 1111 1015,1305 1194
+1161,State_Factor,on-table$b2,1114 1113 1016,1306 1195
+1162,State_Factor,on-table$b1,1116 1115 1017,1307 1196
+1163,State_Factor,on$b3$b2,1118 1117 1018,1308 1207
+1164,State_Factor,on$b3$b1,1120 1119 1019,1309 1198
+1165,State_Factor,on$b2$b3,1122 1121 1020,1310 1200
+1166,State_Factor,on$b2$b1,1124 1123 1021,1311 1209
+1167,State_Factor,on$b1$b3,1126 1125 1022,1312 1203
+1168,State_Factor,on$b1$b2,1128 1127 1023,1313 1211
+1169,State_Factor,holding$b3,1130 1129 1024,1314 1199 1197 1206
+1170,State_Factor,holding$b2,1132 1131 1025,1315 1201 1202 1208
+1171,State_Factor,holding$b1,1134 1133 1026,1316 1205 1204 1210
+1172,State_Factor,emptyhand,1136 1135 1027,1317 1195 1194 1200 1203 1209 1198 1207 1196 1211
+1173,State_Factor,clear$b3,1138 1137 1028,1318 1194 1198 1207 1201 1204
+1174,State_Factor,clear$b2,1140 1139 1029,1319 1195 1200 1209 1205 1197
+1175,State_Factor,clear$b1,1142 1141 1030,1320 1203 1196 1199 1202 1211
+
+Time Horizon,9
+Var,Class,ID,Parents,Children
+1176,Action_Factor,put-on-block$b3$b1,,1199 1288
+1177,Action_Factor,put-on-block$b3$b2,,1197 1288
+1178,Action_Factor,put-on-block$b2$b3,,1201 1289
+1179,Action_Factor,put-on-block$b2$b1,,1202 1290
+1180,Action_Factor,put-on-block$b1$b3,,1204 1291
+1181,Action_Factor,put-on-block$b1$b2,,1205 1292
+1182,Action_Factor,put-down$b3,,1206 1293
+1183,Action_Factor,put-down$b2,,1208 1294
+1184,Action_Factor,put-down$b1,,1210 1295
+1185,Action_Factor,pick-up-from-table$b3,,1194 1296
+1186,Action_Factor,pick-up-from-table$b2,,1195 1297
+1187,Action_Factor,pick-up-from-table$b1,,1196 1298
+1188,Action_Factor,pick-up$b3$b2,,1207 1299
+1189,Action_Factor,pick-up$b3$b1,,1198 1300
+1190,Action_Factor,pick-up$b2$b3,,1200 1301
+1191,Action_Factor,pick-up$b2$b1,,1209 1302
+1192,Action_Factor,pick-up$b1$b3,,1203 1303
+1193,Action_Factor,pick-up$b1$b2,,1211 1304
+1194,Prob_Effect_Factor,,1185 1172 1173 1160,1235 1212 1256
+1195,Prob_Effect_Factor,,1186 1172 1174 1161,1237 1212 1258
+1196,Prob_Effect_Factor,,1187 1172 1175 1162,1239 1218 1260
+1197,Prob_Effect_Factor,,1177 1169 1174,1247 1223 1248 1234 1263 1229
+1198,Prob_Effect_Factor,,1189 1172 1173 1164,1227 1235 1245 1219 1264 1214
+1199,Prob_Effect_Factor,,1176 1169 1175,1247 1213 1253 1234 1265 1229
+1200,Prob_Effect_Factor,,1190 1172 1174 1165,1225 1237 1249 1220 1266 1215
+1201,Prob_Effect_Factor,,1178 1170 1173,1226 1213 1244 1236 1267 1231
+1202,Prob_Effect_Factor,,1179 1170 1175,1251 1224 1252 1236 1269 1231
+1203,Prob_Effect_Factor,,1192 1172 1175 1167,1225 1239 1253 1220 1270 1216
+1204,Prob_Effect_Factor,,1180 1171 1173,1255 1223 1244 1238 1271 1233
+1205,Prob_Effect_Factor,,1181 1171 1174,1255 1224 1248 1238 1273 1216
+1206,Conj_Effect_Factor,,1182 1169,1246 1221 1274 1228
+1207,Prob_Effect_Factor,,1188 1172 1173 1163,1226 1275 1245 1218 1262 1214
+1208,Conj_Effect_Factor,,1183 1170,1250 1222 1276 1230
+1209,Prob_Effect_Factor,,1191 1172 1174 1166,1227 1277 1249 1219 1268 1215
+1210,Conj_Effect_Factor,,1184 1171,1254 1222 1278 1232
+1211,Prob_Effect_Factor,,1193 1172 1175 1168,1251 1279 1252 1217 1272 1233
+1212,Temp_Factor,,1195 1194,1217
+1213,Temp_Factor,,1201 1199,1221
+1214,Temp_Factor,,1198 1207,1228
+1215,Temp_Factor,,1200 1209,1230
+1216,Temp_Factor,,1203 1205,1232
+1217,Temp_Factor,,1211 1212,1240
+1218,Temp_Factor,,1207 1196,1240
+1219,Temp_Factor,,1209 1198,1241
+1220,Temp_Factor,,1200 1203,1241
+1221,Temp_Factor,,1206 1213,1242
+1222,Temp_Factor,,1210 1208,1242
+1223,Temp_Factor,,1204 1197,1243
+1224,Temp_Factor,,1202 1205,1243
+1225,Temp_Factor,,1200 1203,1246
+1226,Temp_Factor,,1207 1201,1250
+1227,Temp_Factor,,1209 1198,1254
+1228,Temp_Factor,,1206 1214,1257
+1229,Temp_Factor,,1199 1197,1257
+1230,Temp_Factor,,1208 1215,1259
+1231,Temp_Factor,,1201 1202,1259
+1232,Temp_Factor,,1210 1216,1261
+1233,Temp_Factor,,1204 1211,1261
+1234,Temp_Factor,,1199 1197,1274
+1235,Temp_Factor,,1194 1198,1275
+1236,Temp_Factor,,1201 1202,1276
+1237,Temp_Factor,,1195 1200,1277
+1238,Temp_Factor,,1205 1204,1278
+1239,Temp_Factor,,1203 1196,1279
+1240,Temp_Factor,,1218 1217,1280
+1241,Temp_Factor,,1220 1219,1280
+1242,Temp_Factor,,1222 1221,1281
+1243,Temp_Factor,,1224 1223,1281
+1244,Temp_Factor,,1201 1204,1282
+1245,Temp_Factor,,1198 1207,1282
+1246,Temp_Factor,,1206 1225,1283
+1247,Temp_Factor,,1199 1197,1283
+1248,Temp_Factor,,1205 1197,1284
+1249,Temp_Factor,,1200 1209,1284
+1250,Temp_Factor,,1208 1226,1285
+1251,Temp_Factor,,1202 1211,1285
+1252,Temp_Factor,,1202 1211,1286
+1253,Temp_Factor,,1203 1199,1286
+1254,Temp_Factor,,1210 1227,1287
+1255,Temp_Factor,,1205 1204,1287
+1256,Temp_Factor,,1194,1305
+1257,Temp_Factor,,1229 1228,1305
+1258,Temp_Factor,,1195,1306
+1259,Temp_Factor,,1231 1230,1306
+1260,Temp_Factor,,1196,1307
+1261,Temp_Factor,,1233 1232,1307
+1262,Temp_Factor,,1207,1308
+1263,Temp_Factor,,1197,1308
+1264,Temp_Factor,,1198,1309
+1265,Temp_Factor,,1199,1309
+1266,Temp_Factor,,1200,1310
+1267,Temp_Factor,,1201,1310
+1268,Temp_Factor,,1209,1311
+1269,Temp_Factor,,1202,1311
+1270,Temp_Factor,,1203,1312
+1271,Temp_Factor,,1204,1312
+1272,Temp_Factor,,1211,1313
+1273,Temp_Factor,,1205,1313
+1274,Temp_Factor,,1206 1234,1314
+1275,Temp_Factor,,1207 1235,1314
+1276,Temp_Factor,,1208 1236,1315
+1277,Temp_Factor,,1209 1237,1315
+1278,Temp_Factor,,1210 1238,1316
+1279,Temp_Factor,,1211 1239,1316
+1280,Temp_Factor,,1241 1240,1317
+1281,Temp_Factor,,1243 1242,1317
+1282,Temp_Factor,,1245 1244,1318
+1283,Temp_Factor,,1247 1246,1318
+1284,Temp_Factor,,1249 1248,1319
+1285,Temp_Factor,,1251 1250,1319
+1286,Temp_Factor,,1253 1252,1320
+1287,Temp_Factor,,1255 1254,1320
+1288,Constraint_Factor,,1177 1176,1289
+1289,Constraint_Factor,,1288 1178,1290
+1290,Constraint_Factor,,1289 1179,1291
+1291,Constraint_Factor,,1290 1180,1292
+1292,Constraint_Factor,,1291 1181,1293
+1293,Constraint_Factor,,1292 1182,1294
+1294,Constraint_Factor,,1293 1183,1295
+1295,Constraint_Factor,,1294 1184,1296
+1296,Constraint_Factor,,1295 1185,1297
+1297,Constraint_Factor,,1296 1186,1298
+1298,Constraint_Factor,,1297 1187,1299
+1299,Constraint_Factor,,1298 1188,1300
+1300,Constraint_Factor,,1299 1189,1301
+1301,Constraint_Factor,,1300 1190,1302
+1302,Constraint_Factor,,1301 1191,1303
+1303,Constraint_Factor,,1302 1192,1304
+1304,Constraint_Factor,,1193 1303,
+1305,State_Factor,on-table$b3,1257 1256 1160,1450 1339
+1306,State_Factor,on-table$b2,1259 1258 1161,1451 1340
+1307,State_Factor,on-table$b1,1261 1260 1162,1452 1341
+1308,State_Factor,on$b3$b2,1263 1262 1163,1453 1352
+1309,State_Factor,on$b3$b1,1265 1264 1164,1454 1343
+1310,State_Factor,on$b2$b3,1267 1266 1165,1455 1345
+1311,State_Factor,on$b2$b1,1269 1268 1166,1456 1354
+1312,State_Factor,on$b1$b3,1271 1270 1167,1457 1348
+1313,State_Factor,on$b1$b2,1273 1272 1168,1458 1356
+1314,State_Factor,holding$b3,1275 1274 1169,1459 1344 1342 1351
+1315,State_Factor,holding$b2,1277 1276 1170,1460 1346 1347 1353
+1316,State_Factor,holding$b1,1279 1278 1171,1461 1350 1349 1355
+1317,State_Factor,emptyhand,1281 1280 1172,1462 1340 1339 1345 1348 1354 1343 1352 1341 1356
+1318,State_Factor,clear$b3,1283 1282 1173,1463 1339 1343 1352 1346 1349
+1319,State_Factor,clear$b2,1285 1284 1174,1464 1340 1345 1354 1350 1342
+1320,State_Factor,clear$b1,1287 1286 1175,1465 1348 1341 1344 1347 1356
+
+Time Horizon,10
+Var,Class,ID,Parents,Children
+1321,Action_Factor,put-on-block$b3$b1,,1344 1433
+1322,Action_Factor,put-on-block$b3$b2,,1342 1433
+1323,Action_Factor,put-on-block$b2$b3,,1346 1434
+1324,Action_Factor,put-on-block$b2$b1,,1347 1435
+1325,Action_Factor,put-on-block$b1$b3,,1349 1436
+1326,Action_Factor,put-on-block$b1$b2,,1350 1437
+1327,Action_Factor,put-down$b3,,1351 1438
+1328,Action_Factor,put-down$b2,,1353 1439
+1329,Action_Factor,put-down$b1,,1355 1440
+1330,Action_Factor,pick-up-from-table$b3,,1339 1441
+1331,Action_Factor,pick-up-from-table$b2,,1340 1442
+1332,Action_Factor,pick-up-from-table$b1,,1341 1443
+1333,Action_Factor,pick-up$b3$b2,,1352 1444
+1334,Action_Factor,pick-up$b3$b1,,1343 1445
+1335,Action_Factor,pick-up$b2$b3,,1345 1446
+1336,Action_Factor,pick-up$b2$b1,,1354 1447
+1337,Action_Factor,pick-up$b1$b3,,1348 1448
+1338,Action_Factor,pick-up$b1$b2,,1356 1449
+1339,Prob_Effect_Factor,,1330 1317 1318 1305,1380 1357 1401
+1340,Prob_Effect_Factor,,1331 1317 1319 1306,1382 1357 1403
+1341,Prob_Effect_Factor,,1332 1317 1320 1307,1384 1363 1405
+1342,Prob_Effect_Factor,,1322 1314 1319,1392 1368 1393 1379 1408 1374
+1343,Prob_Effect_Factor,,1334 1317 1318 1309,1372 1380 1390 1364 1409 1359
+1344,Prob_Effect_Factor,,1321 1314 1320,1392 1358 1398 1379 1410 1374
+1345,Prob_Effect_Factor,,1335 1317 1319 1310,1370 1382 1394 1365 1411 1360
+1346,Prob_Effect_Factor,,1323 1315 1318,1371 1358 1389 1381 1412 1376
+1347,Prob_Effect_Factor,,1324 1315 1320,1396 1369 1397 1381 1414 1376
+1348,Prob_Effect_Factor,,1337 1317 1320 1312,1370 1384 1398 1365 1415 1361
+1349,Prob_Effect_Factor,,1325 1316 1318,1400 1368 1389 1383 1416 1378
+1350,Prob_Effect_Factor,,1326 1316 1319,1400 1369 1393 1383 1418 1361
+1351,Conj_Effect_Factor,,1327 1314,1391 1366 1419 1373
+1352,Prob_Effect_Factor,,1333 1317 1318 1308,1371 1420 1390 1363 1407 1359
+1353,Conj_Effect_Factor,,1328 1315,1395 1367 1421 1375
+1354,Prob_Effect_Factor,,1336 1317 1319 1311,1372 1422 1394 1364 1413 1360
+1355,Conj_Effect_Factor,,1329 1316,1399 1367 1423 1377
+1356,Prob_Effect_Factor,,1338 1317 1320 1313,1396 1424 1397 1362 1417 1378
+1357,Temp_Factor,,1340 1339,1362
+1358,Temp_Factor,,1346 1344,1366
+1359,Temp_Factor,,1343 1352,1373
+1360,Temp_Factor,,1345 1354,1375
+1361,Temp_Factor,,1348 1350,1377
+1362,Temp_Factor,,1356 1357,1385
+1363,Temp_Factor,,1352 1341,1385
+1364,Temp_Factor,,1354 1343,1386
+1365,Temp_Factor,,1345 1348,1386
+1366,Temp_Factor,,1351 1358,1387
+1367,Temp_Factor,,1355 1353,1387
+1368,Temp_Factor,,1349 1342,1388
+1369,Temp_Factor,,1347 1350,1388
+1370,Temp_Factor,,1345 1348,1391
+1371,Temp_Factor,,1352 1346,1395
+1372,Temp_Factor,,1354 1343,1399
+1373,Temp_Factor,,1351 1359,1402
+1374,Temp_Factor,,1344 1342,1402
+1375,Temp_Factor,,1353 1360,1404
+1376,Temp_Factor,,1346 1347,1404
+1377,Temp_Factor,,1355 1361,1406
+1378,Temp_Factor,,1349 1356,1406
+1379,Temp_Factor,,1344 1342,1419
+1380,Temp_Factor,,1339 1343,1420
+1381,Temp_Factor,,1346 1347,1421
+1382,Temp_Factor,,1340 1345,1422
+1383,Temp_Factor,,1350 1349,1423
+1384,Temp_Factor,,1348 1341,1424
+1385,Temp_Factor,,1363 1362,1425
+1386,Temp_Factor,,1365 1364,1425
+1387,Temp_Factor,,1367 1366,1426
+1388,Temp_Factor,,1369 1368,1426
+1389,Temp_Factor,,1346 1349,1427
+1390,Temp_Factor,,1343 1352,1427
+1391,Temp_Factor,,1351 1370,1428
+1392,Temp_Factor,,1344 1342,1428
+1393,Temp_Factor,,1350 1342,1429
+1394,Temp_Factor,,1345 1354,1429
+1395,Temp_Factor,,1353 1371,1430
+1396,Temp_Factor,,1347 1356,1430
+1397,Temp_Factor,,1347 1356,1431
+1398,Temp_Factor,,1348 1344,1431
+1399,Temp_Factor,,1355 1372,1432
+1400,Temp_Factor,,1350 1349,1432
+1401,Temp_Factor,,1339,1450
+1402,Temp_Factor,,1374 1373,1450
+1403,Temp_Factor,,1340,1451
+1404,Temp_Factor,,1376 1375,1451
+1405,Temp_Factor,,1341,1452
+1406,Temp_Factor,,1378 1377,1452
+1407,Temp_Factor,,1352,1453
+1408,Temp_Factor,,1342,1453
+1409,Temp_Factor,,1343,1454
+1410,Temp_Factor,,1344,1454
+1411,Temp_Factor,,1345,1455
+1412,Temp_Factor,,1346,1455
+1413,Temp_Factor,,1354,1456
+1414,Temp_Factor,,1347,1456
+1415,Temp_Factor,,1348,1457
+1416,Temp_Factor,,1349,1457
+1417,Temp_Factor,,1356,1458
+1418,Temp_Factor,,1350,1458
+1419,Temp_Factor,,1351 1379,1459
+1420,Temp_Factor,,1352 1380,1459
+1421,Temp_Factor,,1353 1381,1460
+1422,Temp_Factor,,1354 1382,1460
+1423,Temp_Factor,,1355 1383,1461
+1424,Temp_Factor,,1356 1384,1461
+1425,Temp_Factor,,1386 1385,1462
+1426,Temp_Factor,,1388 1387,1462
+1427,Temp_Factor,,1390 1389,1463
+1428,Temp_Factor,,1392 1391,1463
+1429,Temp_Factor,,1394 1393,1464
+1430,Temp_Factor,,1396 1395,1464
+1431,Temp_Factor,,1398 1397,1465
+1432,Temp_Factor,,1400 1399,1465
+1433,Constraint_Factor,,1322 1321,1434
+1434,Constraint_Factor,,1433 1323,1435
+1435,Constraint_Factor,,1434 1324,1436
+1436,Constraint_Factor,,1435 1325,1437
+1437,Constraint_Factor,,1436 1326,1438
+1438,Constraint_Factor,,1437 1327,1439
+1439,Constraint_Factor,,1438 1328,1440
+1440,Constraint_Factor,,1439 1329,1441
+1441,Constraint_Factor,,1440 1330,1442
+1442,Constraint_Factor,,1441 1331,1443
+1443,Constraint_Factor,,1442 1332,1444
+1444,Constraint_Factor,,1443 1333,1445
+1445,Constraint_Factor,,1444 1334,1446
+1446,Constraint_Factor,,1445 1335,1447
+1447,Constraint_Factor,,1446 1336,1448
+1448,Constraint_Factor,,1447 1337,1449
+1449,Constraint_Factor,,1338 1448,
+1450,State_Factor,on-table$b3,1402 1401 1305,1595 1484
+1451,State_Factor,on-table$b2,1404 1403 1306,1596 1485
+1452,State_Factor,on-table$b1,1406 1405 1307,1597 1486
+1453,State_Factor,on$b3$b2,1408 1407 1308,1598 1497
+1454,State_Factor,on$b3$b1,1410 1409 1309,1599 1488
+1455,State_Factor,on$b2$b3,1412 1411 1310,1600 1490
+1456,State_Factor,on$b2$b1,1414 1413 1311,1601 1499
+1457,State_Factor,on$b1$b3,1416 1415 1312,1602 1493
+1458,State_Factor,on$b1$b2,1418 1417 1313,1603 1501
+1459,State_Factor,holding$b3,1420 1419 1314,1604 1489 1487 1496
+1460,State_Factor,holding$b2,1422 1421 1315,1605 1491 1492 1498
+1461,State_Factor,holding$b1,1424 1423 1316,1606 1495 1494 1500
+1462,State_Factor,emptyhand,1426 1425 1317,1607 1485 1484 1490 1493 1499 1488 1497 1486 1501
+1463,State_Factor,clear$b3,1428 1427 1318,1608 1484 1488 1497 1491 1494
+1464,State_Factor,clear$b2,1430 1429 1319,1609 1485 1490 1499 1495 1487
+1465,State_Factor,clear$b1,1432 1431 1320,1610 1493 1486 1489 1492 1501
+
+Time Horizon,11
+Var,Class,ID,Parents,Children
+1466,Action_Factor,put-on-block$b3$b1,,1489 1578
+1467,Action_Factor,put-on-block$b3$b2,,1487 1578
+1468,Action_Factor,put-on-block$b2$b3,,1491 1579
+1469,Action_Factor,put-on-block$b2$b1,,1492 1580
+1470,Action_Factor,put-on-block$b1$b3,,1494 1581
+1471,Action_Factor,put-on-block$b1$b2,,1495 1582
+1472,Action_Factor,put-down$b3,,1496 1583
+1473,Action_Factor,put-down$b2,,1498 1584
+1474,Action_Factor,put-down$b1,,1500 1585
+1475,Action_Factor,pick-up-from-table$b3,,1484 1586
+1476,Action_Factor,pick-up-from-table$b2,,1485 1587
+1477,Action_Factor,pick-up-from-table$b1,,1486 1588
+1478,Action_Factor,pick-up$b3$b2,,1497 1589
+1479,Action_Factor,pick-up$b3$b1,,1488 1590
+1480,Action_Factor,pick-up$b2$b3,,1490 1591
+1481,Action_Factor,pick-up$b2$b1,,1499 1592
+1482,Action_Factor,pick-up$b1$b3,,1493 1593
+1483,Action_Factor,pick-up$b1$b2,,1501 1594
+1484,Prob_Effect_Factor,,1475 1462 1463 1450,1525 1502 1546
+1485,Prob_Effect_Factor,,1476 1462 1464 1451,1527 1502 1548
+1486,Prob_Effect_Factor,,1477 1462 1465 1452,1529 1508 1550
+1487,Prob_Effect_Factor,,1467 1459 1464,1537 1513 1538 1524 1553 1519
+1488,Prob_Effect_Factor,,1479 1462 1463 1454,1517 1525 1535 1509 1554 1504
+1489,Prob_Effect_Factor,,1466 1459 1465,1537 1503 1543 1524 1555 1519
+1490,Prob_Effect_Factor,,1480 1462 1464 1455,1515 1527 1539 1510 1556 1505
+1491,Prob_Effect_Factor,,1468 1460 1463,1516 1503 1534 1526 1557 1521
+1492,Prob_Effect_Factor,,1469 1460 1465,1541 1514 1542 1526 1559 1521
+1493,Prob_Effect_Factor,,1482 1462 1465 1457,1515 1529 1543 1510 1560 1506
+1494,Prob_Effect_Factor,,1470 1461 1463,1545 1513 1534 1528 1561 1523
+1495,Prob_Effect_Factor,,1471 1461 1464,1545 1514 1538 1528 1563 1506
+1496,Conj_Effect_Factor,,1472 1459,1536 1511 1564 1518
+1497,Prob_Effect_Factor,,1478 1462 1463 1453,1516 1565 1535 1508 1552 1504
+1498,Conj_Effect_Factor,,1473 1460,1540 1512 1566 1520
+1499,Prob_Effect_Factor,,1481 1462 1464 1456,1517 1567 1539 1509 1558 1505
+1500,Conj_Effect_Factor,,1474 1461,1544 1512 1568 1522
+1501,Prob_Effect_Factor,,1483 1462 1465 1458,1541 1569 1542 1507 1562 1523
+1502,Temp_Factor,,1485 1484,1507
+1503,Temp_Factor,,1491 1489,1511
+1504,Temp_Factor,,1488 1497,1518
+1505,Temp_Factor,,1490 1499,1520
+1506,Temp_Factor,,1493 1495,1522
+1507,Temp_Factor,,1501 1502,1530
+1508,Temp_Factor,,1497 1486,1530
+1509,Temp_Factor,,1499 1488,1531
+1510,Temp_Factor,,1490 1493,1531
+1511,Temp_Factor,,1496 1503,1532
+1512,Temp_Factor,,1500 1498,1532
+1513,Temp_Factor,,1494 1487,1533
+1514,Temp_Factor,,1492 1495,1533
+1515,Temp_Factor,,1490 1493,1536
+1516,Temp_Factor,,1497 1491,1540
+1517,Temp_Factor,,1499 1488,1544
+1518,Temp_Factor,,1496 1504,1547
+1519,Temp_Factor,,1489 1487,1547
+1520,Temp_Factor,,1498 1505,1549
+1521,Temp_Factor,,1491 1492,1549
+1522,Temp_Factor,,1500 1506,1551
+1523,Temp_Factor,,1494 1501,1551
+1524,Temp_Factor,,1489 1487,1564
+1525,Temp_Factor,,1484 1488,1565
+1526,Temp_Factor,,1491 1492,1566
+1527,Temp_Factor,,1485 1490,1567
+1528,Temp_Factor,,1495 1494,1568
+1529,Temp_Factor,,1493 1486,1569
+1530,Temp_Factor,,1508 1507,1570
+1531,Temp_Factor,,1510 1509,1570
+1532,Temp_Factor,,1512 1511,1571
+1533,Temp_Factor,,1514 1513,1571
+1534,Temp_Factor,,1491 1494,1572
+1535,Temp_Factor,,1488 1497,1572
+1536,Temp_Factor,,1496 1515,1573
+1537,Temp_Factor,,1489 1487,1573
+1538,Temp_Factor,,1495 1487,1574
+1539,Temp_Factor,,1490 1499,1574
+1540,Temp_Factor,,1498 1516,1575
+1541,Temp_Factor,,1492 1501,1575
+1542,Temp_Factor,,1492 1501,1576
+1543,Temp_Factor,,1493 1489,1576
+1544,Temp_Factor,,1500 1517,1577
+1545,Temp_Factor,,1495 1494,1577
+1546,Temp_Factor,,1484,1595
+1547,Temp_Factor,,1519 1518,1595
+1548,Temp_Factor,,1485,1596
+1549,Temp_Factor,,1521 1520,1596
+1550,Temp_Factor,,1486,1597
+1551,Temp_Factor,,1523 1522,1597
+1552,Temp_Factor,,1497,1598
+1553,Temp_Factor,,1487,1598
+1554,Temp_Factor,,1488,1599
+1555,Temp_Factor,,1489,1599
+1556,Temp_Factor,,1490,1600
+1557,Temp_Factor,,1491,1600
+1558,Temp_Factor,,1499,1601
+1559,Temp_Factor,,1492,1601
+1560,Temp_Factor,,1493,1602
+1561,Temp_Factor,,1494,1602
+1562,Temp_Factor,,1501,1603
+1563,Temp_Factor,,1495,1603
+1564,Temp_Factor,,1496 1524,1604
+1565,Temp_Factor,,1497 1525,1604
+1566,Temp_Factor,,1498 1526,1605
+1567,Temp_Factor,,1499 1527,1605
+1568,Temp_Factor,,1500 1528,1606
+1569,Temp_Factor,,1501 1529,1606
+1570,Temp_Factor,,1531 1530,1607
+1571,Temp_Factor,,1533 1532,1607
+1572,Temp_Factor,,1535 1534,1608
+1573,Temp_Factor,,1537 1536,1608
+1574,Temp_Factor,,1539 1538,1609
+1575,Temp_Factor,,1541 1540,1609
+1576,Temp_Factor,,1543 1542,1610
+1577,Temp_Factor,,1545 1544,1610
+1578,Constraint_Factor,,1467 1466,1579
+1579,Constraint_Factor,,1578 1468,1580
+1580,Constraint_Factor,,1579 1469,1581
+1581,Constraint_Factor,,1580 1470,1582
+1582,Constraint_Factor,,1581 1471,1583
+1583,Constraint_Factor,,1582 1472,1584
+1584,Constraint_Factor,,1583 1473,1585
+1585,Constraint_Factor,,1584 1474,1586
+1586,Constraint_Factor,,1585 1475,1587
+1587,Constraint_Factor,,1586 1476,1588
+1588,Constraint_Factor,,1587 1477,1589
+1589,Constraint_Factor,,1588 1478,1590
+1590,Constraint_Factor,,1589 1479,1591
+1591,Constraint_Factor,,1590 1480,1592
+1592,Constraint_Factor,,1591 1481,1593
+1593,Constraint_Factor,,1592 1482,1594
+1594,Constraint_Factor,,1483 1593,
+1595,State_Factor,on-table$b3,1547 1546 1450,1740 1629
+1596,State_Factor,on-table$b2,1549 1548 1451,1741 1630
+1597,State_Factor,on-table$b1,1551 1550 1452,1742 1631
+1598,State_Factor,on$b3$b2,1553 1552 1453,1743 1642
+1599,State_Factor,on$b3$b1,1555 1554 1454,1744 1633
+1600,State_Factor,on$b2$b3,1557 1556 1455,1745 1635
+1601,State_Factor,on$b2$b1,1559 1558 1456,1746 1644
+1602,State_Factor,on$b1$b3,1561 1560 1457,1747 1638
+1603,State_Factor,on$b1$b2,1563 1562 1458,1748 1646
+1604,State_Factor,holding$b3,1565 1564 1459,1749 1634 1632 1641
+1605,State_Factor,holding$b2,1567 1566 1460,1750 1636 1637 1643
+1606,State_Factor,holding$b1,1569 1568 1461,1751 1640 1639 1645
+1607,State_Factor,emptyhand,1571 1570 1462,1752 1630 1629 1635 1638 1644 1633 1642 1631 1646
+1608,State_Factor,clear$b3,1573 1572 1463,1753 1629 1633 1642 1636 1639
+1609,State_Factor,clear$b2,1575 1574 1464,1754 1630 1635 1644 1640 1632
+1610,State_Factor,clear$b1,1577 1576 1465,1755 1638 1631 1634 1637 1646
+
+Time Horizon,12
+Var,Class,ID,Parents,Children
+1611,Action_Factor,put-on-block$b3$b1,,1634 1723
+1612,Action_Factor,put-on-block$b3$b2,,1632 1723
+1613,Action_Factor,put-on-block$b2$b3,,1636 1724
+1614,Action_Factor,put-on-block$b2$b1,,1637 1725
+1615,Action_Factor,put-on-block$b1$b3,,1639 1726
+1616,Action_Factor,put-on-block$b1$b2,,1640 1727
+1617,Action_Factor,put-down$b3,,1641 1728
+1618,Action_Factor,put-down$b2,,1643 1729
+1619,Action_Factor,put-down$b1,,1645 1730
+1620,Action_Factor,pick-up-from-table$b3,,1629 1731
+1621,Action_Factor,pick-up-from-table$b2,,1630 1732
+1622,Action_Factor,pick-up-from-table$b1,,1631 1733
+1623,Action_Factor,pick-up$b3$b2,,1642 1734
+1624,Action_Factor,pick-up$b3$b1,,1633 1735
+1625,Action_Factor,pick-up$b2$b3,,1635 1736
+1626,Action_Factor,pick-up$b2$b1,,1644 1737
+1627,Action_Factor,pick-up$b1$b3,,1638 1738
+1628,Action_Factor,pick-up$b1$b2,,1646 1739
+1629,Prob_Effect_Factor,,1620 1607 1608 1595,1670 1647 1691
+1630,Prob_Effect_Factor,,1621 1607 1609 1596,1672 1647 1693
+1631,Prob_Effect_Factor,,1622 1607 1610 1597,1674 1653 1695
+1632,Prob_Effect_Factor,,1612 1604 1609,1682 1658 1683 1669 1698 1664
+1633,Prob_Effect_Factor,,1624 1607 1608 1599,1662 1670 1680 1654 1699 1649
+1634,Prob_Effect_Factor,,1611 1604 1610,1682 1648 1688 1669 1700 1664
+1635,Prob_Effect_Factor,,1625 1607 1609 1600,1660 1672 1684 1655 1701 1650
+1636,Prob_Effect_Factor,,1613 1605 1608,1661 1648 1679 1671 1702 1666
+1637,Prob_Effect_Factor,,1614 1605 1610,1686 1659 1687 1671 1704 1666
+1638,Prob_Effect_Factor,,1627 1607 1610 1602,1660 1674 1688 1655 1705 1651
+1639,Prob_Effect_Factor,,1615 1606 1608,1690 1658 1679 1673 1706 1668
+1640,Prob_Effect_Factor,,1616 1606 1609,1690 1659 1683 1673 1708 1651
+1641,Conj_Effect_Factor,,1617 1604,1681 1656 1709 1663
+1642,Prob_Effect_Factor,,1623 1607 1608 1598,1661 1710 1680 1653 1697 1649
+1643,Conj_Effect_Factor,,1618 1605,1685 1657 1711 1665
+1644,Prob_Effect_Factor,,1626 1607 1609 1601,1662 1712 1684 1654 1703 1650
+1645,Conj_Effect_Factor,,1619 1606,1689 1657 1713 1667
+1646,Prob_Effect_Factor,,1628 1607 1610 1603,1686 1714 1687 1652 1707 1668
+1647,Temp_Factor,,1630 1629,1652
+1648,Temp_Factor,,1636 1634,1656
+1649,Temp_Factor,,1633 1642,1663
+1650,Temp_Factor,,1635 1644,1665
+1651,Temp_Factor,,1638 1640,1667
+1652,Temp_Factor,,1646 1647,1675
+1653,Temp_Factor,,1642 1631,1675
+1654,Temp_Factor,,1644 1633,1676
+1655,Temp_Factor,,1635 1638,1676
+1656,Temp_Factor,,1641 1648,1677
+1657,Temp_Factor,,1645 1643,1677
+1658,Temp_Factor,,1639 1632,1678
+1659,Temp_Factor,,1637 1640,1678
+1660,Temp_Factor,,1635 1638,1681
+1661,Temp_Factor,,1642 1636,1685
+1662,Temp_Factor,,1644 1633,1689
+1663,Temp_Factor,,1641 1649,1692
+1664,Temp_Factor,,1634 1632,1692
+1665,Temp_Factor,,1643 1650,1694
+1666,Temp_Factor,,1636 1637,1694
+1667,Temp_Factor,,1645 1651,1696
+1668,Temp_Factor,,1639 1646,1696
+1669,Temp_Factor,,1634 1632,1709
+1670,Temp_Factor,,1629 1633,1710
+1671,Temp_Factor,,1636 1637,1711
+1672,Temp_Factor,,1630 1635,1712
+1673,Temp_Factor,,1640 1639,1713
+1674,Temp_Factor,,1638 1631,1714
+1675,Temp_Factor,,1653 1652,1715
+1676,Temp_Factor,,1655 1654,1715
+1677,Temp_Factor,,1657 1656,1716
+1678,Temp_Factor,,1659 1658,1716
+1679,Temp_Factor,,1636 1639,1717
+1680,Temp_Factor,,1633 1642,1717
+1681,Temp_Factor,,1641 1660,1718
+1682,Temp_Factor,,1634 1632,1718
+1683,Temp_Factor,,1640 1632,1719
+1684,Temp_Factor,,1635 1644,1719
+1685,Temp_Factor,,1643 1661,1720
+1686,Temp_Factor,,1637 1646,1720
+1687,Temp_Factor,,1637 1646,1721
+1688,Temp_Factor,,1638 1634,1721
+1689,Temp_Factor,,1645 1662,1722
+1690,Temp_Factor,,1640 1639,1722
+1691,Temp_Factor,,1629,1740
+1692,Temp_Factor,,1664 1663,1740
+1693,Temp_Factor,,1630,1741
+1694,Temp_Factor,,1666 1665,1741
+1695,Temp_Factor,,1631,1742
+1696,Temp_Factor,,1668 1667,1742
+1697,Temp_Factor,,1642,1743
+1698,Temp_Factor,,1632,1743
+1699,Temp_Factor,,1633,1744
+1700,Temp_Factor,,1634,1744
+1701,Temp_Factor,,1635,1745
+1702,Temp_Factor,,1636,1745
+1703,Temp_Factor,,1644,1746
+1704,Temp_Factor,,1637,1746
+1705,Temp_Factor,,1638,1747
+1706,Temp_Factor,,1639,1747
+1707,Temp_Factor,,1646,1748
+1708,Temp_Factor,,1640,1748
+1709,Temp_Factor,,1641 1669,1749
+1710,Temp_Factor,,1642 1670,1749
+1711,Temp_Factor,,1643 1671,1750
+1712,Temp_Factor,,1644 1672,1750
+1713,Temp_Factor,,1645 1673,1751
+1714,Temp_Factor,,1646 1674,1751
+1715,Temp_Factor,,1676 1675,1752
+1716,Temp_Factor,,1678 1677,1752
+1717,Temp_Factor,,1680 1679,1753
+1718,Temp_Factor,,1682 1681,1753
+1719,Temp_Factor,,1684 1683,1754
+1720,Temp_Factor,,1686 1685,1754
+1721,Temp_Factor,,1688 1687,1755
+1722,Temp_Factor,,1690 1689,1755
+1723,Constraint_Factor,,1612 1611,1724
+1724,Constraint_Factor,,1723 1613,1725
+1725,Constraint_Factor,,1724 1614,1726
+1726,Constraint_Factor,,1725 1615,1727
+1727,Constraint_Factor,,1726 1616,1728
+1728,Constraint_Factor,,1727 1617,1729
+1729,Constraint_Factor,,1728 1618,1730
+1730,Constraint_Factor,,1729 1619,1731
+1731,Constraint_Factor,,1730 1620,1732
+1732,Constraint_Factor,,1731 1621,1733
+1733,Constraint_Factor,,1732 1622,1734
+1734,Constraint_Factor,,1733 1623,1735
+1735,Constraint_Factor,,1734 1624,1736
+1736,Constraint_Factor,,1735 1625,1737
+1737,Constraint_Factor,,1736 1626,1738
+1738,Constraint_Factor,,1737 1627,1739
+1739,Constraint_Factor,,1628 1738,
+1740,State_Factor,on-table$b3,1692 1691 1595,1885 1774
+1741,State_Factor,on-table$b2,1694 1693 1596,1886 1775
+1742,State_Factor,on-table$b1,1696 1695 1597,1887 1776
+1743,State_Factor,on$b3$b2,1698 1697 1598,1888 1787
+1744,State_Factor,on$b3$b1,1700 1699 1599,1889 1778
+1745,State_Factor,on$b2$b3,1702 1701 1600,1890 1780
+1746,State_Factor,on$b2$b1,1704 1703 1601,1891 1789
+1747,State_Factor,on$b1$b3,1706 1705 1602,1892 1783
+1748,State_Factor,on$b1$b2,1708 1707 1603,1893 1791
+1749,State_Factor,holding$b3,1710 1709 1604,1894 1779 1777 1786
+1750,State_Factor,holding$b2,1712 1711 1605,1895 1781 1782 1788
+1751,State_Factor,holding$b1,1714 1713 1606,1896 1785 1784 1790
+1752,State_Factor,emptyhand,1716 1715 1607,1897 1775 1774 1780 1783 1789 1778 1787 1776 1791
+1753,State_Factor,clear$b3,1718 1717 1608,1898 1774 1778 1787 1781 1784
+1754,State_Factor,clear$b2,1720 1719 1609,1899 1775 1780 1789 1785 1777
+1755,State_Factor,clear$b1,1722 1721 1610,1900 1783 1776 1779 1782 1791
+
+Time Horizon,13
+Var,Class,ID,Parents,Children
+1756,Action_Factor,put-on-block$b3$b1,,1779 1868
+1757,Action_Factor,put-on-block$b3$b2,,1777 1868
+1758,Action_Factor,put-on-block$b2$b3,,1781 1869
+1759,Action_Factor,put-on-block$b2$b1,,1782 1870
+1760,Action_Factor,put-on-block$b1$b3,,1784 1871
+1761,Action_Factor,put-on-block$b1$b2,,1785 1872
+1762,Action_Factor,put-down$b3,,1786 1873
+1763,Action_Factor,put-down$b2,,1788 1874
+1764,Action_Factor,put-down$b1,,1790 1875
+1765,Action_Factor,pick-up-from-table$b3,,1774 1876
+1766,Action_Factor,pick-up-from-table$b2,,1775 1877
+1767,Action_Factor,pick-up-from-table$b1,,1776 1878
+1768,Action_Factor,pick-up$b3$b2,,1787 1879
+1769,Action_Factor,pick-up$b3$b1,,1778 1880
+1770,Action_Factor,pick-up$b2$b3,,1780 1881
+1771,Action_Factor,pick-up$b2$b1,,1789 1882
+1772,Action_Factor,pick-up$b1$b3,,1783 1883
+1773,Action_Factor,pick-up$b1$b2,,1791 1884
+1774,Prob_Effect_Factor,,1765 1752 1753 1740,1815 1792 1836
+1775,Prob_Effect_Factor,,1766 1752 1754 1741,1817 1792 1838
+1776,Prob_Effect_Factor,,1767 1752 1755 1742,1819 1798 1840
+1777,Prob_Effect_Factor,,1757 1749 1754,1827 1803 1828 1814 1843 1809
+1778,Prob_Effect_Factor,,1769 1752 1753 1744,1807 1815 1825 1799 1844 1794
+1779,Prob_Effect_Factor,,1756 1749 1755,1827 1793 1833 1814 1845 1809
+1780,Prob_Effect_Factor,,1770 1752 1754 1745,1805 1817 1829 1800 1846 1795
+1781,Prob_Effect_Factor,,1758 1750 1753,1806 1793 1824 1816 1847 1811
+1782,Prob_Effect_Factor,,1759 1750 1755,1831 1804 1832 1816 1849 1811
+1783,Prob_Effect_Factor,,1772 1752 1755 1747,1805 1819 1833 1800 1850 1796
+1784,Prob_Effect_Factor,,1760 1751 1753,1835 1803 1824 1818 1851 1813
+1785,Prob_Effect_Factor,,1761 1751 1754,1835 1804 1828 1818 1853 1796
+1786,Conj_Effect_Factor,,1762 1749,1826 1801 1854 1808
+1787,Prob_Effect_Factor,,1768 1752 1753 1743,1806 1855 1825 1798 1842 1794
+1788,Conj_Effect_Factor,,1763 1750,1830 1802 1856 1810
+1789,Prob_Effect_Factor,,1771 1752 1754 1746,1807 1857 1829 1799 1848 1795
+1790,Conj_Effect_Factor,,1764 1751,1834 1802 1858 1812
+1791,Prob_Effect_Factor,,1773 1752 1755 1748,1831 1859 1832 1797 1852 1813
+1792,Temp_Factor,,1775 1774,1797
+1793,Temp_Factor,,1781 1779,1801
+1794,Temp_Factor,,1778 1787,1808
+1795,Temp_Factor,,1780 1789,1810
+1796,Temp_Factor,,1783 1785,1812
+1797,Temp_Factor,,1791 1792,1820
+1798,Temp_Factor,,1787 1776,1820
+1799,Temp_Factor,,1789 1778,1821
+1800,Temp_Factor,,1780 1783,1821
+1801,Temp_Factor,,1786 1793,1822
+1802,Temp_Factor,,1790 1788,1822
+1803,Temp_Factor,,1784 1777,1823
+1804,Temp_Factor,,1782 1785,1823
+1805,Temp_Factor,,1780 1783,1826
+1806,Temp_Factor,,1787 1781,1830
+1807,Temp_Factor,,1789 1778,1834
+1808,Temp_Factor,,1786 1794,1837
+1809,Temp_Factor,,1779 1777,1837
+1810,Temp_Factor,,1788 1795,1839
+1811,Temp_Factor,,1781 1782,1839
+1812,Temp_Factor,,1790 1796,1841
+1813,Temp_Factor,,1784 1791,1841
+1814,Temp_Factor,,1779 1777,1854
+1815,Temp_Factor,,1774 1778,1855
+1816,Temp_Factor,,1781 1782,1856
+1817,Temp_Factor,,1775 1780,1857
+1818,Temp_Factor,,1785 1784,1858
+1819,Temp_Factor,,1783 1776,1859
+1820,Temp_Factor,,1798 1797,1860
+1821,Temp_Factor,,1800 1799,1860
+1822,Temp_Factor,,1802 1801,1861
+1823,Temp_Factor,,1804 1803,1861
+1824,Temp_Factor,,1781 1784,1862
+1825,Temp_Factor,,1778 1787,1862
+1826,Temp_Factor,,1786 1805,1863
+1827,Temp_Factor,,1779 1777,1863
+1828,Temp_Factor,,1785 1777,1864
+1829,Temp_Factor,,1780 1789,1864
+1830,Temp_Factor,,1788 1806,1865
+1831,Temp_Factor,,1782 1791,1865
+1832,Temp_Factor,,1782 1791,1866
+1833,Temp_Factor,,1783 1779,1866
+1834,Temp_Factor,,1790 1807,1867
+1835,Temp_Factor,,1785 1784,1867
+1836,Temp_Factor,,1774,1885
+1837,Temp_Factor,,1809 1808,1885
+1838,Temp_Factor,,1775,1886
+1839,Temp_Factor,,1811 1810,1886
+1840,Temp_Factor,,1776,1887
+1841,Temp_Factor,,1813 1812,1887
+1842,Temp_Factor,,1787,1888
+1843,Temp_Factor,,1777,1888
+1844,Temp_Factor,,1778,1889
+1845,Temp_Factor,,1779,1889
+1846,Temp_Factor,,1780,1890
+1847,Temp_Factor,,1781,1890
+1848,Temp_Factor,,1789,1891
+1849,Temp_Factor,,1782,1891
+1850,Temp_Factor,,1783,1892
+1851,Temp_Factor,,1784,1892
+1852,Temp_Factor,,1791,1893
+1853,Temp_Factor,,1785,1893
+1854,Temp_Factor,,1786 1814,1894
+1855,Temp_Factor,,1787 1815,1894
+1856,Temp_Factor,,1788 1816,1895
+1857,Temp_Factor,,1789 1817,1895
+1858,Temp_Factor,,1790 1818,1896
+1859,Temp_Factor,,1791 1819,1896
+1860,Temp_Factor,,1821 1820,1897
+1861,Temp_Factor,,1823 1822,1897
+1862,Temp_Factor,,1825 1824,1898
+1863,Temp_Factor,,1827 1826,1898
+1864,Temp_Factor,,1829 1828,1899
+1865,Temp_Factor,,1831 1830,1899
+1866,Temp_Factor,,1833 1832,1900
+1867,Temp_Factor,,1835 1834,1900
+1868,Constraint_Factor,,1757 1756,1869
+1869,Constraint_Factor,,1868 1758,1870
+1870,Constraint_Factor,,1869 1759,1871
+1871,Constraint_Factor,,1870 1760,1872
+1872,Constraint_Factor,,1871 1761,1873
+1873,Constraint_Factor,,1872 1762,1874
+1874,Constraint_Factor,,1873 1763,1875
+1875,Constraint_Factor,,1874 1764,1876
+1876,Constraint_Factor,,1875 1765,1877
+1877,Constraint_Factor,,1876 1766,1878
+1878,Constraint_Factor,,1877 1767,1879
+1879,Constraint_Factor,,1878 1768,1880
+1880,Constraint_Factor,,1879 1769,1881
+1881,Constraint_Factor,,1880 1770,1882
+1882,Constraint_Factor,,1881 1771,1883
+1883,Constraint_Factor,,1882 1772,1884
+1884,Constraint_Factor,,1773 1883,
+1885,State_Factor,on-table$b3,1837 1836 1740,2030 1919
+1886,State_Factor,on-table$b2,1839 1838 1741,2031 1920
+1887,State_Factor,on-table$b1,1841 1840 1742,2032 1921
+1888,State_Factor,on$b3$b2,1843 1842 1743,2033 1932
+1889,State_Factor,on$b3$b1,1845 1844 1744,2034 1923
+1890,State_Factor,on$b2$b3,1847 1846 1745,2035 1925
+1891,State_Factor,on$b2$b1,1849 1848 1746,2036 1934
+1892,State_Factor,on$b1$b3,1851 1850 1747,2037 1928
+1893,State_Factor,on$b1$b2,1853 1852 1748,2038 1936
+1894,State_Factor,holding$b3,1855 1854 1749,2039 1924 1922 1931
+1895,State_Factor,holding$b2,1857 1856 1750,2040 1926 1927 1933
+1896,State_Factor,holding$b1,1859 1858 1751,2041 1930 1929 1935
+1897,State_Factor,emptyhand,1861 1860 1752,2042 1920 1919 1925 1928 1934 1923 1932 1921 1936
+1898,State_Factor,clear$b3,1863 1862 1753,2043 1919 1923 1932 1926 1929
+1899,State_Factor,clear$b2,1865 1864 1754,2044 1920 1925 1934 1930 1922
+1900,State_Factor,clear$b1,1867 1866 1755,2045 1928 1921 1924 1927 1936
+
+Time Horizon,14
+Var,Class,ID,Parents,Children
+1901,Action_Factor,put-on-block$b3$b1,,1924 2013
+1902,Action_Factor,put-on-block$b3$b2,,1922 2013
+1903,Action_Factor,put-on-block$b2$b3,,1926 2014
+1904,Action_Factor,put-on-block$b2$b1,,1927 2015
+1905,Action_Factor,put-on-block$b1$b3,,1929 2016
+1906,Action_Factor,put-on-block$b1$b2,,1930 2017
+1907,Action_Factor,put-down$b3,,1931 2018
+1908,Action_Factor,put-down$b2,,1933 2019
+1909,Action_Factor,put-down$b1,,1935 2020
+1910,Action_Factor,pick-up-from-table$b3,,1919 2021
+1911,Action_Factor,pick-up-from-table$b2,,1920 2022
+1912,Action_Factor,pick-up-from-table$b1,,1921 2023
+1913,Action_Factor,pick-up$b3$b2,,1932 2024
+1914,Action_Factor,pick-up$b3$b1,,1923 2025
+1915,Action_Factor,pick-up$b2$b3,,1925 2026
+1916,Action_Factor,pick-up$b2$b1,,1934 2027
+1917,Action_Factor,pick-up$b1$b3,,1928 2028
+1918,Action_Factor,pick-up$b1$b2,,1936 2029
+1919,Prob_Effect_Factor,,1910 1897 1898 1885,1960 1937 1981
+1920,Prob_Effect_Factor,,1911 1897 1899 1886,1962 1937 1983
+1921,Prob_Effect_Factor,,1912 1897 1900 1887,1964 1943 1985
+1922,Prob_Effect_Factor,,1902 1894 1899,1972 1948 1973 1959 1988 1954
+1923,Prob_Effect_Factor,,1914 1897 1898 1889,1952 1960 1970 1944 1989 1939
+1924,Prob_Effect_Factor,,1901 1894 1900,1972 1938 1978 1959 1990 1954
+1925,Prob_Effect_Factor,,1915 1897 1899 1890,1950 1962 1974 1945 1991 1940
+1926,Prob_Effect_Factor,,1903 1895 1898,1951 1938 1969 1961 1992 1956
+1927,Prob_Effect_Factor,,1904 1895 1900,1976 1949 1977 1961 1994 1956
+1928,Prob_Effect_Factor,,1917 1897 1900 1892,1950 1964 1978 1945 1995 1941
+1929,Prob_Effect_Factor,,1905 1896 1898,1980 1948 1969 1963 1996 1958
+1930,Prob_Effect_Factor,,1906 1896 1899,1980 1949 1973 1963 1998 1941
+1931,Conj_Effect_Factor,,1907 1894,1971 1946 1999 1953
+1932,Prob_Effect_Factor,,1913 1897 1898 1888,1951 2000 1970 1943 1987 1939
+1933,Conj_Effect_Factor,,1908 1895,1975 1947 2001 1955
+1934,Prob_Effect_Factor,,1916 1897 1899 1891,1952 2002 1974 1944 1993 1940
+1935,Conj_Effect_Factor,,1909 1896,1979 1947 2003 1957
+1936,Prob_Effect_Factor,,1918 1897 1900 1893,1976 2004 1977 1942 1997 1958
+1937,Temp_Factor,,1920 1919,1942
+1938,Temp_Factor,,1926 1924,1946
+1939,Temp_Factor,,1923 1932,1953
+1940,Temp_Factor,,1925 1934,1955
+1941,Temp_Factor,,1928 1930,1957
+1942,Temp_Factor,,1936 1937,1965
+1943,Temp_Factor,,1932 1921,1965
+1944,Temp_Factor,,1934 1923,1966
+1945,Temp_Factor,,1925 1928,1966
+1946,Temp_Factor,,1931 1938,1967
+1947,Temp_Factor,,1935 1933,1967
+1948,Temp_Factor,,1929 1922,1968
+1949,Temp_Factor,,1927 1930,1968
+1950,Temp_Factor,,1925 1928,1971
+1951,Temp_Factor,,1932 1926,1975
+1952,Temp_Factor,,1934 1923,1979
+1953,Temp_Factor,,1931 1939,1982
+1954,Temp_Factor,,1924 1922,1982
+1955,Temp_Factor,,1933 1940,1984
+1956,Temp_Factor,,1926 1927,1984
+1957,Temp_Factor,,1935 1941,1986
+1958,Temp_Factor,,1929 1936,1986
+1959,Temp_Factor,,1924 1922,1999
+1960,Temp_Factor,,1919 1923,2000
+1961,Temp_Factor,,1926 1927,2001
+1962,Temp_Factor,,1920 1925,2002
+1963,Temp_Factor,,1930 1929,2003
+1964,Temp_Factor,,1928 1921,2004
+1965,Temp_Factor,,1943 1942,2005
+1966,Temp_Factor,,1945 1944,2005
+1967,Temp_Factor,,1947 1946,2006
+1968,Temp_Factor,,1949 1948,2006
+1969,Temp_Factor,,1926 1929,2007
+1970,Temp_Factor,,1923 1932,2007
+1971,Temp_Factor,,1931 1950,2008
+1972,Temp_Factor,,1924 1922,2008
+1973,Temp_Factor,,1930 1922,2009
+1974,Temp_Factor,,1925 1934,2009
+1975,Temp_Factor,,1933 1951,2010
+1976,Temp_Factor,,1927 1936,2010
+1977,Temp_Factor,,1927 1936,2011
+1978,Temp_Factor,,1928 1924,2011
+1979,Temp_Factor,,1935 1952,2012
+1980,Temp_Factor,,1930 1929,2012
+1981,Temp_Factor,,1919,2030
+1982,Temp_Factor,,1954 1953,2030
+1983,Temp_Factor,,1920,2031
+1984,Temp_Factor,,1956 1955,2031
+1985,Temp_Factor,,1921,2032
+1986,Temp_Factor,,1958 1957,2032
+1987,Temp_Factor,,1932,2033
+1988,Temp_Factor,,1922,2033
+1989,Temp_Factor,,1923,2034
+1990,Temp_Factor,,1924,2034
+1991,Temp_Factor,,1925,2035
+1992,Temp_Factor,,1926,2035
+1993,Temp_Factor,,1934,2036
+1994,Temp_Factor,,1927,2036
+1995,Temp_Factor,,1928,2037
+1996,Temp_Factor,,1929,2037
+1997,Temp_Factor,,1936,2038
+1998,Temp_Factor,,1930,2038
+1999,Temp_Factor,,1931 1959,2039
+2000,Temp_Factor,,1932 1960,2039
+2001,Temp_Factor,,1933 1961,2040
+2002,Temp_Factor,,1934 1962,2040
+2003,Temp_Factor,,1935 1963,2041
+2004,Temp_Factor,,1936 1964,2041
+2005,Temp_Factor,,1966 1965,2042
+2006,Temp_Factor,,1968 1967,2042
+2007,Temp_Factor,,1970 1969,2043
+2008,Temp_Factor,,1972 1971,2043
+2009,Temp_Factor,,1974 1973,2044
+2010,Temp_Factor,,1976 1975,2044
+2011,Temp_Factor,,1978 1977,2045
+2012,Temp_Factor,,1980 1979,2045
+2013,Constraint_Factor,,1902 1901,2014
+2014,Constraint_Factor,,2013 1903,2015
+2015,Constraint_Factor,,2014 1904,2016
+2016,Constraint_Factor,,2015 1905,2017
+2017,Constraint_Factor,,2016 1906,2018
+2018,Constraint_Factor,,2017 1907,2019
+2019,Constraint_Factor,,2018 1908,2020
+2020,Constraint_Factor,,2019 1909,2021
+2021,Constraint_Factor,,2020 1910,2022
+2022,Constraint_Factor,,2021 1911,2023
+2023,Constraint_Factor,,2022 1912,2024
+2024,Constraint_Factor,,2023 1913,2025
+2025,Constraint_Factor,,2024 1914,2026
+2026,Constraint_Factor,,2025 1915,2027
+2027,Constraint_Factor,,2026 1916,2028
+2028,Constraint_Factor,,2027 1917,2029
+2029,Constraint_Factor,,1918 2028,
+2030,State_Factor,on-table$b3,1982 1981 1885,2175 2064
+2031,State_Factor,on-table$b2,1984 1983 1886,2176 2065
+2032,State_Factor,on-table$b1,1986 1985 1887,2177 2066
+2033,State_Factor,on$b3$b2,1988 1987 1888,2178 2077
+2034,State_Factor,on$b3$b1,1990 1989 1889,2179 2068
+2035,State_Factor,on$b2$b3,1992 1991 1890,2180 2070
+2036,State_Factor,on$b2$b1,1994 1993 1891,2181 2079
+2037,State_Factor,on$b1$b3,1996 1995 1892,2182 2073
+2038,State_Factor,on$b1$b2,1998 1997 1893,2183 2081
+2039,State_Factor,holding$b3,2000 1999 1894,2184 2069 2067 2076
+2040,State_Factor,holding$b2,2002 2001 1895,2185 2071 2072 2078
+2041,State_Factor,holding$b1,2004 2003 1896,2186 2075 2074 2080
+2042,State_Factor,emptyhand,2006 2005 1897,2187 2065 2064 2070 2073 2079 2068 2077 2066 2081
+2043,State_Factor,clear$b3,2008 2007 1898,2188 2064 2068 2077 2071 2074
+2044,State_Factor,clear$b2,2010 2009 1899,2189 2065 2070 2079 2075 2067
+2045,State_Factor,clear$b1,2012 2011 1900,2190 2073 2066 2069 2072 2081
+
+Time Horizon,15
+Var,Class,ID,Parents,Children
+2046,Action_Factor,put-on-block$b3$b1,,2069 2158
+2047,Action_Factor,put-on-block$b3$b2,,2067 2158
+2048,Action_Factor,put-on-block$b2$b3,,2071 2159
+2049,Action_Factor,put-on-block$b2$b1,,2072 2160
+2050,Action_Factor,put-on-block$b1$b3,,2074 2161
+2051,Action_Factor,put-on-block$b1$b2,,2075 2162
+2052,Action_Factor,put-down$b3,,2076 2163
+2053,Action_Factor,put-down$b2,,2078 2164
+2054,Action_Factor,put-down$b1,,2080 2165
+2055,Action_Factor,pick-up-from-table$b3,,2064 2166
+2056,Action_Factor,pick-up-from-table$b2,,2065 2167
+2057,Action_Factor,pick-up-from-table$b1,,2066 2168
+2058,Action_Factor,pick-up$b3$b2,,2077 2169
+2059,Action_Factor,pick-up$b3$b1,,2068 2170
+2060,Action_Factor,pick-up$b2$b3,,2070 2171
+2061,Action_Factor,pick-up$b2$b1,,2079 2172
+2062,Action_Factor,pick-up$b1$b3,,2073 2173
+2063,Action_Factor,pick-up$b1$b2,,2081 2174
+2064,Prob_Effect_Factor,,2055 2042 2043 2030,2105 2082 2126
+2065,Prob_Effect_Factor,,2056 2042 2044 2031,2107 2082 2128
+2066,Prob_Effect_Factor,,2057 2042 2045 2032,2109 2088 2130
+2067,Prob_Effect_Factor,,2047 2039 2044,2117 2093 2118 2104 2133 2099
+2068,Prob_Effect_Factor,,2059 2042 2043 2034,2097 2105 2115 2089 2134 2084
+2069,Prob_Effect_Factor,,2046 2039 2045,2117 2083 2123 2104 2135 2099
+2070,Prob_Effect_Factor,,2060 2042 2044 2035,2095 2107 2119 2090 2136 2085
+2071,Prob_Effect_Factor,,2048 2040 2043,2096 2083 2114 2106 2137 2101
+2072,Prob_Effect_Factor,,2049 2040 2045,2121 2094 2122 2106 2139 2101
+2073,Prob_Effect_Factor,,2062 2042 2045 2037,2095 2109 2123 2090 2140 2086
+2074,Prob_Effect_Factor,,2050 2041 2043,2125 2093 2114 2108 2141 2103
+2075,Prob_Effect_Factor,,2051 2041 2044,2125 2094 2118 2108 2143 2086
+2076,Conj_Effect_Factor,,2052 2039,2116 2091 2144 2098
+2077,Prob_Effect_Factor,,2058 2042 2043 2033,2096 2145 2115 2088 2132 2084
+2078,Conj_Effect_Factor,,2053 2040,2120 2092 2146 2100
+2079,Prob_Effect_Factor,,2061 2042 2044 2036,2097 2147 2119 2089 2138 2085
+2080,Conj_Effect_Factor,,2054 2041,2124 2092 2148 2102
+2081,Prob_Effect_Factor,,2063 2042 2045 2038,2121 2149 2122 2087 2142 2103
+2082,Temp_Factor,,2065 2064,2087
+2083,Temp_Factor,,2071 2069,2091
+2084,Temp_Factor,,2068 2077,2098
+2085,Temp_Factor,,2070 2079,2100
+2086,Temp_Factor,,2073 2075,2102
+2087,Temp_Factor,,2081 2082,2110
+2088,Temp_Factor,,2077 2066,2110
+2089,Temp_Factor,,2079 2068,2111
+2090,Temp_Factor,,2070 2073,2111
+2091,Temp_Factor,,2076 2083,2112
+2092,Temp_Factor,,2080 2078,2112
+2093,Temp_Factor,,2074 2067,2113
+2094,Temp_Factor,,2072 2075,2113
+2095,Temp_Factor,,2070 2073,2116
+2096,Temp_Factor,,2077 2071,2120
+2097,Temp_Factor,,2079 2068,2124
+2098,Temp_Factor,,2076 2084,2127
+2099,Temp_Factor,,2069 2067,2127
+2100,Temp_Factor,,2078 2085,2129
+2101,Temp_Factor,,2071 2072,2129
+2102,Temp_Factor,,2080 2086,2131
+2103,Temp_Factor,,2074 2081,2131
+2104,Temp_Factor,,2069 2067,2144
+2105,Temp_Factor,,2064 2068,2145
+2106,Temp_Factor,,2071 2072,2146
+2107,Temp_Factor,,2065 2070,2147
+2108,Temp_Factor,,2075 2074,2148
+2109,Temp_Factor,,2073 2066,2149
+2110,Temp_Factor,,2088 2087,2150
+2111,Temp_Factor,,2090 2089,2150
+2112,Temp_Factor,,2092 2091,2151
+2113,Temp_Factor,,2094 2093,2151
+2114,Temp_Factor,,2071 2074,2152
+2115,Temp_Factor,,2068 2077,2152
+2116,Temp_Factor,,2076 2095,2153
+2117,Temp_Factor,,2069 2067,2153
+2118,Temp_Factor,,2075 2067,2154
+2119,Temp_Factor,,2070 2079,2154
+2120,Temp_Factor,,2078 2096,2155
+2121,Temp_Factor,,2072 2081,2155
+2122,Temp_Factor,,2072 2081,2156
+2123,Temp_Factor,,2073 2069,2156
+2124,Temp_Factor,,2080 2097,2157
+2125,Temp_Factor,,2075 2074,2157
+2126,Temp_Factor,,2064,2175
+2127,Temp_Factor,,2099 2098,2175
+2128,Temp_Factor,,2065,2176
+2129,Temp_Factor,,2101 2100,2176
+2130,Temp_Factor,,2066,2177
+2131,Temp_Factor,,2103 2102,2177
+2132,Temp_Factor,,2077,2178
+2133,Temp_Factor,,2067,2178
+2134,Temp_Factor,,2068,2179
+2135,Temp_Factor,,2069,2179
+2136,Temp_Factor,,2070,2180
+2137,Temp_Factor,,2071,2180
+2138,Temp_Factor,,2079,2181
+2139,Temp_Factor,,2072,2181
+2140,Temp_Factor,,2073,2182
+2141,Temp_Factor,,2074,2182
+2142,Temp_Factor,,2081,2183
+2143,Temp_Factor,,2075,2183
+2144,Temp_Factor,,2076 2104,2184
+2145,Temp_Factor,,2077 2105,2184
+2146,Temp_Factor,,2078 2106,2185
+2147,Temp_Factor,,2079 2107,2185
+2148,Temp_Factor,,2080 2108,2186
+2149,Temp_Factor,,2081 2109,2186
+2150,Temp_Factor,,2111 2110,2187
+2151,Temp_Factor,,2113 2112,2187
+2152,Temp_Factor,,2115 2114,2188
+2153,Temp_Factor,,2117 2116,2188
+2154,Temp_Factor,,2119 2118,2189
+2155,Temp_Factor,,2121 2120,2189
+2156,Temp_Factor,,2123 2122,2190
+2157,Temp_Factor,,2125 2124,2190
+2158,Constraint_Factor,,2047 2046,2159
+2159,Constraint_Factor,,2158 2048,2160
+2160,Constraint_Factor,,2159 2049,2161
+2161,Constraint_Factor,,2160 2050,2162
+2162,Constraint_Factor,,2161 2051,2163
+2163,Constraint_Factor,,2162 2052,2164
+2164,Constraint_Factor,,2163 2053,2165
+2165,Constraint_Factor,,2164 2054,2166
+2166,Constraint_Factor,,2165 2055,2167
+2167,Constraint_Factor,,2166 2056,2168
+2168,Constraint_Factor,,2167 2057,2169
+2169,Constraint_Factor,,2168 2058,2170
+2170,Constraint_Factor,,2169 2059,2171
+2171,Constraint_Factor,,2170 2060,2172
+2172,Constraint_Factor,,2171 2061,2173
+2173,Constraint_Factor,,2172 2062,2174
+2174,Constraint_Factor,,2063 2173,
+2175,State_Factor,on-table$b3,2127 2126 2030,2320 2209
+2176,State_Factor,on-table$b2,2129 2128 2031,2321 2210
+2177,State_Factor,on-table$b1,2131 2130 2032,2322 2211
+2178,State_Factor,on$b3$b2,2133 2132 2033,2323 2222
+2179,State_Factor,on$b3$b1,2135 2134 2034,2324 2213
+2180,State_Factor,on$b2$b3,2137 2136 2035,2325 2215
+2181,State_Factor,on$b2$b1,2139 2138 2036,2326 2224
+2182,State_Factor,on$b1$b3,2141 2140 2037,2327 2218
+2183,State_Factor,on$b1$b2,2143 2142 2038,2328 2226
+2184,State_Factor,holding$b3,2145 2144 2039,2329 2214 2212 2221
+2185,State_Factor,holding$b2,2147 2146 2040,2330 2216 2217 2223
+2186,State_Factor,holding$b1,2149 2148 2041,2331 2220 2219 2225
+2187,State_Factor,emptyhand,2151 2150 2042,2332 2210 2209 2215 2218 2224 2213 2222 2211 2226
+2188,State_Factor,clear$b3,2153 2152 2043,2333 2209 2213 2222 2216 2219
+2189,State_Factor,clear$b2,2155 2154 2044,2334 2210 2215 2224 2220 2212
+2190,State_Factor,clear$b1,2157 2156 2045,2335 2218 2211 2214 2217 2226
+
+Time Horizon,16
+Var,Class,ID,Parents,Children
+2191,Action_Factor,put-on-block$b3$b1,,2214 2303
+2192,Action_Factor,put-on-block$b3$b2,,2212 2303
+2193,Action_Factor,put-on-block$b2$b3,,2216 2304
+2194,Action_Factor,put-on-block$b2$b1,,2217 2305
+2195,Action_Factor,put-on-block$b1$b3,,2219 2306
+2196,Action_Factor,put-on-block$b1$b2,,2220 2307
+2197,Action_Factor,put-down$b3,,2221 2308
+2198,Action_Factor,put-down$b2,,2223 2309
+2199,Action_Factor,put-down$b1,,2225 2310
+2200,Action_Factor,pick-up-from-table$b3,,2209 2311
+2201,Action_Factor,pick-up-from-table$b2,,2210 2312
+2202,Action_Factor,pick-up-from-table$b1,,2211 2313
+2203,Action_Factor,pick-up$b3$b2,,2222 2314
+2204,Action_Factor,pick-up$b3$b1,,2213 2315
+2205,Action_Factor,pick-up$b2$b3,,2215 2316
+2206,Action_Factor,pick-up$b2$b1,,2224 2317
+2207,Action_Factor,pick-up$b1$b3,,2218 2318
+2208,Action_Factor,pick-up$b1$b2,,2226 2319
+2209,Prob_Effect_Factor,,2200 2187 2188 2175,2250 2227 2271
+2210,Prob_Effect_Factor,,2201 2187 2189 2176,2252 2227 2273
+2211,Prob_Effect_Factor,,2202 2187 2190 2177,2254 2233 2275
+2212,Prob_Effect_Factor,,2192 2184 2189,2262 2238 2263 2249 2278 2244
+2213,Prob_Effect_Factor,,2204 2187 2188 2179,2242 2250 2260 2234 2279 2229
+2214,Prob_Effect_Factor,,2191 2184 2190,2262 2228 2268 2249 2280 2244
+2215,Prob_Effect_Factor,,2205 2187 2189 2180,2240 2252 2264 2235 2281 2230
+2216,Prob_Effect_Factor,,2193 2185 2188,2241 2228 2259 2251 2282 2246
+2217,Prob_Effect_Factor,,2194 2185 2190,2266 2239 2267 2251 2284 2246
+2218,Prob_Effect_Factor,,2207 2187 2190 2182,2240 2254 2268 2235 2285 2231
+2219,Prob_Effect_Factor,,2195 2186 2188,2270 2238 2259 2253 2286 2248
+2220,Prob_Effect_Factor,,2196 2186 2189,2270 2239 2263 2253 2288 2231
+2221,Conj_Effect_Factor,,2197 2184,2261 2236 2289 2243
+2222,Prob_Effect_Factor,,2203 2187 2188 2178,2241 2290 2260 2233 2277 2229
+2223,Conj_Effect_Factor,,2198 2185,2265 2237 2291 2245
+2224,Prob_Effect_Factor,,2206 2187 2189 2181,2242 2292 2264 2234 2283 2230
+2225,Conj_Effect_Factor,,2199 2186,2269 2237 2293 2247
+2226,Prob_Effect_Factor,,2208 2187 2190 2183,2266 2294 2267 2232 2287 2248
+2227,Temp_Factor,,2210 2209,2232
+2228,Temp_Factor,,2216 2214,2236
+2229,Temp_Factor,,2213 2222,2243
+2230,Temp_Factor,,2215 2224,2245
+2231,Temp_Factor,,2218 2220,2247
+2232,Temp_Factor,,2226 2227,2255
+2233,Temp_Factor,,2222 2211,2255
+2234,Temp_Factor,,2224 2213,2256
+2235,Temp_Factor,,2215 2218,2256
+2236,Temp_Factor,,2221 2228,2257
+2237,Temp_Factor,,2225 2223,2257
+2238,Temp_Factor,,2219 2212,2258
+2239,Temp_Factor,,2217 2220,2258
+2240,Temp_Factor,,2215 2218,2261
+2241,Temp_Factor,,2222 2216,2265
+2242,Temp_Factor,,2224 2213,2269
+2243,Temp_Factor,,2221 2229,2272
+2244,Temp_Factor,,2214 2212,2272
+2245,Temp_Factor,,2223 2230,2274
+2246,Temp_Factor,,2216 2217,2274
+2247,Temp_Factor,,2225 2231,2276
+2248,Temp_Factor,,2219 2226,2276
+2249,Temp_Factor,,2214 2212,2289
+2250,Temp_Factor,,2209 2213,2290
+2251,Temp_Factor,,2216 2217,2291
+2252,Temp_Factor,,2210 2215,2292
+2253,Temp_Factor,,2220 2219,2293
+2254,Temp_Factor,,2218 2211,2294
+2255,Temp_Factor,,2233 2232,2295
+2256,Temp_Factor,,2235 2234,2295
+2257,Temp_Factor,,2237 2236,2296
+2258,Temp_Factor,,2239 2238,2296
+2259,Temp_Factor,,2216 2219,2297
+2260,Temp_Factor,,2213 2222,2297
+2261,Temp_Factor,,2221 2240,2298
+2262,Temp_Factor,,2214 2212,2298
+2263,Temp_Factor,,2220 2212,2299
+2264,Temp_Factor,,2215 2224,2299
+2265,Temp_Factor,,2223 2241,2300
+2266,Temp_Factor,,2217 2226,2300
+2267,Temp_Factor,,2217 2226,2301
+2268,Temp_Factor,,2218 2214,2301
+2269,Temp_Factor,,2225 2242,2302
+2270,Temp_Factor,,2220 2219,2302
+2271,Temp_Factor,,2209,2320
+2272,Temp_Factor,,2244 2243,2320
+2273,Temp_Factor,,2210,2321
+2274,Temp_Factor,,2246 2245,2321
+2275,Temp_Factor,,2211,2322
+2276,Temp_Factor,,2248 2247,2322
+2277,Temp_Factor,,2222,2323
+2278,Temp_Factor,,2212,2323
+2279,Temp_Factor,,2213,2324
+2280,Temp_Factor,,2214,2324
+2281,Temp_Factor,,2215,2325
+2282,Temp_Factor,,2216,2325
+2283,Temp_Factor,,2224,2326
+2284,Temp_Factor,,2217,2326
+2285,Temp_Factor,,2218,2327
+2286,Temp_Factor,,2219,2327
+2287,Temp_Factor,,2226,2328
+2288,Temp_Factor,,2220,2328
+2289,Temp_Factor,,2221 2249,2329
+2290,Temp_Factor,,2222 2250,2329
+2291,Temp_Factor,,2223 2251,2330
+2292,Temp_Factor,,2224 2252,2330
+2293,Temp_Factor,,2225 2253,2331
+2294,Temp_Factor,,2226 2254,2331
+2295,Temp_Factor,,2256 2255,2332
+2296,Temp_Factor,,2258 2257,2332
+2297,Temp_Factor,,2260 2259,2333
+2298,Temp_Factor,,2262 2261,2333
+2299,Temp_Factor,,2264 2263,2334
+2300,Temp_Factor,,2266 2265,2334
+2301,Temp_Factor,,2268 2267,2335
+2302,Temp_Factor,,2270 2269,2335
+2303,Constraint_Factor,,2192 2191,2304
+2304,Constraint_Factor,,2303 2193,2305
+2305,Constraint_Factor,,2304 2194,2306
+2306,Constraint_Factor,,2305 2195,2307
+2307,Constraint_Factor,,2306 2196,2308
+2308,Constraint_Factor,,2307 2197,2309
+2309,Constraint_Factor,,2308 2198,2310
+2310,Constraint_Factor,,2309 2199,2311
+2311,Constraint_Factor,,2310 2200,2312
+2312,Constraint_Factor,,2311 2201,2313
+2313,Constraint_Factor,,2312 2202,2314
+2314,Constraint_Factor,,2313 2203,2315
+2315,Constraint_Factor,,2314 2204,2316
+2316,Constraint_Factor,,2315 2205,2317
+2317,Constraint_Factor,,2316 2206,2318
+2318,Constraint_Factor,,2317 2207,2319
+2319,Constraint_Factor,,2208 2318,
+2320,State_Factor,on-table$b3,2272 2271 2175,2465 2354
+2321,State_Factor,on-table$b2,2274 2273 2176,2466 2355
+2322,State_Factor,on-table$b1,2276 2275 2177,2467 2356
+2323,State_Factor,on$b3$b2,2278 2277 2178,2468 2367
+2324,State_Factor,on$b3$b1,2280 2279 2179,2469 2358
+2325,State_Factor,on$b2$b3,2282 2281 2180,2470 2360
+2326,State_Factor,on$b2$b1,2284 2283 2181,2471 2369
+2327,State_Factor,on$b1$b3,2286 2285 2182,2472 2363
+2328,State_Factor,on$b1$b2,2288 2287 2183,2473 2371
+2329,State_Factor,holding$b3,2290 2289 2184,2474 2359 2357 2366
+2330,State_Factor,holding$b2,2292 2291 2185,2475 2361 2362 2368
+2331,State_Factor,holding$b1,2294 2293 2186,2476 2365 2364 2370
+2332,State_Factor,emptyhand,2296 2295 2187,2477 2355 2354 2360 2363 2369 2358 2367 2356 2371
+2333,State_Factor,clear$b3,2298 2297 2188,2478 2354 2358 2367 2361 2364
+2334,State_Factor,clear$b2,2300 2299 2189,2479 2355 2360 2369 2365 2357
+2335,State_Factor,clear$b1,2302 2301 2190,2480 2363 2356 2359 2362 2371
+
+Time Horizon,17
+Var,Class,ID,Parents,Children
+2336,Action_Factor,put-on-block$b3$b1,,2359 2448
+2337,Action_Factor,put-on-block$b3$b2,,2357 2448
+2338,Action_Factor,put-on-block$b2$b3,,2361 2449
+2339,Action_Factor,put-on-block$b2$b1,,2362 2450
+2340,Action_Factor,put-on-block$b1$b3,,2364 2451
+2341,Action_Factor,put-on-block$b1$b2,,2365 2452
+2342,Action_Factor,put-down$b3,,2366 2453
+2343,Action_Factor,put-down$b2,,2368 2454
+2344,Action_Factor,put-down$b1,,2370 2455
+2345,Action_Factor,pick-up-from-table$b3,,2354 2456
+2346,Action_Factor,pick-up-from-table$b2,,2355 2457
+2347,Action_Factor,pick-up-from-table$b1,,2356 2458
+2348,Action_Factor,pick-up$b3$b2,,2367 2459
+2349,Action_Factor,pick-up$b3$b1,,2358 2460
+2350,Action_Factor,pick-up$b2$b3,,2360 2461
+2351,Action_Factor,pick-up$b2$b1,,2369 2462
+2352,Action_Factor,pick-up$b1$b3,,2363 2463
+2353,Action_Factor,pick-up$b1$b2,,2371 2464
+2354,Prob_Effect_Factor,,2345 2332 2333 2320,2395 2372 2416
+2355,Prob_Effect_Factor,,2346 2332 2334 2321,2397 2372 2418
+2356,Prob_Effect_Factor,,2347 2332 2335 2322,2399 2378 2420
+2357,Prob_Effect_Factor,,2337 2329 2334,2407 2383 2408 2394 2423 2389
+2358,Prob_Effect_Factor,,2349 2332 2333 2324,2387 2395 2405 2379 2424 2374
+2359,Prob_Effect_Factor,,2336 2329 2335,2407 2373 2413 2394 2425 2389
+2360,Prob_Effect_Factor,,2350 2332 2334 2325,2385 2397 2409 2380 2426 2375
+2361,Prob_Effect_Factor,,2338 2330 2333,2386 2373 2404 2396 2427 2391
+2362,Prob_Effect_Factor,,2339 2330 2335,2411 2384 2412 2396 2429 2391
+2363,Prob_Effect_Factor,,2352 2332 2335 2327,2385 2399 2413 2380 2430 2376
+2364,Prob_Effect_Factor,,2340 2331 2333,2415 2383 2404 2398 2431 2393
+2365,Prob_Effect_Factor,,2341 2331 2334,2415 2384 2408 2398 2433 2376
+2366,Conj_Effect_Factor,,2342 2329,2406 2381 2434 2388
+2367,Prob_Effect_Factor,,2348 2332 2333 2323,2386 2435 2405 2378 2422 2374
+2368,Conj_Effect_Factor,,2343 2330,2410 2382 2436 2390
+2369,Prob_Effect_Factor,,2351 2332 2334 2326,2387 2437 2409 2379 2428 2375
+2370,Conj_Effect_Factor,,2344 2331,2414 2382 2438 2392
+2371,Prob_Effect_Factor,,2353 2332 2335 2328,2411 2439 2412 2377 2432 2393
+2372,Temp_Factor,,2355 2354,2377
+2373,Temp_Factor,,2361 2359,2381
+2374,Temp_Factor,,2358 2367,2388
+2375,Temp_Factor,,2360 2369,2390
+2376,Temp_Factor,,2363 2365,2392
+2377,Temp_Factor,,2371 2372,2400
+2378,Temp_Factor,,2367 2356,2400
+2379,Temp_Factor,,2369 2358,2401
+2380,Temp_Factor,,2360 2363,2401
+2381,Temp_Factor,,2366 2373,2402
+2382,Temp_Factor,,2370 2368,2402
+2383,Temp_Factor,,2364 2357,2403
+2384,Temp_Factor,,2362 2365,2403
+2385,Temp_Factor,,2360 2363,2406
+2386,Temp_Factor,,2367 2361,2410
+2387,Temp_Factor,,2369 2358,2414
+2388,Temp_Factor,,2366 2374,2417
+2389,Temp_Factor,,2359 2357,2417
+2390,Temp_Factor,,2368 2375,2419
+2391,Temp_Factor,,2361 2362,2419
+2392,Temp_Factor,,2370 2376,2421
+2393,Temp_Factor,,2364 2371,2421
+2394,Temp_Factor,,2359 2357,2434
+2395,Temp_Factor,,2354 2358,2435
+2396,Temp_Factor,,2361 2362,2436
+2397,Temp_Factor,,2355 2360,2437
+2398,Temp_Factor,,2365 2364,2438
+2399,Temp_Factor,,2363 2356,2439
+2400,Temp_Factor,,2378 2377,2440
+2401,Temp_Factor,,2380 2379,2440
+2402,Temp_Factor,,2382 2381,2441
+2403,Temp_Factor,,2384 2383,2441
+2404,Temp_Factor,,2361 2364,2442
+2405,Temp_Factor,,2358 2367,2442
+2406,Temp_Factor,,2366 2385,2443
+2407,Temp_Factor,,2359 2357,2443
+2408,Temp_Factor,,2365 2357,2444
+2409,Temp_Factor,,2360 2369,2444
+2410,Temp_Factor,,2368 2386,2445
+2411,Temp_Factor,,2362 2371,2445
+2412,Temp_Factor,,2362 2371,2446
+2413,Temp_Factor,,2363 2359,2446
+2414,Temp_Factor,,2370 2387,2447
+2415,Temp_Factor,,2365 2364,2447
+2416,Temp_Factor,,2354,2465
+2417,Temp_Factor,,2389 2388,2465
+2418,Temp_Factor,,2355,2466
+2419,Temp_Factor,,2391 2390,2466
+2420,Temp_Factor,,2356,2467
+2421,Temp_Factor,,2393 2392,2467
+2422,Temp_Factor,,2367,2468
+2423,Temp_Factor,,2357,2468
+2424,Temp_Factor,,2358,2469
+2425,Temp_Factor,,2359,2469
+2426,Temp_Factor,,2360,2470
+2427,Temp_Factor,,2361,2470
+2428,Temp_Factor,,2369,2471
+2429,Temp_Factor,,2362,2471
+2430,Temp_Factor,,2363,2472
+2431,Temp_Factor,,2364,2472
+2432,Temp_Factor,,2371,2473
+2433,Temp_Factor,,2365,2473
+2434,Temp_Factor,,2366 2394,2474
+2435,Temp_Factor,,2367 2395,2474
+2436,Temp_Factor,,2368 2396,2475
+2437,Temp_Factor,,2369 2397,2475
+2438,Temp_Factor,,2370 2398,2476
+2439,Temp_Factor,,2371 2399,2476
+2440,Temp_Factor,,2401 2400,2477
+2441,Temp_Factor,,2403 2402,2477
+2442,Temp_Factor,,2405 2404,2478
+2443,Temp_Factor,,2407 2406,2478
+2444,Temp_Factor,,2409 2408,2479
+2445,Temp_Factor,,2411 2410,2479
+2446,Temp_Factor,,2413 2412,2480
+2447,Temp_Factor,,2415 2414,2480
+2448,Constraint_Factor,,2337 2336,2449
+2449,Constraint_Factor,,2448 2338,2450
+2450,Constraint_Factor,,2449 2339,2451
+2451,Constraint_Factor,,2450 2340,2452
+2452,Constraint_Factor,,2451 2341,2453
+2453,Constraint_Factor,,2452 2342,2454
+2454,Constraint_Factor,,2453 2343,2455
+2455,Constraint_Factor,,2454 2344,2456
+2456,Constraint_Factor,,2455 2345,2457
+2457,Constraint_Factor,,2456 2346,2458
+2458,Constraint_Factor,,2457 2347,2459
+2459,Constraint_Factor,,2458 2348,2460
+2460,Constraint_Factor,,2459 2349,2461
+2461,Constraint_Factor,,2460 2350,2462
+2462,Constraint_Factor,,2461 2351,2463
+2463,Constraint_Factor,,2462 2352,2464
+2464,Constraint_Factor,,2353 2463,
+2465,State_Factor,on-table$b3,2417 2416 2320,2610 2499
+2466,State_Factor,on-table$b2,2419 2418 2321,2611 2500
+2467,State_Factor,on-table$b1,2421 2420 2322,2612 2501
+2468,State_Factor,on$b3$b2,2423 2422 2323,2613 2512
+2469,State_Factor,on$b3$b1,2425 2424 2324,2614 2503
+2470,State_Factor,on$b2$b3,2427 2426 2325,2615 2505
+2471,State_Factor,on$b2$b1,2429 2428 2326,2616 2514
+2472,State_Factor,on$b1$b3,2431 2430 2327,2617 2508
+2473,State_Factor,on$b1$b2,2433 2432 2328,2618 2516
+2474,State_Factor,holding$b3,2435 2434 2329,2619 2504 2502 2511
+2475,State_Factor,holding$b2,2437 2436 2330,2620 2506 2507 2513
+2476,State_Factor,holding$b1,2439 2438 2331,2621 2510 2509 2515
+2477,State_Factor,emptyhand,2441 2440 2332,2622 2500 2499 2505 2508 2514 2503 2512 2501 2516
+2478,State_Factor,clear$b3,2443 2442 2333,2623 2499 2503 2512 2506 2509
+2479,State_Factor,clear$b2,2445 2444 2334,2624 2500 2505 2514 2510 2502
+2480,State_Factor,clear$b1,2447 2446 2335,2625 2508 2501 2504 2507 2516
+

@@ -1,2 +1,2 @@
-# uai-benchmark-mmap
+# UAI Benchmark Insances for MMAP Task
 Benchmark Instances for MMAP task

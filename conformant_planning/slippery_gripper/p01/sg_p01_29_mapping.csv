@@ -1,0 +1,558 @@
+N_tot,N_s,N_a,N_c,N_e,N_t
+20,4,3,2,3,4
+
+Time Horizon,1
+Var,Class,ID,Parents,Children
+0,Action_Factor,pickup$None,,7 14
+1,Action_Factor,paint$None,,9 14
+2,Action_Factor,dry$None,,8 15
+3,State_Factor,holding-block,,16
+4,State_Factor,gripper-dry,,17
+5,State_Factor,gripper-clean,,18
+6,State_Factor,block-painted,,19
+7,Conj_Effect_Factor,,0,10
+8,Prob_Effect_Factor,,2,11
+9,Conj_Effect_Factor,,1,13 12
+10,Temp_Factor,,7,16
+11,Temp_Factor,,8,17
+12,Temp_Factor,,9,18
+13,Temp_Factor,,9,19
+14,Constraint_Factor,,0 1,15
+15,Constraint_Factor,,2 14,
+16,State_Factor,holding-block,10 3,32
+17,State_Factor,gripper-dry,11 4,33
+18,State_Factor,gripper-clean,12 5,34
+19,State_Factor,block-painted,13 6,35
+
+Time Horizon,2
+Var,Class,ID,Parents,Children
+20,Action_Factor,pickup$None,,23 30
+21,Action_Factor,paint$None,,25 30
+22,Action_Factor,dry$None,,24 31
+23,Conj_Effect_Factor,,20,26
+24,Prob_Effect_Factor,,22,27
+25,Conj_Effect_Factor,,21,29 28
+26,Temp_Factor,,23,32
+27,Temp_Factor,,24,33
+28,Temp_Factor,,25,34
+29,Temp_Factor,,25,35
+30,Constraint_Factor,,20 21,31
+31,Constraint_Factor,,22 30,
+32,State_Factor,holding-block,26 16,48
+33,State_Factor,gripper-dry,27 17,49
+34,State_Factor,gripper-clean,28 18,50
+35,State_Factor,block-painted,29 19,51
+
+Time Horizon,3
+Var,Class,ID,Parents,Children
+36,Action_Factor,pickup$None,,39 46
+37,Action_Factor,paint$None,,41 46
+38,Action_Factor,dry$None,,40 47
+39,Conj_Effect_Factor,,36,42
+40,Prob_Effect_Factor,,38,43
+41,Conj_Effect_Factor,,37,45 44
+42,Temp_Factor,,39,48
+43,Temp_Factor,,40,49
+44,Temp_Factor,,41,50
+45,Temp_Factor,,41,51
+46,Constraint_Factor,,36 37,47
+47,Constraint_Factor,,38 46,
+48,State_Factor,holding-block,42 32,64
+49,State_Factor,gripper-dry,43 33,65
+50,State_Factor,gripper-clean,44 34,66
+51,State_Factor,block-painted,45 35,67
+
+Time Horizon,4
+Var,Class,ID,Parents,Children
+52,Action_Factor,pickup$None,,55 62
+53,Action_Factor,paint$None,,57 62
+54,Action_Factor,dry$None,,56 63
+55,Conj_Effect_Factor,,52,58
+56,Prob_Effect_Factor,,54,59
+57,Conj_Effect_Factor,,53,61 60
+58,Temp_Factor,,55,64
+59,Temp_Factor,,56,65
+60,Temp_Factor,,57,66
+61,Temp_Factor,,57,67
+62,Constraint_Factor,,52 53,63
+63,Constraint_Factor,,54 62,
+64,State_Factor,holding-block,58 48,80
+65,State_Factor,gripper-dry,59 49,81
+66,State_Factor,gripper-clean,60 50,82
+67,State_Factor,block-painted,61 51,83
+
+Time Horizon,5
+Var,Class,ID,Parents,Children
+68,Action_Factor,pickup$None,,71 78
+69,Action_Factor,paint$None,,73 78
+70,Action_Factor,dry$None,,72 79
+71,Conj_Effect_Factor,,68,74
+72,Prob_Effect_Factor,,70,75
+73,Conj_Effect_Factor,,69,77 76
+74,Temp_Factor,,71,80
+75,Temp_Factor,,72,81
+76,Temp_Factor,,73,82
+77,Temp_Factor,,73,83
+78,Constraint_Factor,,68 69,79
+79,Constraint_Factor,,70 78,
+80,State_Factor,holding-block,74 64,96
+81,State_Factor,gripper-dry,75 65,97
+82,State_Factor,gripper-clean,76 66,98
+83,State_Factor,block-painted,77 67,99
+
+Time Horizon,6
+Var,Class,ID,Parents,Children
+84,Action_Factor,pickup$None,,87 94
+85,Action_Factor,paint$None,,89 94
+86,Action_Factor,dry$None,,88 95
+87,Conj_Effect_Factor,,84,90
+88,Prob_Effect_Factor,,86,91
+89,Conj_Effect_Factor,,85,93 92
+90,Temp_Factor,,87,96
+91,Temp_Factor,,88,97
+92,Temp_Factor,,89,98
+93,Temp_Factor,,89,99
+94,Constraint_Factor,,84 85,95
+95,Constraint_Factor,,86 94,
+96,State_Factor,holding-block,90 80,112
+97,State_Factor,gripper-dry,91 81,113
+98,State_Factor,gripper-clean,92 82,114
+99,State_Factor,block-painted,93 83,115
+
+Time Horizon,7
+Var,Class,ID,Parents,Children
+100,Action_Factor,pickup$None,,103 110
+101,Action_Factor,paint$None,,105 110
+102,Action_Factor,dry$None,,104 111
+103,Conj_Effect_Factor,,100,106
+104,Prob_Effect_Factor,,102,107
+105,Conj_Effect_Factor,,101,109 108
+106,Temp_Factor,,103,112
+107,Temp_Factor,,104,113
+108,Temp_Factor,,105,114
+109,Temp_Factor,,105,115
+110,Constraint_Factor,,100 101,111
+111,Constraint_Factor,,102 110,
+112,State_Factor,holding-block,106 96,128
+113,State_Factor,gripper-dry,107 97,129
+114,State_Factor,gripper-clean,108 98,130
+115,State_Factor,block-painted,109 99,131
+
+Time Horizon,8
+Var,Class,ID,Parents,Children
+116,Action_Factor,pickup$None,,119 126
+117,Action_Factor,paint$None,,121 126
+118,Action_Factor,dry$None,,120 127
+119,Conj_Effect_Factor,,116,122
+120,Prob_Effect_Factor,,118,123
+121,Conj_Effect_Factor,,117,125 124
+122,Temp_Factor,,119,128
+123,Temp_Factor,,120,129
+124,Temp_Factor,,121,130
+125,Temp_Factor,,121,131
+126,Constraint_Factor,,116 117,127
+127,Constraint_Factor,,118 126,
+128,State_Factor,holding-block,122 112,144
+129,State_Factor,gripper-dry,123 113,145
+130,State_Factor,gripper-clean,124 114,146
+131,State_Factor,block-painted,125 115,147
+
+Time Horizon,9
+Var,Class,ID,Parents,Children
+132,Action_Factor,pickup$None,,135 142
+133,Action_Factor,paint$None,,137 142
+134,Action_Factor,dry$None,,136 143
+135,Conj_Effect_Factor,,132,138
+136,Prob_Effect_Factor,,134,139
+137,Conj_Effect_Factor,,133,141 140
+138,Temp_Factor,,135,144
+139,Temp_Factor,,136,145
+140,Temp_Factor,,137,146
+141,Temp_Factor,,137,147
+142,Constraint_Factor,,132 133,143
+143,Constraint_Factor,,134 142,
+144,State_Factor,holding-block,138 128,160
+145,State_Factor,gripper-dry,139 129,161
+146,State_Factor,gripper-clean,140 130,162
+147,State_Factor,block-painted,141 131,163
+
+Time Horizon,10
+Var,Class,ID,Parents,Children
+148,Action_Factor,pickup$None,,151 158
+149,Action_Factor,paint$None,,153 158
+150,Action_Factor,dry$None,,152 159
+151,Conj_Effect_Factor,,148,154
+152,Prob_Effect_Factor,,150,155
+153,Conj_Effect_Factor,,149,157 156
+154,Temp_Factor,,151,160
+155,Temp_Factor,,152,161
+156,Temp_Factor,,153,162
+157,Temp_Factor,,153,163
+158,Constraint_Factor,,148 149,159
+159,Constraint_Factor,,150 158,
+160,State_Factor,holding-block,154 144,176
+161,State_Factor,gripper-dry,155 145,177
+162,State_Factor,gripper-clean,156 146,178
+163,State_Factor,block-painted,157 147,179
+
+Time Horizon,11
+Var,Class,ID,Parents,Children
+164,Action_Factor,pickup$None,,167 174
+165,Action_Factor,paint$None,,169 174
+166,Action_Factor,dry$None,,168 175
+167,Conj_Effect_Factor,,164,170
+168,Prob_Effect_Factor,,166,171
+169,Conj_Effect_Factor,,165,173 172
+170,Temp_Factor,,167,176
+171,Temp_Factor,,168,177
+172,Temp_Factor,,169,178
+173,Temp_Factor,,169,179
+174,Constraint_Factor,,164 165,175
+175,Constraint_Factor,,166 174,
+176,State_Factor,holding-block,170 160,192
+177,State_Factor,gripper-dry,171 161,193
+178,State_Factor,gripper-clean,172 162,194
+179,State_Factor,block-painted,173 163,195
+
+Time Horizon,12
+Var,Class,ID,Parents,Children
+180,Action_Factor,pickup$None,,183 190
+181,Action_Factor,paint$None,,185 190
+182,Action_Factor,dry$None,,184 191
+183,Conj_Effect_Factor,,180,186
+184,Prob_Effect_Factor,,182,187
+185,Conj_Effect_Factor,,181,189 188
+186,Temp_Factor,,183,192
+187,Temp_Factor,,184,193
+188,Temp_Factor,,185,194
+189,Temp_Factor,,185,195
+190,Constraint_Factor,,180 181,191
+191,Constraint_Factor,,182 190,
+192,State_Factor,holding-block,186 176,208
+193,State_Factor,gripper-dry,187 177,209
+194,State_Factor,gripper-clean,188 178,210
+195,State_Factor,block-painted,189 179,211
+
+Time Horizon,13
+Var,Class,ID,Parents,Children
+196,Action_Factor,pickup$None,,199 206
+197,Action_Factor,paint$None,,201 206
+198,Action_Factor,dry$None,,200 207
+199,Conj_Effect_Factor,,196,202
+200,Prob_Effect_Factor,,198,203
+201,Conj_Effect_Factor,,197,205 204
+202,Temp_Factor,,199,208
+203,Temp_Factor,,200,209
+204,Temp_Factor,,201,210
+205,Temp_Factor,,201,211
+206,Constraint_Factor,,196 197,207
+207,Constraint_Factor,,198 206,
+208,State_Factor,holding-block,202 192,224
+209,State_Factor,gripper-dry,203 193,225
+210,State_Factor,gripper-clean,204 194,226
+211,State_Factor,block-painted,205 195,227
+
+Time Horizon,14
+Var,Class,ID,Parents,Children
+212,Action_Factor,pickup$None,,215 222
+213,Action_Factor,paint$None,,217 222
+214,Action_Factor,dry$None,,216 223
+215,Conj_Effect_Factor,,212,218
+216,Prob_Effect_Factor,,214,219
+217,Conj_Effect_Factor,,213,221 220
+218,Temp_Factor,,215,224
+219,Temp_Factor,,216,225
+220,Temp_Factor,,217,226
+221,Temp_Factor,,217,227
+222,Constraint_Factor,,212 213,223
+223,Constraint_Factor,,214 222,
+224,State_Factor,holding-block,218 208,240
+225,State_Factor,gripper-dry,219 209,241
+226,State_Factor,gripper-clean,220 210,242
+227,State_Factor,block-painted,221 211,243
+
+Time Horizon,15
+Var,Class,ID,Parents,Children
+228,Action_Factor,pickup$None,,231 238
+229,Action_Factor,paint$None,,233 238
+230,Action_Factor,dry$None,,232 239
+231,Conj_Effect_Factor,,228,234
+232,Prob_Effect_Factor,,230,235
+233,Conj_Effect_Factor,,229,237 236
+234,Temp_Factor,,231,240
+235,Temp_Factor,,232,241
+236,Temp_Factor,,233,242
+237,Temp_Factor,,233,243
+238,Constraint_Factor,,228 229,239
+239,Constraint_Factor,,230 238,
+240,State_Factor,holding-block,234 224,256
+241,State_Factor,gripper-dry,235 225,257
+242,State_Factor,gripper-clean,236 226,258
+243,State_Factor,block-painted,237 227,259
+
+Time Horizon,16
+Var,Class,ID,Parents,Children
+244,Action_Factor,pickup$None,,247 254
+245,Action_Factor,paint$None,,249 254
+246,Action_Factor,dry$None,,248 255
+247,Conj_Effect_Factor,,244,250
+248,Prob_Effect_Factor,,246,251
+249,Conj_Effect_Factor,,245,253 252
+250,Temp_Factor,,247,256
+251,Temp_Factor,,248,257
+252,Temp_Factor,,249,258
+253,Temp_Factor,,249,259
+254,Constraint_Factor,,244 245,255
+255,Constraint_Factor,,246 254,
+256,State_Factor,holding-block,250 240,272
+257,State_Factor,gripper-dry,251 241,273
+258,State_Factor,gripper-clean,252 242,274
+259,State_Factor,block-painted,253 243,275
+
+Time Horizon,17
+Var,Class,ID,Parents,Children
+260,Action_Factor,pickup$None,,263 270
+261,Action_Factor,paint$None,,265 270
+262,Action_Factor,dry$None,,264 271
+263,Conj_Effect_Factor,,260,266
+264,Prob_Effect_Factor,,262,267
+265,Conj_Effect_Factor,,261,269 268
+266,Temp_Factor,,263,272
+267,Temp_Factor,,264,273
+268,Temp_Factor,,265,274
+269,Temp_Factor,,265,275
+270,Constraint_Factor,,260 261,271
+271,Constraint_Factor,,262 270,
+272,State_Factor,holding-block,266 256,288
+273,State_Factor,gripper-dry,267 257,289
+274,State_Factor,gripper-clean,268 258,290
+275,State_Factor,block-painted,269 259,291
+
+Time Horizon,18
+Var,Class,ID,Parents,Children
+276,Action_Factor,pickup$None,,279 286
+277,Action_Factor,paint$None,,281 286
+278,Action_Factor,dry$None,,280 287
+279,Conj_Effect_Factor,,276,282
+280,Prob_Effect_Factor,,278,283
+281,Conj_Effect_Factor,,277,285 284
+282,Temp_Factor,,279,288
+283,Temp_Factor,,280,289
+284,Temp_Factor,,281,290
+285,Temp_Factor,,281,291
+286,Constraint_Factor,,276 277,287
+287,Constraint_Factor,,278 286,
+288,State_Factor,holding-block,282 272,304
+289,State_Factor,gripper-dry,283 273,305
+290,State_Factor,gripper-clean,284 274,306
+291,State_Factor,block-painted,285 275,307
+
+Time Horizon,19
+Var,Class,ID,Parents,Children
+292,Action_Factor,pickup$None,,295 302
+293,Action_Factor,paint$None,,297 302
+294,Action_Factor,dry$None,,296 303
+295,Conj_Effect_Factor,,292,298
+296,Prob_Effect_Factor,,294,299
+297,Conj_Effect_Factor,,293,301 300
+298,Temp_Factor,,295,304
+299,Temp_Factor,,296,305
+300,Temp_Factor,,297,306
+301,Temp_Factor,,297,307
+302,Constraint_Factor,,292 293,303
+303,Constraint_Factor,,294 302,
+304,State_Factor,holding-block,298 288,320
+305,State_Factor,gripper-dry,299 289,321
+306,State_Factor,gripper-clean,300 290,322
+307,State_Factor,block-painted,301 291,323
+
+Time Horizon,20
+Var,Class,ID,Parents,Children
+308,Action_Factor,pickup$None,,311 318
+309,Action_Factor,paint$None,,313 318
+310,Action_Factor,dry$None,,312 319
+311,Conj_Effect_Factor,,308,314
+312,Prob_Effect_Factor,,310,315
+313,Conj_Effect_Factor,,309,317 316
+314,Temp_Factor,,311,320
+315,Temp_Factor,,312,321
+316,Temp_Factor,,313,322
+317,Temp_Factor,,313,323
+318,Constraint_Factor,,308 309,319
+319,Constraint_Factor,,310 318,
+320,State_Factor,holding-block,314 304,336
+321,State_Factor,gripper-dry,315 305,337
+322,State_Factor,gripper-clean,316 306,338
+323,State_Factor,block-painted,317 307,339
+
+Time Horizon,21
+Var,Class,ID,Parents,Children
+324,Action_Factor,pickup$None,,327 334
+325,Action_Factor,paint$None,,329 334
+326,Action_Factor,dry$None,,328 335
+327,Conj_Effect_Factor,,324,330
+328,Prob_Effect_Factor,,326,331
+329,Conj_Effect_Factor,,325,333 332
+330,Temp_Factor,,327,336
+331,Temp_Factor,,328,337
+332,Temp_Factor,,329,338
+333,Temp_Factor,,329,339
+334,Constraint_Factor,,324 325,335
+335,Constraint_Factor,,326 334,
+336,State_Factor,holding-block,330 320,352
+337,State_Factor,gripper-dry,331 321,353
+338,State_Factor,gripper-clean,332 322,354
+339,State_Factor,block-painted,333 323,355
+
+Time Horizon,22
+Var,Class,ID,Parents,Children
+340,Action_Factor,pickup$None,,343 350
+341,Action_Factor,paint$None,,345 350
+342,Action_Factor,dry$None,,344 351
+343,Conj_Effect_Factor,,340,346
+344,Prob_Effect_Factor,,342,347
+345,Conj_Effect_Factor,,341,349 348
+346,Temp_Factor,,343,352
+347,Temp_Factor,,344,353
+348,Temp_Factor,,345,354
+349,Temp_Factor,,345,355
+350,Constraint_Factor,,340 341,351
+351,Constraint_Factor,,342 350,
+352,State_Factor,holding-block,346 336,368
+353,State_Factor,gripper-dry,347 337,369
+354,State_Factor,gripper-clean,348 338,370
+355,State_Factor,block-painted,349 339,371
+
+Time Horizon,23
+Var,Class,ID,Parents,Children
+356,Action_Factor,pickup$None,,359 366
+357,Action_Factor,paint$None,,361 366
+358,Action_Factor,dry$None,,360 367
+359,Conj_Effect_Factor,,356,362
+360,Prob_Effect_Factor,,358,363
+361,Conj_Effect_Factor,,357,365 364
+362,Temp_Factor,,359,368
+363,Temp_Factor,,360,369
+364,Temp_Factor,,361,370
+365,Temp_Factor,,361,371
+366,Constraint_Factor,,356 357,367
+367,Constraint_Factor,,358 366,
+368,State_Factor,holding-block,362 352,384
+369,State_Factor,gripper-dry,363 353,385
+370,State_Factor,gripper-clean,364 354,386
+371,State_Factor,block-painted,365 355,387
+
+Time Horizon,24
+Var,Class,ID,Parents,Children
+372,Action_Factor,pickup$None,,375 382
+373,Action_Factor,paint$None,,377 382
+374,Action_Factor,dry$None,,376 383
+375,Conj_Effect_Factor,,372,378
+376,Prob_Effect_Factor,,374,379
+377,Conj_Effect_Factor,,373,381 380
+378,Temp_Factor,,375,384
+379,Temp_Factor,,376,385
+380,Temp_Factor,,377,386
+381,Temp_Factor,,377,387
+382,Constraint_Factor,,372 373,383
+383,Constraint_Factor,,374 382,
+384,State_Factor,holding-block,378 368,400
+385,State_Factor,gripper-dry,379 369,401
+386,State_Factor,gripper-clean,380 370,402
+387,State_Factor,block-painted,381 371,403
+
+Time Horizon,25
+Var,Class,ID,Parents,Children
+388,Action_Factor,pickup$None,,391 398
+389,Action_Factor,paint$None,,393 398
+390,Action_Factor,dry$None,,392 399
+391,Conj_Effect_Factor,,388,394
+392,Prob_Effect_Factor,,390,395
+393,Conj_Effect_Factor,,389,397 396
+394,Temp_Factor,,391,400
+395,Temp_Factor,,392,401
+396,Temp_Factor,,393,402
+397,Temp_Factor,,393,403
+398,Constraint_Factor,,388 389,399
+399,Constraint_Factor,,390 398,
+400,State_Factor,holding-block,394 384,416
+401,State_Factor,gripper-dry,395 385,417
+402,State_Factor,gripper-clean,396 386,418
+403,State_Factor,block-painted,397 387,419
+
+Time Horizon,26
+Var,Class,ID,Parents,Children
+404,Action_Factor,pickup$None,,407 414
+405,Action_Factor,paint$None,,409 414
+406,Action_Factor,dry$None,,408 415
+407,Conj_Effect_Factor,,404,410
+408,Prob_Effect_Factor,,406,411
+409,Conj_Effect_Factor,,405,413 412
+410,Temp_Factor,,407,416
+411,Temp_Factor,,408,417
+412,Temp_Factor,,409,418
+413,Temp_Factor,,409,419
+414,Constraint_Factor,,404 405,415
+415,Constraint_Factor,,406 414,
+416,State_Factor,holding-block,410 400,432
+417,State_Factor,gripper-dry,411 401,433
+418,State_Factor,gripper-clean,412 402,434
+419,State_Factor,block-painted,413 403,435
+
+Time Horizon,27
+Var,Class,ID,Parents,Children
+420,Action_Factor,pickup$None,,423 430
+421,Action_Factor,paint$None,,425 430
+422,Action_Factor,dry$None,,424 431
+423,Conj_Effect_Factor,,420,426
+424,Prob_Effect_Factor,,422,427
+425,Conj_Effect_Factor,,421,429 428
+426,Temp_Factor,,423,432
+427,Temp_Factor,,424,433
+428,Temp_Factor,,425,434
+429,Temp_Factor,,425,435
+430,Constraint_Factor,,420 421,431
+431,Constraint_Factor,,422 430,
+432,State_Factor,holding-block,426 416,448
+433,State_Factor,gripper-dry,427 417,449
+434,State_Factor,gripper-clean,428 418,450
+435,State_Factor,block-painted,429 419,451
+
+Time Horizon,28
+Var,Class,ID,Parents,Children
+436,Action_Factor,pickup$None,,439 446
+437,Action_Factor,paint$None,,441 446
+438,Action_Factor,dry$None,,440 447
+439,Conj_Effect_Factor,,436,442
+440,Prob_Effect_Factor,,438,443
+441,Conj_Effect_Factor,,437,445 444
+442,Temp_Factor,,439,448
+443,Temp_Factor,,440,449
+444,Temp_Factor,,441,450
+445,Temp_Factor,,441,451
+446,Constraint_Factor,,436 437,447
+447,Constraint_Factor,,438 446,
+448,State_Factor,holding-block,442 432,464
+449,State_Factor,gripper-dry,443 433,465
+450,State_Factor,gripper-clean,444 434,466
+451,State_Factor,block-painted,445 435,467
+
+Time Horizon,29
+Var,Class,ID,Parents,Children
+452,Action_Factor,pickup$None,,455 462
+453,Action_Factor,paint$None,,457 462
+454,Action_Factor,dry$None,,456 463
+455,Conj_Effect_Factor,,452,458
+456,Prob_Effect_Factor,,454,459
+457,Conj_Effect_Factor,,453,461 460
+458,Temp_Factor,,455,464
+459,Temp_Factor,,456,465
+460,Temp_Factor,,457,466
+461,Temp_Factor,,457,467
+462,Constraint_Factor,,452 453,463
+463,Constraint_Factor,,454 462,
+464,State_Factor,holding-block,458,480
+465,State_Factor,gripper-dry,459,481
+466,State_Factor,gripper-clean,460,482
+467,State_Factor,block-painted,461,483
+

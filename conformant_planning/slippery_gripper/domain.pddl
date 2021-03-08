@@ -1,0 +1,22 @@
+(define (domain ext-slippery-gripper)
+  (:requirements :negative-preconditions :conditional-effects :probabilistic-effects)
+  (:types None)
+  (:constants None - None)
+  (:predicates (gripper-dry) (holding-block) (block-painted) (gripper-clean))
+  (:action pickup
+	   :effect (and (when (gripper-dry)
+			  (probabilistic 0.95 (holding-block)))
+			(when (not (gripper-dry))
+			  (probabilistic 0.5 (holding-block)))))
+  (:action dry
+	   :effect (probabilistic 0.8 (gripper-dry)))
+  (:action paint
+	   :effect (and (block-painted)
+			(when (not (holding-block))
+			  (probabilistic 0.1 (not (gripper-clean)))
+			 )
+			(when (holding-block)
+			  (probabilistic 1.0 (not (gripper-clean)))
+			 ))
+    )
+)

@@ -1,0 +1,6 @@
+(define (problem ext-slippery-gripper)
+  (:domain ext-slippery-gripper)
+  (:objects None - None)
+  (:init (probabilistic 1.0 (gripper-clean) 0.7 (gripper-dry) )
+  )
+  (:goal (and (gripper-clean) (holding-block) (block-painted))))
